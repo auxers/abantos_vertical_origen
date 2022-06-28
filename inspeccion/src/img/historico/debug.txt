@@ -1,0 +1,178 @@
+Hora =>16/03/2022 15:51:02
+: INSERT INTO CtrlValidacion SET Control='R0059000017030322', Fecha='2022-03-16'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-03409/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366743', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7570
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9234', Fecha='2022-03-08', OT='', NSerie='A-03409/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366743', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='B-00224/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366788', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7571
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9235', Fecha='2022-03-11', OT='', NSerie='B-00224/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366788', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-03323/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366745', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7572
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9236', Fecha='2022-03-08', OT='', NSerie='A-03323/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366745', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-04535/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366947', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7573
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9237', Fecha='2022-03-09', OT='', NSerie='A-04535/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366947', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-02840/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366789', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7574
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9238', Fecha='2022-03-09', OT='', NSerie='A-02840/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366789', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-02044/06', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366796', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2006', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7575
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9239', Fecha='2022-03-09', OT='', NSerie='A-02044/06', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366796', NPrecintoNew='', 
+								AnyoFabricacion='2006', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='B-00255/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366737', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7576
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9240', Fecha='2022-03-09', OT='', NSerie='B-00255/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366737', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-03366/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366932', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7577
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9241', Fecha='2022-03-09', OT='', NSerie='A-03366/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366932', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-04278/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366732', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7578
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9242', Fecha='2022-03-10', OT='', NSerie='A-04278/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366732', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-03563/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366735', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7579
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9243', Fecha='2022-03-10', OT='', NSerie='A-03563/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366735', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='B-00172/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366702', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7580
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9244', Fecha='2022-03-10', OT='', NSerie='B-00172/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366702', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-04251/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366717', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7581
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9245', Fecha='2022-03-10', OT='', NSerie='A-04251/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366717', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='B-00278/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366707', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7582
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9246', Fecha='2022-03-11', OT='', NSerie='B-00278/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366707', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-01996/06', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366721', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2006', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7583
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9247', Fecha='2022-03-10', OT='', NSerie='A-01996/06', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366721', NPrecintoNew='', 
+								AnyoFabricacion='2006', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='A-03035/06', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='366734', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2006', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7584
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9248', Fecha='2022-03-10', OT='', NSerie='A-03035/06', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='366734', NPrecintoNew='', 
+								AnyoFabricacion='2006', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'
+Hora =>16/03/2022 15:51:02
+: UPDATE LineasDescensor SET NSerie='00103/07', Marca='1', Modelo='1',
+								Longitud='80', NPrecintoOld='11798', NPrecintoNew='',
+								TEnvasado='VACÍO ', AnyoFabricacion='2007', AnyoFabCuerdaPri='2015',
+								AnyoFabCuerdaSeg='', NSerieSeguridad='',
+								AnyoFabCuerdaSeg2='', NSerieSeguridad2='' WHERE Id=7585
+Hora =>16/03/2022 15:51:02
+: INSERT INTO ListaCtrlDes SET IdLinea='9249', Fecha='2022-03-10', OT='', NSerie='00103/07', 
+								Fabricante='1', ModeloDes='1',	Longitud='80', NPrecintoOld='11798', NPrecintoNew='', 
+								AnyoFabricacion='2007', Ubicacion='1',	TEnvasado='VACÍO ', 
+								Estado='1',	IdControl='0', IdTrabajador='77'

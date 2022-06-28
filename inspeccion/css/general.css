@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+#Area_Datos {background-color:transparent; width:100%; height:100%; overflow:auto; padding:0; margin:0; cursor:none;}
+#tituloarriba{font-family:Segoe UI, Calibri, Helvetica, Arial, sans-serif;font-size:13px;line-height:16px;padding:0px;padding-left:3px;margin:0px;color:#475767;font-weight:bold;text-transform:uppercase;}
+
+.header_L{width:5px!important;height:27px!important; background:url(img/header_L.png); padding-left:0px; padding-right:0px; padding-top:0px; padding-bottom:0px;}
+.header_R{width:5px!important;height:27px!important; background:url(img/header_R.png); padding-left:0px; padding-right:0px; padding-top:0px; padding-bottom:0px;}
+.header_C{width:100%;height:27px!important; background:url(img/header_C.png) repeat-X; padding-left:0px; padding-right:0px; padding-top:0px; padding-bottom:0px;}
+.header_title{color:#ffffff;font-family:Segoe UI, Calibri, Helvetica, Arial, sans-serif;font-size:12px;font-weight:bold;margin:.1em 0 .2em;line-height:27px;}
+.td_title{width:auto;border-left:1px solid #dddddd;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:center;background:url(img/title_td.png) repeat-X;height:22px;margin:0px;padding:0px;}
+.td_titleb1{width:200;font-size:12px;border-left:0px solid #dddddd;border-top:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:center;background:url(img/title_td.png) repeat-X;height:22px;margin:0px;padding:0px;}
+.td_titleb2{width:150;font-size:12px;border-left:1px solid #dddddd;border-top:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:center;background:url(img/title_td.png) repeat-X;height:22px;margin:0px;padding:0px;}
+.td_titleb3{width:90;font-size:12px;border-left:1px solid #dddddd;border-right:0px solid #dddddd;border-top:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:center;background:url(img/title_td.png) repeat-X;height:22px;margin:0px;padding:0px;}
+.td2_title{width:auto;border-left:1px solid #dddddd;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:center;background-color:#ffffff;height:22px;margin:0px;padding:0px;}
+.td3_title{width:auto;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:center;background:url(img/title_td.png) repeat-X;height:22px;margin:0px;padding:0px;font-weight:bold;font-size:12px;color:#4e5e6e;}
+.td_espana{width:170px;border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;text-align:center;background:url(img/title_td.png) repeat-X;height:22px;margin:0px;padding:0px;}
+.td_resto{width:170px;border-bottom:1px solid #dddddd;text-align:center;border-right:1px solid #dddddd;background:url(img/title_td.png) repeat-X;height:22px;margin:0px;padding:0px;}
+.td_left{border-left:1px solid #dddddd;padding-left:10px;}
+.td_right{border-right:1px solid #dddddd;}
+.td_left_end{border-left:1px solid #dddddd;border-bottom:1px solid #dddddd;padding-left:10px;}
+.td_right_end{border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;}
+.td_center_end{border-bottom:1px solid #dddddd;}
+.td_guardar{width:100%;border-left:1px solid #dddddd;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:right;background:url(img/title_td2.png) repeat-X;height:32px;margin:0px;padding:0px;}
+.td_sub_1{font-weight:bold;font-size:12px;border-left:1px solid #dddddd;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;padding-left:10px;}
+.td_sub_2a{font-weight:bold;font-size:12px;border-right:1px dotted #dddddd;border-bottom:1px solid #dddddd;align:center;}
+.td_sub_2b{font-weight:bold;font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;align:center;}
+.td_con_1a{border-right:1px dotted #dddddd;align:center;background-color:#f7fbff}
+.td_con_1b{border-right:1px solid #dddddd;align:center;background-color:#f7fbff}
+.td_con_1ae{border-bottom:1px solid #dddddd;border-right:1px dotted #dddddd;align:center;background-color:#f7fbff}
+.td_con_1be{border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;align:center;background-color:#f7fbff}
+.td_con_2a{border-right:1px dotted #dddddd;align:center;background-color:#fff9df}
+.td_con_2b{border-right:1px solid #dddddd;align:center;background-color:#fff9df}
+.td_con_2ae{border-bottom:1px solid #dddddd;border-right:1px dotted #dddddd;align:center;background-color:#fff9df}
+.td_con_2be{border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;align:center;background-color:#fff9df}
+.td_con_3a{border-right:1px dotted #dddddd;align:center;background-color:#fef6f3}
+.td_con_3b{border-right:1px solid #dddddd;align:center;background-color:#fef6f3}
+.td_con_3ae{border-bottom:1px solid #dddddd;border-right:1px dotted #dddddd;align:center;background-color:#fef6f3}
+.td_con_3be{border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;align:center;background-color:#fef6f3}
+.td_con_4a{border-right:1px dotted #dddddd;align:center;background-color:#f7f7f7}
+.td_con_4b{border-right:1px solid #dddddd;align:center;background-color:#f7f7f7}
+.td_con_4ae{border-bottom:1px solid #dddddd;border-right:1px dotted #dddddd;align:center;background-color:#f7f7f7}
+.td_con_4be{border-bottom:1px solid #dddddd;border-right:1px solid #dddddd;align:center;background-color:#f7f7f7}
+.txtAviso{font-family:Segoe UI, Calibri, Helvetica, Arial, sans-serif;font-size:14px;line-height:20px;padding:0px;margin:0px;text-align:center;color:#F00;}
+.txtLabel{font-family:Segoe UI, Calibri, Helvetica, Arial, sans-serif;font-size:12px;text-align:center;color:#006;}
+
+.columnaTabla{font-family:Segoe UI, Calibri, Helvetica, Arial, sans-serif;font-size:16px;color:#475767;font-weight:bold;}
+.table{font-family:Segoe UI, Calibri, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;padding:0px;margin:0px;}
+.table2{font-family:Segoe UI, Calibri, Helvetica, Arial, sans-serif;font-size:12px;line-height:20px;padding:0px;margin:0px;color:#475767;}
+.tablanaranja
+{
+	font-family:Segoe UI, Calibri, Helvetica, Arial, sans-serif; font-size:13px;
+	line-height:20px; padding:0px; margin:0px; border:1px solid #475767;
+	padding:0; margin:0; color:#475767; background:#f7f7f7;
+	-webkit-border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topleft:8px;
+	-moz-border-radius-topright:8px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+.tablanaranja th {font-size:12px;font-weight:bold;padding:3px;border-bottom:1px solid #d4d0c8;}
+.tablanaranja td {background:#FFFFFF;padding-left:5px;padding-right:5px;border-top:1px dotted #d4d0c8;}

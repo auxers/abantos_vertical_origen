@@ -1,0 +1,472 @@
+@charset "utf-8";
+/* Etiquetas */
+header, nav, article, footer, address, hgroup, section {
+    display: block;
+}
+html{
+	overflow: auto;
+	overflow-y: scroll;
+	overflow-x: auto;
+}
+body	{
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-color: #dad9d2;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 14px;
+	color: #6b6764;
+}
+#main{
+	width: 920px;
+	margin: 0 auto;
+	position: relative;
+	padding: 10px 0px 0 0px;
+}
+.main{
+	width: 920px;
+	margin: 0 auto;
+	padding-bottom: 50px; 
+	position: relative;
+	overflow: hidden;
+}
+p{
+	line-height: 1.4em;	
+}
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #588e99;
+}
+a:hover, a:active{
+	color: #406870;
+}
+/* HEADERS------------------------------------*/
+#main_index h1	{
+	display: block;
+	position: absolute;
+	width: 361px;
+	height: 97px;
+	top: 230px;
+	left: 0;
+	font-size: 1em;
+	overflow: hidden;
+}
+#main_index h1 span{
+	display: block;
+	position: absolute;
+	width: 361px;
+	height: 97px;
+	top: 0;
+	left: 0;
+	background-image: url(../images/desarrollo_web.jpg);
+	background-repeat: no-repeat;
+}
+h1, h2, h3{
+	font-family: "BebasNeueRegular";
+	font-weight: normal;
+}
+h1	{
+	font-size: 2.7em;
+	color: #b3514c;
+	padding: 5px 0 0px 0; 
+}
+h2{
+	font-size: 2em;
+}
+h3	{
+	font-size: 1.7em;
+	padding: 10px 0 3px 0;
+}
+h4{
+	font-size: 1.2em;
+	margin: 10px 0 5px 0;
+	line-height: 1.2em;
+	color: #86524e;
+}
+h5{
+	font-size: 1.1em;
+	line-height: 1.2em;
+	margin: 20px 0 0 0;
+	font-weight: normal;
+}
+h6{
+	font-size: 1.3em;
+	font-weight: normal;
+	margin: 20px 0 0 0;
+}
+/*------------------------------------HEADERS */
+
+/* HEADER & NAVIGATION ------------------------------------*/
+#header_c{
+	position: relative;
+	width: 920px;
+	height: 88px;
+	margin: 0 auto;
+}
+#logo	{
+	position: relative;
+	width: 313px;
+	height: 30px;
+	top: 8px;
+	left: 0px;
+}
+#logo a{
+	font-family: Impact, Arial, Tahoma;
+	font-size: 3.2em;
+	text-decoration: none;
+	color: #575755;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 313px;
+	height: 42px;
+	overflow: hidden;
+}
+#logo a span	{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 313px;
+	height: 42px;
+	background-image: url(../images/logo.jpg);
+	background-repeat: no-repeat;
+}
+#nav	{
+	position: relative;
+	float: right;
+}
+#nav li	{
+	position: relative;
+	float: left;
+	margin: 0 0 0 20px;
+	font-size: 1.2em;
+}
+/*------------------------------------ HEADER & NAVIGATION */
+
+/* INDEX PRESENTATION ---------------------------------------------------*/
+#pres	{
+	margin: 50px 0 0 0;
+}
+#slider	{
+	width: 550px;
+	height: 341px;
+	float: left;
+	position: relative;
+	background-image: url(../images/slider_bg.jpg);
+	background-repeat: no-repeat;
+}
+#box-trans	{
+	position: absolute;
+	width: 515px;
+	height: 309px;
+	top: 15px;
+	left: 17px;
+	background-image: url(../images/box-trans.png);
+	z-index: 100;
+}
+#slider_in	{
+	position: relative;
+	width: 515px;
+	height: 309px;
+	top: 15px;
+	left: 17px;
+	overflow: hidden;
+}
+#slider li	{
+	width: 515px;
+	height: 309px;
+	overflow: hidden;
+}
+#pres_logo	{
+	float: left;
+	height: 341px;
+	position: relative;
+	margin: 0 0 0 5px;
+}
+#matias_mancini	{
+	position: absolute;
+	display: block;
+	top: 15px;
+	left: 0;
+	width: 361px;
+	height: 190px;
+	overflow: hidden;
+}
+#matias_mancini span{
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 361px;
+	height: 190px;
+	background-image: url(../images/matias_mancini.jpg);
+}
+#matias_mancini p{
+	font-family: Impact;
+	font-size: 7em;
+	padding: 3px 3px 3px 7px;;
+	color: #404040;
+	line-height: 1em;
+}
+/*--------------------------------------------------- INDEX PRESENTATION */
+
+/* CONTACT FORM ---------------------------------------------------*/
+#form_footer, #info_footer{
+	margin: 30px 0 5px 0;
+	float: left;
+	position: relative;
+}
+#form_footer{
+	width: 350px;
+}
+#form_bg{
+	width: 350px;
+	height: 185px;
+	background-image: url(../images/form_img.jpg);
+	background-repeat: no-repeat;
+}
+#info_footer{
+	width: 550px;
+	margin-left: 10px;
+}
+#form_footer #nombre{
+	position: absolute;
+	width: 178px;
+	height: 17px;
+	top: 9px;
+	left: 8px;
+}
+#form_footer #telefono{
+	position: absolute;
+	width: 128px;
+	height: 17px;
+	top: 9px;
+	left: 210px;
+}
+#form_footer #email{
+	position: absolute;
+	width: 330px;
+	height: 17px;
+	top: 46px;
+	left: 8px;
+}
+#form_footer #consulta{
+	position: absolute;
+	width: 330px;
+	height: 87px;
+	top: 85px;
+	left: 8px;
+	overflow: auto;
+}
+#form_footer input, #form_footer textarea{
+	overflow: hidden;
+	font-family: Verdana, Tahoma;
+	color: #9f9c99;
+	font-size: 1em;
+	background-color: transparent;	
+}
+#form_footer #submit{
+	position: absolute;
+	display: block;
+	width: 60px;
+	text-align: left;
+	left: 295px; top: 185px;
+	background-color: transparent;
+	font-family: "BebasNeueRegular";
+	font-size: 1.5em;
+	color: #6b6764;
+	cursor: pointer;
+}
+#form_footer #submit:hover{
+	color: #b3514c;
+}
+#form_footer #respuesta{
+	width: 275px;
+	min-height: 40px;
+	padding: 0 5px;
+}
+#form_footer .error{
+	color: #86524e;
+}
+/*--------------------------------------------------- CONTACT FORM */
+
+/* INFO DIV ---------------------------------------------------*/
+#info_footer #pic, #info_footer #text{
+	float: left;
+}
+#info_footer #pic{
+	width: 201px;
+}
+#info_footer #text h6{
+	font-size: 1.3em;
+	margin-top: 7px;
+}
+#info_footer #text{
+	width: 343px;
+	margin: 5px 0 0 5px;	
+}
+#info_footer p{
+	line-height: 1.2em;
+}
+#info_footer .contact_data{
+	line-height: 1em;
+	font-size: 1em;
+}
+#info_footer h3{
+	color: #406870;
+	font-size: 1.3em;
+	padding: 13px 0 2px 0;
+}
+/*--------------------------------------------------- INFO DIV */
+
+/* FOOTER ---------------------------------------------------*/
+footer{
+	width: 100%;
+	position: relative;
+}
+#footer_c{
+	padding-bottom: 20px;
+}
+#quote	{
+	float: left;
+	width: 320px;
+	padding: 0;
+}
+#quote p{
+	font-size: 0.9em;
+	line-height: 1.2em;
+}
+#html5css3{
+	width: 229px;
+	height: 59px;
+	float: right;
+	margin: 0 0 20px 0;
+}
+#div_links{	
+	text-align: center;
+}
+#div_links ul{
+	padding: 10px 20px 15px 20px;	
+}
+#div_links li{
+	font-size: 1.2em;
+	display: inline;
+}
+#div_links a{
+	padding: 0 15px;
+}
+#plusone{
+	position: absolute;
+	top: 157px;
+	left: 483px;
+}
+/*--------------------------------------------------- FOOTER */
+
+/* PORTFOLIO SECTION ----------------------------------------*/
+.book	{
+	padding-top: 10px;
+}
+.book:first-letter	{
+	font-size: 1.5em;
+}
+.art_portfolio img	{
+	width: 380px;
+	float: left;
+	padding: 10px;
+}
+.sect_portfolio{
+	padding: 10px;
+}
+.sect_portfolio h3{
+	font-family: Verdana, Tahoma;
+	font-size: 1.4em;
+}
+/*---------------------------------------- PORTFOLIO SECTION */
+
+
+/* STYLES ---------------------------------------------------*/
+
+a.nav{
+	font-size: 1.3em;
+	font-family: "BebasNeueRegular";
+}
+a.nav:link, a.nav:visited{
+	color:#908c88;
+	color: #575755;
+}
+a.nav:hover, a.nav:active	{
+	color: #404040;
+}
+a.nav.selected{
+	color: #b3514c;
+	cursor: default;
+}
+a.w3cl	{
+	text-decoration: none;
+}
+.separator{
+	width: 100%;
+	height: 5px;
+	font-size: 1px;
+	display: block;
+	background-color: #575755;
+	margin: 0 0 7px 0;
+}
+
+/*HTML5 INDEX*/
+#html5form-index{
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+#html5form-index .index-left{
+	float: left;
+	width: 561px;
+	font-size: 1.1em;
+	margin-right: 50px;
+	padding: 10px 0 0 0;
+}
+#html5form-index .index-right{
+	float: right;
+	width: 309px;	
+}
+#html5form-button{
+	margin-top: 10px;
+	width: 309px;
+	height: 130px;
+	background-image: url(../images/html5form-index-button.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+#html5form-button:hover{
+	background-position: 0 -130px;
+}
+
+/*NEW PORTFOLIO*/
+.portfolio-left{
+	width: 451px;
+	float: left;
+	margin-top: 25px;
+}
+.portfolio-right{
+	width: 451px;
+	float: right;
+	margin-top: 25px;
+}
+.portfolio-left h2,
+.portfolio-right h2{
+	font-family: verdana, tahome, sans-serif;
+	font-size: 1.4em;
+	color: #6B6764;
+}
+.portfolio-left h2,
+.portfolio-right h2,
+.portfolio-left p,
+.portfolio-right p{
+	text-align: center;
+	position: relative;
+	top: -10px;
+}
