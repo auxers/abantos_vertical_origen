@@ -7,7 +7,7 @@ $_SESSION["ROL"] = 0; $Result = "Login Erróneo!!";
 if ((isset($_POST['uname']) || isset($_POST['login'])) && isset($_POST['pword']))
 {   // OD, 24.03.15 Modifico para tener un control de máximo intentos fallidos...
         $Query = "SELECT * FROM Trabajadores WHERE ".((isset($_POST['uname']))?"Id='".trim($_POST['uname'])."'":"Login='".trim($_POST['login'])."'");
-        $res = $mysqli->query($Query)
+        $res = $mysqli->query($Query);
 //       var_dump($res);
 //        die();
         //if (($result = mysql_query($Query, $conn)))
@@ -60,13 +60,14 @@ echo $Result;
 
 function fCheckBrute($User)
 {   // Todos los intentos de inicio de sesión se cuentan desde las 2 horas anteriores.
-        global $Ret = false;
+        $ret = false;
+        global $mysqli;
 
         $ValidAttempts = time() - (2 * 60 * 60);
         //if (($result = mysql_query("SELECT lTime FROM LoginAttempts WHERE User = '".$User."' AND lTime > '".$ValidAttempts."'", $conn))) {
-        if (($res = $mysqli->query("SELECT lTime FROM LoginAttempts WHERE User = '".$User."' AND lTime > '".$ValidAttempts."'"))) {
-                $Ret = ($res->num_rows > 5) ? true : false;
+        if (($ret = $mysqli->query("SELECT lTime FROM LoginAttempts WHERE User = '".$User."' AND lTime > '".$ValidAttempts."'"))) {
+                $ret = ($ret->num_rows > 5) ? true : false;
         }
-        return $Ret;
+        return $ret;
 }
 ?>
