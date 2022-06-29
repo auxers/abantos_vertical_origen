@@ -119,10 +119,17 @@ session_start();
                             <select id="uname" name="uname">
                               	<option value="0">Seleccione un Usuario...</option>
 								<?php
-								if (($result = mysql_query("SELECT Id, Nombre FROM Trabajadores ORDER BY Nombre ASC;",$conn)))
-								{
-									while ($row = mysql_fetch_row($result))
-										echo "<option value='".$row[0]."'>".$row[1]."</option>";
+								/*MYSQL OBSOLETO*/
+								//if (($result = mysql_query("SELECT Id, Nombre FROM Trabajadores ORDER BY Nombre ASC;",$conn)))
+								//{
+								//	while ($row = mysql_fetch_row($result))
+								//		echo "<option value='".$row[0]."'>".$row[1]."</option>";
+								//}
+
+								$res = $mysqli->query("SELECT Id, Nombre FROM Trabajadores ORDER BY Nombre ASC;");
+
+								while($f = $res->fetch_object()){
+									echo "<option value='".$f->Id."'>".$f->Nombre."</option>";
 								}
 								?>
 							</select>

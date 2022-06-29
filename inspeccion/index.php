@@ -33,6 +33,7 @@ if (isset($_POST["txtusername"]) && isset($_POST["txtpassword"]))
 			});
 		</script>
 		<style>
+			body {background-color:#CCC !important;}
 			a:link img, a:hover img, a:visited img, a:active img{border:none;} 
 			a {border:none;}
 			ul {border:none;}
