@@ -21,6 +21,8 @@ session_start();
 			$(document).ready(function() {
 				// Cálculamos el tamaño del iframe para que se ajuste al area
 				var user = "<?php echo (isset($_COOKIE["usuario"]))?$_COOKIE["usuario"]:"";?>";
+console.log("USUARIO: "+user);
+console.log("USUARIO PHP: <?php echo (isset($_COOKIE["usuario"]))?$_COOKIE["usuario"]:"";?>")
 				var alto_iframe = $(window).height() - ($("#menu").height() + 50);
 				$("#Area_Frames, #WindowDatos").css('height', alto_iframe);
 				document.cookie = 'xscreen=' + $(window).width();
@@ -43,6 +45,7 @@ session_start();
 							if ($.isNumeric(sData))
 							{
 								document.cookie = 'usuario=' + $("#uname").val();
+console.log("COOKIE: "+document.cookie);
 								fActMenu(sData);
 								$("#login").hide();
 								$("#main").show();
@@ -166,7 +169,3 @@ session_start();
 		<div id="PreciosUpdate" style="display:none;">Se han modificado los precios</div>
 	</BODY>
 </HTML>
-<?php
-if ($conn)
-	mysql_close($conn);
-?>
