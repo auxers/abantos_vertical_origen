@@ -247,9 +247,7 @@ class jqGridUtils
     }
     public static function Strip($value)
     {
-        if (get_magic_quotes_gpc() != 0)
-        {
-            if (is_array($value)) if (0 !== count(array_diff_key($value, array_keys(array_keys($value)))))
+        if (is_array($value)) if (0 !== count(array_diff_key($value, array_keys(array_keys($value)))))
             {
                 foreach ($value as $k => $v)
                 {
@@ -262,7 +260,6 @@ class jqGridUtils
                 $value[$j] = stripslashes($value[$j]);
             }
             else $value = stripslashes($value);
-        }
         return $value;
     }
     public static function generatePattern($dateformat)
