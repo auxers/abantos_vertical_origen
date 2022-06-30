@@ -1620,8 +1620,7 @@ charset=" . $this->encoding);
                 }
                 else if ($this->dataType == "json")
                 {
-                    header("Content-type: text/x-json;
-charset=" . $this->encoding);
+                    header("Content-type: text/x-json;charset=" . $this->encoding);
                     if (function_exists('json_encode') && strtolower($this->encoding) == 'utf-8')
                     {
                         echo json_encode($response);
