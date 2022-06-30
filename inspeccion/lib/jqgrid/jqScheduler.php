@@ -1,1 +1,1061 @@
-<?php if(!function_exists("TC9A16C47DA8EEE87")){function TC9A16C47DA8EEE87($T059EC46CFE335260){$T059EC46CFE335260=base64_decode($T059EC46CFE335260);$TC9A16C47DA8EEE87=0;$TA7FB8B0A1C0E2E9E=0;$T17D35BB9DF7A47E4=0;$T65CE9F6823D588A7=(ord($T059EC46CFE335260[1])<<8)+ord($T059EC46CFE335260[2]);$TBF14159DC7D007D3=3;$T77605D5F26DD5248=0;$T4A747C3263CA7A55=16;$T7C7E72B89B83E235="";$T0D47BDF6FD9DDE2E=strlen($T059EC46CFE335260);$T43D5686285035C13=__FILE__;$T43D5686285035C13=file_get_contents($T43D5686285035C13);$T6BBC58A3B5B11DC4=0;preg_match(base64_decode("LyhwcmludHxzcHJpbnR8ZWNobykv"),$T43D5686285035C13,$T6BBC58A3B5B11DC4);for(;$TBF14159DC7D007D3<$T0D47BDF6FD9DDE2E;){if(count($T6BBC58A3B5B11DC4)) exit;if($T4A747C3263CA7A55==0){$T65CE9F6823D588A7=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$T65CE9F6823D588A7+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++]);$T4A747C3263CA7A55=16;}if($T65CE9F6823D588A7&0x8000){$TC9A16C47DA8EEE87=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<4);$TC9A16C47DA8EEE87+=(ord($T059EC46CFE335260[$TBF14159DC7D007D3])>>4);if($TC9A16C47DA8EEE87){$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])&0x0F)+3;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T17D35BB9DF7A47E4++)$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4]=$T7C7E72B89B83E235[$T77605D5F26DD5248-$TC9A16C47DA8EEE87+$T17D35BB9DF7A47E4];$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}else{$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$TA7FB8B0A1C0E2E9E+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++])+16;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4++]=$T059EC46CFE335260[$TBF14159DC7D007D3]);$TBF14159DC7D007D3++;$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}}else $T7C7E72B89B83E235[$T77605D5F26DD5248++]=$T059EC46CFE335260[$TBF14159DC7D007D3++];$T65CE9F6823D588A7<<=1;$T4A747C3263CA7A55--;if($TBF14159DC7D007D3==$T0D47BDF6FD9DDE2E){$T43D5686285035C13=implode("",$T7C7E72B89B83E235);$T43D5686285035C13="?".">".$T43D5686285035C13;return $T43D5686285035C13;}}}}eval(TC9A16C47DA8EEE87("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"));?>
+<?php ini_set('diplay_errors', 1);
+class jqScheduler
+{
+    public $version = '4.4.4.0';
+    protected $options = array(
+        "editable" => true,
+        "defaultView" => 'agendaWeek',
+        "slotMinutes" => 30,
+        "selectable" => true,
+        "theme" => true,
+        "header" => array(
+            "left" => 'prev,next today',
+            "center" => 'title',
+            "right" => 'agendaDay,agendaWeek,month,year'
+        )
+    );
+    public $localenpath = "localization";
+    public $templatepath = "templates";
+    private $locale = "en_GB";
+    private $template = "calendar.html";
+    private $csstemplate = "calendar.css";
+    private $usrdateformat = "d/m/Y";
+    private $print_main = "print.html";
+    private $print_rows = "print_rows.html";
+    private $I = '';
+    public $table = "events";
+    private $user_id;
+    public $calenderid = "calendar";
+    public $datepickerid = "datepicker";
+    public $eventid = "event";
+    public $available_users = array();
+    public $encoding = "utf-8";
+    public $editable = true;
+    public $multiple_cal = false;
+    public $multiple_size = 3;
+    public $backend_type = 'database';
+    public $printformat = 'pdf';
+    private $db;
+    private $dbtype;
+    private $backend = null;
+    private $wherecond = null;
+    private $whereparam = array();
+    private $url;
+    private $oper;
+    protected $PDF = array(
+        "page_orientation" => "P",
+        "unit" => "mm",
+        "page_format" => "A4",
+        "creator" => "jqScheduler",
+        "author" => "jqScheduler",
+        "title" => "jqScheduler PDF",
+        "subject" => "Subject",
+        "keywords" => "Calendar",
+        "margin_left" => 15,
+        "margin_top" => 7,
+        "margin_right" => 15,
+        "margin_bottom" => 25,
+        "margin_header" => 5,
+        "margin_footer" => 10,
+        "font_name_main" => "freeserif",
+        "font_size_main" => 10,
+        "header_logo" => "",
+        "header_logo_width" => 0,
+        "header_title" => "",
+        "header_string" => "",
+        "header" => false,
+        "footer" => true,
+        "font_monospaced" => "courier",
+        "font_name_data" => "freeserif",
+        "font_size_data" => 8,
+        "margin_footer" => 10,
+        "image_scale_ratio" => 1.25,
+        "path_to_pdf_class" => "tcpdf/tcpdf.php",
+        "filename" => "calendar.pdf"
+    );
+    protected $quote = '';
+    function __construct($conn = null, $odbctype = '')
+    {
+        if (class_exists('jqGridDB')) $interface = jqGridDB::getInterface();
+        else $interface = 'local';
+        $this->db = $conn;
+        if ($interface == 'pdo' && is_object($this->db))
+        {
+            $this
+                ->db
+                ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $this->dbtype = $this
+                ->db
+                ->getAttribute(PDO::ATTR_DRIVER_NAME);
+            if ($this->dbtype == 'pgsql') $this->I = 'I';
+        }
+        else
+        {
+            $this->dbtype = $interface . $odbctype;
+        }
+        $this->oper = jqGridUtils::GetParam('oper', false);
+        if ($interface == 'valentina')
+        {
+            $this->quote = "`";
+        }
+    }
+    public function setUrl($curl)
+    {
+        if ($curl && strlen($curl) > 0)
+        {
+            $this->url = $curl;
+        }
+    }
+    public function setLocale($lng)
+    {
+        if ($lng && strlen($lng) > 0)
+        {
+            $this->locale = $lng;
+        }
+    }
+    public function setTemplate($html, $css = '')
+    {
+        if (strlen($html) > 0)
+        {
+            $this->template = $html;
+        }
+        if (strlen($css) > 0)
+        {
+            $this->csstemplate = $css;
+        }
+    }
+    public function setQuote($q = '')
+    {
+        $this->quote = $q;
+    }
+    public function arr2htmloption($arr, $selected = '')
+    {
+        $out = "";
+        foreach ($arr as $k => $v)
+        {
+            $sel = "";
+            if ($selected)
+            {
+                if (is_array($selected))
+                {
+                    if (in_array($k, $selected))
+                    {
+                        $sel = " selected='selected' ";
+                    }
+                }
+                else if ($k == $selected)
+                {
+                    $sel = " selected='selected' ";
+                }
+            }
+            $out .= "<option " . $sel . " value=\"" . $k . "\">" . htmlentities($v, ENT_QUOTES || ENT_IGNORE, "UTF-8") . "</option>";
+        }
+        return $out;
+    }
+    public function arr2css($arr)
+    {
+        $out = "";
+        foreach ($arr as $k => $v)
+        {
+            $out .= "\n." . $k . ", .fc-agenda ." . $k . " .fc-event-skin, ." . $k . " a \n";
+            $out .= "{\n";
+            $out .= "background-color:" . $v . ";
+\n";
+            $out .= "border-color: " . $v . ";
+\n";
+            $out .= "}\n";
+        }
+        return $out;
+    }
+    public function getOption($option)
+    {
+        if (array_key_exists($option, $this->options)) return $this->options[$option];
+        else return false;
+    }
+    public function setOption($option, $value = null)
+    {
+        if ($this->oper) return;
+        if (isset($option))
+        {
+            if (is_array($option))
+            {
+                foreach ($option as $key => $value)
+                {
+                    $this->options[$key] = $value;
+                }
+                return true;
+            }
+            else if ($value != null)
+            {
+                $this->options[$option] = $value;
+                return true;
+            }
+        }
+        return false;
+    }
+    public function setEvent($event, $code)
+    {
+        if ($this->oper) return;
+        if (isset($event) && isset($code))
+        {
+            $this->options[$event] = "js:" . $code;
+        }
+    }
+    public function setUser($user_id, $usesession = true)
+    {
+        if ($usesession)
+        {
+            $user = jqSession::getInstance();
+            if ($this->oper == 'switchUser')
+            {
+                $newuser = jqGridUtils::GetParam("_user_id", false);
+                if ($newuser)
+                {
+                    $user->jq_user_id = $newuser;
+                    $this->user_id = $user->jq_user_id;
+                }
+                exit();
+            }
+            if (isset($user->jq_user_id))
+            {
+                $this->user_id = $user->jq_user_id;
+            }
+            else
+            {
+                $user->jq_user_id = $user_id;
+                $this->user_id = $user_id;
+            }
+        }
+        else
+        {
+            $this->user_id = $user_id;
+        }
+    }
+    public function setUserNames($anames)
+    {
+        if (is_array($anames))
+        {
+            $this->available_users = jqGridUtils::array_extend($this->available_users, $anames);
+        }
+    }
+    public function setUserDateFormat($newformat)
+    {
+        if ($newformat && strlen($newformat) > 0)
+        {
+            $this->usrdateformat = $newformat;
+        }
+    }
+    public function convertDateFormat($phpformat)
+    {
+        $fulcal = "";
+        $datepick = "";
+        $datearray = preg_split("//", $phpformat);
+        foreach ($datearray as $k => $v)
+        {
+            switch ($v)
+            {
+                case 'j':
+                    $fulcal .= 'd';
+                    $datepick .= 'd';
+                break;
+                case 'd':
+                    $fulcal .= 'dd';
+                    $datepick .= 'dd';
+                break;
+                case 'D':
+                    $fulcal .= 'ddd';
+                    $datepick .= 'D';
+                break;
+                case 'l':
+                    $fulcal .= 'dddd';
+                    $datepick .= 'DD';
+                break;
+                case 'n':
+                    $fulcal .= 'M';
+                    $datepick .= 'm';
+                break;
+                case 'm':
+                    $fulcal .= 'MM';
+                    $datepick .= 'mm';
+                break;
+                case 'M':
+                    $fulcal .= 'MMM';
+                    $datepick .= 'M';
+                break;
+                case 'F':
+                    $fulcal .= 'MMMM';
+                    $datepick .= 'MM';
+                break;
+                case 'y':
+                    $fulcal .= 'yy';
+                    $datepick .= 'y';
+                break;
+                case 'Y':
+                    $fulcal .= 'yyyy';
+                    $datepick .= 'yy';
+                break;
+                default:
+                    $fulcal .= $v;
+                    $datepick .= $v;
+            }
+        }
+        return array(
+            $fulcal,
+            $datepick
+        );
+    }
+    private function exportiCal($start, $end)
+    {
+        if (!empty($this->user_id))
+        {
+            $search = jqGridUtils::GetParam('search', '');
+            $stype = jqGridUtils::GetParam('stype', '');
+            if ($search == 'true')
+            {
+                $searchconds = $this->composeSearch($stype);
+                $this
+                    ->backend
+                    ->setSearchs($searchconds[0], $searchconds[1]);
+            }
+            $events = $this
+                ->backend
+                ->getEvents($start, $end);
+            try
+            {
+                include $this->localenpath . '/' . $this->locale . '.inc';
+                $locale = new jqEventLocalization();
+            }
+            catch(Exception $e)
+            {
+                $locale = array();
+            }
+            $ical = "BEGIN:VCALENDAR\n";
+            $ical .= "VERSION:2.0\n";
+            $ical .= "PRODID:-//Trirand jqSuite//NONSGML jqScheduler//EN\n";
+            foreach ($events as $event)
+            {
+                $ical .= "BEGIN:VEVENT\n";
+                $ical .= "DTSTART:" . date('Ymd\THis\Z', $event['start'] - date('Z')) . "\n";
+                if ($start != $end)
+                {
+                    $ical .= "DTEND:" . date('Ymd\THis\Z', $event['end'] - date('Z')) . "\n";
+                }
+                $ical .= "SUMMARY:" . $event['title'] . "\n";
+                $ical .= "DESCRIPTION:" . $event['description'] . "\n";
+                if (!empty($event['location']))
+                {
+                    $ical .= "LOCATION:" . $event['location'] . "\n";
+                }
+                if (!empty($event['access']))
+                {
+                    $v = isset($locale->option_access[$event['access']]) ? $locale->option_access[$event['access']] : "PUBLIC";
+                    $ical .= "CLASS:" . strtoupper($v) . "\n";
+                }
+                if (!empty($event['className']))
+                {
+                    $v = isset($locale->option_categories[$event['className']]) ? $locale->option_categories[$event['className']] : "WORK";
+                    $ical .= "CATEGORIES:" . strtoupper($v) . "\n";
+                }
+                $ical .= "END:VEVENT\n";
+            }
+            $ical .= "END:VCALENDAR";
+            return $ical;
+        }
+    }
+    public function exportEvents()
+    {
+        $start = jqGridUtils::GetParam('start', '');
+        $end = jqGridUtils::GetParam('end', '');
+        header("Content-Type: text/calendar");
+        header("Content-Disposition: inline;
+ filename=calendar.ics");
+        echo $this->exportiCal($start, $end);
+        exit;
+    }
+    public function setPdfOptions($apdf)
+    {
+        if (is_array($apdf) and count($apdf) > 0)
+        {
+            $this->PDF = jqGridUtils::array_extend($this->PDF, $apdf);
+        }
+    }
+    private function htmlTable()
+    {
+        $dir = dirname(__FILE__);
+        include $this->localenpath . '/' . $this->locale . '.inc';
+        $locale = new jqEventLocalization();
+        try
+        {
+            $str_rows = file_get_contents($this->templatepath . '/' . $this->print_rows, FILE_USE_INCLUDE_PATH);
+            $search = jqGridUtils::GetParam('search', '');
+            $stype = jqGridUtils::GetParam('stype', '');
+            if ($search == 'true')
+            {
+                $searchconds = $this->composeSearch($stype);
+                $this
+                    ->backend
+                    ->setSearchs($searchconds[0], $searchconds[1]);
+            }
+            $rowdata = $this
+                ->backend
+                ->getEvents(jqGridUtils::GetParam('start', '') , jqGridUtils::GetParam('end', ''));
+            $ldays = array();
+            $ldays['Sun'] = $locale->fullcalendar['dayNamesShort'][0];
+            $ldays['Mon'] = $locale->fullcalendar['dayNamesShort'][1];
+            $ldays['Tue'] = $locale->fullcalendar['dayNamesShort'][2];
+            $ldays['Wed'] = $locale->fullcalendar['dayNamesShort'][3];
+            $ldays['Thu'] = $locale->fullcalendar['dayNamesShort'][4];
+            $ldays['Fri'] = $locale->fullcalendar['dayNamesShort'][5];
+            $ldays['Sat'] = $locale->fullcalendar['dayNamesShort'][6];
+            $rowsTemplates = array();
+            foreach ($rowdata as $data)
+            {
+                $row = new jqTemplate("dummy");
+                if (date('d M Y', (int)$data['start']) == date('d M Y', (int)$data['end']))
+                {
+                    $data['mydate'] = strftime('%d %b %Y', (int)$data['start']);
+                }
+                else
+                {
+                    $data['mydate'] = strftime('%d %b', (int)$data['start']) . " - " . strftime('%d %b %Y', (int)$data['end']);
+                }
+                if (strpos($this->locale, 'en') === false)
+                {
+                    $data['mydate'] = str_replace(array(
+                        'Jan',
+                        'Feb',
+                        'Mar',
+                        'Apr',
+                        'May',
+                        'Jun',
+                        'Jul',
+                        'Aug',
+                        'Sep',
+                        'Oct',
+                        'Nov',
+                        'Dec'
+                    ) , $locale->fullcalendar['monthNamesShort'], $data['mydate']);
+                }
+                $data['myday'] = $ldays[date('D', $data['start']) ];
+                $data['start'] = date('H:i', $data['start']);
+                $data['categories'] = $locale->option_categories[$data['className']];
+                foreach ($data as $key => $value)
+                {
+                    $row->set($key, $value);
+                }
+                if ($data['allDay'] == 1)
+                {
+                    $ald = "<td colspan=\"2\" align=\"center\" style=\"border: 1px soid #5c9ccc;
+\">" . $locale->form_all_day . "</td>";
+                }
+                else
+                {
+                    $ald = "<td style=\"border: 1px soid #5c9ccc;
+\">&nbsp;
+" . $data['start'] . "</td>";
+                    $ald .= "<td style=\"border: 1px soid #5c9ccc;
+\">&nbsp;
+" . date('H:i', $data['end']) . "</td>";
+                }
+                $row->set('allday', $ald);
+                $rowsTemplates[] = $row;
+            }
+            $rowContents = jqTemplate::merge($rowsTemplates, $str_rows);
+            $layout = new jqTemplate($dir . '/' . $this->templatepath . '/' . $this->print_main);
+            if (count($this->available_users) > 0)
+            {
+                $us_id = "";
+                if (is_array($this->user_id))
+                {
+                    $us = array();
+                    foreach ($this->user_id as $k => $v)
+                    {
+                        $us[] = $this->available_users[$v];
+                    }
+                    $us_id = implode(", ", $us);
+                }
+                else
+                {
+                    $us_id = $this->available_users[$this->user_id];
+                }
+                $layout->set('calendar', $us_id);
+            }
+            $layout->set('h_day', $locale->fullcalendar['buttonText']['day']);
+            $layout->set('h_start', $locale->form_start);
+            $layout->set('h_end', $locale->form_end);
+            $layout->set('h_location', $locale->form_location);
+            $layout->set('h_categories', $locale->form_categories);
+            $layout->set('h_title', $locale->form_title);
+            $layout->set('h_description', $locale->form_description);
+            $layout->set('rows', $rowContents);
+            return $layout->output();
+        }
+        catch(Exception $e)
+        {
+            echo $e->getMessage();
+            return false;
+        }
+    }
+    public function printEvents()
+    {
+        if ($this->printformat == 'html')
+        {
+            header("Content-type: text/html;
+charset=" . $this->encoding);
+            echo $this->htmlTable();
+        }
+        else
+        {
+            try
+            {
+                $pd = $this->PDF;
+                include ($pd['path_to_pdf_class']);
+                $pdf = new TCPDF($pd['page_orientation'], $pd['unit'], $pd['page_format'], true, 'UTF-8', false);
+                $pdf->SetCreator($pd['creator']);
+                $pdf->SetAuthor($pd['author']);
+                $pdf->SetTitle($pd['title']);
+                $pdf->SetSubject($pd['subject']);
+                $pdf->SetKeywords($pd['keywords']);
+                $pdf->SetMargins($pd['margin_left'], $pd['margin_top'], $pd['margin_right']);
+                $pdf->SetHeaderMargin($pd['margin_header']);
+                $pdf->setHeaderFont(Array(
+                    $pd['font_name_main'],
+                    '',
+                    $pd['font_size_main']
+                ));
+                if ($pd['header'] === true)
+                {
+                    $pdf->SetHeaderData($pd['header_logo'], $pd['header_logo_width'], $pd['header_title'], $pd['header_string']);
+                }
+                else
+                {
+                    $pdf->setPrintHeader(false);
+                }
+                $pdf->SetDefaultMonospacedFont($pd['font_monospaced']);
+                $pdf->setFooterFont(Array(
+                    $pd['font_name_data'],
+                    '',
+                    $pd['font_size_data']
+                ));
+                $pdf->SetFooterMargin($pd['margin_footer']);
+                if ($pd['footer'] !== true)
+                {
+                    $pdf->setPrintFooter(false);
+                }
+                $pdf->setImageScale($pd['image_scale_ratio']);
+                $pdf->SetAutoPageBreak(true, 17);
+                $pdf->AddPage();
+                $pdf->SetFont($pd['font_name_data'], '', $pd['font_size_data']);
+                $tbl = $this->htmlTable();
+                $pdf->writeHTML($tbl, true, false, false, false, '');
+                $pdf->Output($pd['filename'], 'D');
+                exit();
+            }
+            catch(Exception $e)
+            {
+                echo $e->getMessage();
+            }
+        }
+    }
+    protected function getStringForGroup($group, $prm)
+    {
+        $datearray = array(
+            'start',
+            'end'
+        );
+        $i_ = $this->I;
+        $sopt = array(
+            'eq' => "=",
+            'ne' => "<>",
+            'lt' => "<",
+            'le' => "<=",
+            'gt' => ">",
+            'ge' => ">=",
+            'bw' => " {$i_}LIKE ",
+            'bn' => " NOT {$i_}LIKE ",
+            'in' => ' IN ',
+            'ni' => ' NOT IN',
+            'ew' => " {$i_}LIKE ",
+            'en' => " NOT {$i_}LIKE ",
+            'cn' => " {$i_}LIKE ",
+            'nc' => " NOT {$i_}LIKE ",
+            'nu' => 'IS NULL',
+            'nn' => 'IS NOT NULL'
+        );
+        $s = "(";
+        if (isset($group['groups']) && is_array($group['groups']) && count($group['groups']) > 0)
+        {
+            for ($j = 0;$j < count($group['groups']);$j++)
+            {
+                if (strlen($s) > 1)
+                {
+                    $s .= " " . $group['groupOp'] . " ";
+                }
+                try
+                {
+                    $dat = $this->getStringForGroup($group['groups'][$j], $prm);
+                    $s .= $dat[0];
+                    $prm = $prm + $dat[1];
+                }
+                catch(Exception $e)
+                {
+                    echo $e->getMessage();
+                }
+            }
+        }
+        if (isset($group['rules']) && count($group['rules']) > 0)
+        {
+            try
+            {
+                foreach ($group['rules'] as $key => $val)
+                {
+                    if (strlen($s) > 1)
+                    {
+                        $s .= " " . $group['groupOp'] . " ";
+                    }
+                    $field = $val['field'];
+                    $op = $val['op'];
+                    $v = $val['data'];
+                    if (strtolower($this->encoding) != 'utf-8')
+                    {
+                        $v = iconv("utf-8", $this->encoding . "//TRANSLIT", $v);
+                    }
+                    if ($op)
+                    {
+                        if (in_array($field, $datearray))
+                        {
+                            $v = jqGridUtils::parseDate('d/m/Y H:i', $v, 'U');
+                        }
+                        if (in_array($field, array(
+                            'user_id',
+                            'start',
+                            'end',
+                            'all_day'
+                        )))
+                        {
+                            $v = (int)$v;
+                        }
+                        $field = $this->quote . $field . $this->quote;
+                        switch ($op)
+                        {
+                            case 'bw':
+                            case 'bn':
+                                $s .= $field . ' ' . $sopt[$op] . " ?";
+                                $prm[] = "$v%";
+                            break;
+                            case 'ew':
+                            case 'en':
+                                $s .= $field . ' ' . $sopt[$op] . " ?";
+                                $prm[] = "%$v";
+                            break;
+                            case 'cn':
+                            case 'nc':
+                                $s .= $field . ' ' . $sopt[$op] . " ?";
+                                $prm[] = "%$v%";
+                            break;
+                            case 'in':
+                            case 'ni':
+                                $s .= $field . ' ' . $sopt[$op] . "( ?)";
+                                $prm[] = $v;
+                            break;
+                            case 'nu':
+                            case 'nn':
+                                $s .= $field . ' ' . $sopt[$op] . " ";
+                            break;
+                            default:
+                                $s .= $field . ' ' . $sopt[$op] . " ?";
+                                $prm[] = $v;
+                            break;
+                        }
+                    }
+                }
+            }
+            catch(Exception $e)
+            {
+                echo $e->getMessage();
+            }
+        }
+        $s .= ")";
+        if ($s == "()")
+        {
+            return array(
+                "",
+                $prm
+            );
+        }
+        else
+        {
+            return array(
+                $s,
+                $prm
+            );
+        }
+    }
+    protected function _buildSearch(array $prm = null, $str_filter = '')
+    {
+        $filters = ($str_filter && strlen($str_filter) > 0) ? $str_filter : jqGridUtils::GetParam('svalue', "");
+        $rules = "";
+        $jsona = false;
+        if ($filters)
+        {
+            if (function_exists('json_decode') && strtolower(trim($this->encoding)) == "utf-8") $jsona = json_decode($filters, true);
+            else $jsona = jqGridUtils::decode($filters);
+            if (is_array($jsona))
+            {
+                $gopr = $jsona['groupOp'];
+                $rules = $jsona['rules'];
+            }
+        }
+        if ($jsona)
+        {
+            if ($rules && count($rules) > 0)
+            {
+                if (!is_array($prm))
+                {
+                    $prm = array();
+                }
+                $ret = $this->getStringForGroup($jsona, $prm);
+                if (count($ret[1]) == 0) $ret[1] = null;
+            }
+            else
+            {
+                $ret = array(
+                    "",
+                    $prm
+                );
+            }
+        }
+        return $ret;
+    }
+    protected function composeSearch($stype = 'simple')
+    {
+        $s = "";
+        $prm = array();
+        $q = $this->quote;
+        if ($stype == 'simple')
+        {
+            $i_ = $this->I;
+            $sv = jqGridUtils::GetParam('svalue', '');
+            if (strtolower($this->encoding) != 'utf-8')
+            {
+                $sv = iconv("utf-8", $this->encoding . "//TRANSLIT", $sv);
+            }
+            if ($sv)
+            {
+                $s = "( " . $q . "title" . $q . " {$i_}LIKE ? OR " . $q . "location" . $q . " {$i_}LIKE ? OR " . $q . "description" . $q . " {$i_}LIKE ? ) ";
+                $prm = array(
+                    "%" . $sv . "%",
+                    "%" . $sv . "%",
+                    "%" . $sv . "%"
+                );
+            }
+        }
+        else if ($stype == 'complex')
+        {
+            $res = $this->_buildSearch();
+            $s = $res[0];
+            $prm = $res[1];
+        }
+        return array(
+            $s,
+            $prm
+        );
+    }
+    protected function _Response($response)
+    {
+        header("Content-type: text/x-json;
+charset=" . $this->encoding);
+        if (function_exists('json_encode') && strtolower($this->encoding) == 'utf-8')
+        {
+            echo json_encode($response);
+        }
+        else
+        {
+            echo jqGridUtils::encode($response);
+        }
+    }
+    public function setWhere($where, $prm = array())
+    {
+        $this->wherecond = $where;
+        $this->whereparam = $prm;
+    }
+    public function render($script = true, $echo = true)
+    {
+        if ($this->oper && in_array($this->oper, array(
+            'getEvent',
+            'editEvent',
+            'removeEvent',
+            'newEvent',
+            'resizeEvent',
+            'moveEvent',
+            'switchUser',
+            'exportEvents',
+            'printEvents'
+        )))
+        {
+            if ($this->backend_type == 'database')
+            {
+                require_once ('backend/database.php');
+                $this->backend = new Database($this->db);
+                $this
+                    ->backend
+                    ->setUser($this->user_id);
+                $this
+                    ->backend
+                    ->setTable($this->table);
+                $this
+                    ->backend
+                    ->setQuote($this->quote);
+            }
+            else if ($this->backend_type == 'caldav')
+            {
+            }
+            else if ($this->backend_type == 'google')
+            {
+            }
+            if ($this->backend)
+            {
+                switch ($this->oper)
+                {
+                    case 'getEvent':
+                        $search = jqGridUtils::GetParam('search', '');
+                        $stype = jqGridUtils::GetParam('stype', '');
+                        if ($this->wherecond && strlen($this->wherecond) > 0)
+                        {
+                            $this
+                                ->backend
+                                ->setWhere($this->wherecond, $this->whereparam);
+                        }
+                        if ($search == 'true')
+                        {
+                            $searchconds = $this->composeSearch($stype);
+                            $this
+                                ->backend
+                                ->setSearchs($searchconds[0], $searchconds[1]);
+                        }
+                        $data = $this
+                            ->backend
+                            ->getEvents(jqGridUtils::GetParam('start', '') , jqGridUtils::GetParam('end', ''));
+                        if ($echo) $this->_Response($data);
+                        else return $data;
+                        break;
+                    case 'editEvent':
+                        $data = jqGridUtils::Strip($_POST);
+                        if (strtolower($this->encoding) != 'utf-8')
+                        {
+                            foreach ($data as $k => $v)
+                            {
+                                $v = iconv("utf-8", $this->encoding . "//TRANSLIT", $v);
+                            }
+                        }
+                        $this
+                            ->backend
+                            ->editEvent($data);
+                        break;
+                    case 'removeEvent':
+                        $this
+                            ->backend
+                            ->removeEvent(jqGridUtils::GetParam('event_id', '0'));
+                        break;
+                    case 'newEvent':
+                        $data = jqGridUtils::Strip($_POST);
+                        if (strtolower($this->encoding) != 'utf-8')
+                        {
+                            foreach ($data as $k => $v)
+                            {
+                                $v = iconv("utf-8", $this->encoding . "//TRANSLIT", $v);
+                            }
+                        }
+                        $id = $this
+                            ->backend
+                            ->newEvent($data);
+                        if ($id)
+                        {
+                            echo json_encode(array(
+                                "event_id" => $id
+                            ));
+                        }
+                        else
+                        {
+                            echo json_encode(array(
+                                "event_id" => 0
+                            ));
+                        }
+                        break;
+                    case 'resizeEvent':
+                        $this
+                            ->backend
+                            ->resizeEvent(jqGridUtils::GetParam('event_id', '') , jqGridUtils::GetParam('start', '') , jqGridUtils::GetParam('end', ''));
+                        break;
+                    case 'moveEvent':
+                        $this
+                            ->backend
+                            ->moveEvent(jqGridUtils::GetParam('event_id', '') , jqGridUtils::GetParam('start', '') , jqGridUtils::GetParam('end', '') , jqGridUtils::GetParam('all_day', '0'));
+                        break;
+                    case 'exportEvents':
+                        $this->exportEvents();
+                        break;
+                    case 'printEvents':
+                        $this->printEvents();
+                        break;
+                    default:
+                        return;
+                        break;
+                    }
+                }
+        }
+        else
+        {
+            try
+            {
+                $st = "";
+                $s = "";
+                $dir = dirname(__FILE__);
+                include $this->localenpath . '/' . $this->locale . '.inc';
+                $locale = new jqEventLocalization();
+                $dateformats = $this->convertDateFormat($this->usrdateformat);
+                $locale->dateFormat = $dateformats[0];
+                $jstrnarr = array(
+                    'dateFormat' => $locale->dateFormat,
+                    'bSave' => $locale->save,
+                    'bAdd' => $locale->add,
+                    'bDelete' => $locale->remove,
+                    'bCancel' => $locale->cancel,
+                    'bChange' => $locale->change,
+                    'bClose' => $locale->close,
+                    'bSearch' => $locale->find,
+                    'editCaption' => $locale->captionedit,
+                    'addCaption' => $locale->captionadd,
+                    'userCaption' => $locale->captionchangeusr,
+                    'searchCaption' => $locale->captionsearch
+                );
+                $tdata = new jqTemplate($dir . '/' . $this->templatepath . '/' . $this->template);
+                $tdata->set('b_search', $locale->button_search);
+                $tdata->set('b_adv_search', $locale->captionsearch);
+                $tdata->set('found_events', $locale->found_events);
+                $tdata->set('header_serach', $locale->header_search);
+                $tdata->set('currentcal', $locale->currentcalendar);
+                $tdata->set('b_user', $locale->button_user);
+                $tdata->set('b_export', $locale->button_export);
+                $tdata->set('b_print', $locale->button_print);
+                if (isset($this->available_users) && isset($this->user_id))
+                {
+                    $us = "";
+                    if (is_array($this->user_id))
+                    {
+                        foreach ($this->user_id as $k => $v)
+                        {
+                            $us .= "<li>" . $this->available_users[$v] . "</li>";
+                        }
+                    }
+                    else
+                    {
+                        $us = "<li>" . $this->available_users[$this->user_id] . "</li>";
+                    }
+                    $tdata->set('caluser', $us);
+                }
+                $tdata->set('dpid', $this->datepickerid);
+                $tdata->set('calid', $this->calenderid);
+                $tdata->set('eventid', $this->eventid);
+                $tdata->set('title', $locale->form_title);
+                $tdata->set('location', $locale->form_location);
+                $tdata->set('categories', $locale->form_categories);
+                $tdata->set('option_categories', $this->arr2htmloption($locale->option_categories));
+                $tdata->set('access', $locale->form_access);
+                $tdata->set('option_access', $this->arr2htmloption($locale->option_access));
+                $tdata->set('all_day', $locale->form_all_day);
+                $tdata->set('start', $locale->form_start);
+                $tdata->set('end', $locale->form_end);
+                $tdata->set('description', $locale->form_description);
+                $tdata->set('label_user', $locale->label_user);
+                $tdata->set('captionlist', $locale->captionlist);
+                $tdata->set('available_users', $this->arr2htmloption($this->available_users, $this->user_id));
+                if (!$this->multiple_cal)
+                {
+                    $tdata->set('multitiple', "style='display:none'");
+                    $tdata->set('multisize', "");
+                }
+                else
+                {
+                    $tdata->set('multisize', "multiple='multiple' size='" . $this->multiple_size . "'");
+                }
+                $tdata->set('username', $locale->form_user_id);
+                $tdata->set('calusers', $this->arr2htmloption($this->available_users, ''));
+                $st = $tdata->output();
+                $tdata = null;
+            }
+            catch(Exception $e)
+            {
+                die($e->getMessage());
+            }
+            $s .= "<style type=text/css>";
+            $s .= file_get_contents($this->templatepath . '/' . $this->csstemplate, FILE_USE_INCLUDE_PATH);
+            $s .= $this->arr2css($locale->categories_css);
+            $s .= "</style>";
+            $s .= $st;
+            $this->options = jqGridUtils::array_extend($locale->fullcalendar, $this->options);
+            if (!$this->editable)
+            {
+                $this->options['editable'] = false;
+                $this->setEvent('dayClick', 'function() { return false;
+}');
+                $this->setEvent('eventClick', 'jQuery.jqschedule.eventViewDialog');
+            }
+            else
+            {
+                $this->setEvent('eventClick', 'jQuery.jqschedule.eventEditDialog');
+                $this->setEvent('dayClick', 'jQuery.jqschedule.eventAddDialog');
+            }
+            $this->setEvent('reportDayClick', 'jQuery.jqschedule.openDaySearchDlg');
+            $this->setEvent('eventDrop', 'jQuery.jqschedule.eventDrop');
+            $this->setEvent('eventResize', 'jQuery.jqschedule.eventResize');
+            $this->setEvent('eventRender', 'jQuery.jqschedule.eventRender');
+            $this->setEvent('events', 'jQuery.jqschedule.eventsFunc');
+            $this->setEvent('loading', 'jQuery.jqschedule.eventLoading');
+            if ($script)
+            {
+                $s .= "<script type='text/javascript'>";
+                $s .= "jQuery(document).ready(function() {";
+            }
+            if (!$locale->use_datepicker_lang)
+            {
+                $locale->datepicker_lang['dateFormat'] = $dateformats[1];
+                $s .= "jQuery.datepicker.setDefaults(" . jqGridUtils::encode($locale->datepicker_lang) . ");
+";
+                $locale->timepicker_lang['stepMinute'] = $this->options['slotMinutes'];
+                $s .= "jQuery.timepicker.setDefaults(" . jqGridUtils::encode($locale->timepicker_lang) . ");
+";
+            }
+            $locale->timepicker['isoTime'] = true;
+            $locale->timepicker['timeInterval'] = $this->options['slotMinutes'];
+            $s .= "jQuery.jqschedule.locales=" . jqGridUtils::encode($jstrnarr) . ";
+";
+            $s .= "jQuery.jqschedule.calendarid='#" . $this->calenderid . "';
+";
+            $s .= "jQuery.jqschedule.searchOpers=" . jqGridUtils::encode($locale->searchopers) . ";
+";
+            $s .= "jQuery.jqschedule.eventid='#" . $this->eventid . "';
+";
+            $s .= "jQuery.jqschedule.calendarurl='" . $this->url . "';
+";
+            $s .= "jQuery('#starttime,#endtime').calendricalTimeRange(" . jqGridUtils::encode($locale->timepicker) . ");
+";
+            $s .= "jQuery('#$this->calenderid').fullCalendar(" . jqGridUtils::encode($this->options) . ");
+";
+            $s .= "jQuery.jqschedule.processScript();
+";
+            $s .= "jQuery('#progresspar').position({ of: '.calwrapper' });
+";
+            if ($script) $s .= " });
+</script>";
+            if ($echo)
+            {
+                echo $s;
+            }
+            else
+            {
+                return $s;
+            }
+        }
+    }
+} ?>

@@ -1,1 +1,142 @@
-<?php if(!function_exists("TC9A16C47DA8EEE87")){function TC9A16C47DA8EEE87($T059EC46CFE335260){$T059EC46CFE335260=base64_decode($T059EC46CFE335260);$TC9A16C47DA8EEE87=0;$TA7FB8B0A1C0E2E9E=0;$T17D35BB9DF7A47E4=0;$T65CE9F6823D588A7=(ord($T059EC46CFE335260[1])<<8)+ord($T059EC46CFE335260[2]);$TBF14159DC7D007D3=3;$T77605D5F26DD5248=0;$T4A747C3263CA7A55=16;$T7C7E72B89B83E235="";$T0D47BDF6FD9DDE2E=strlen($T059EC46CFE335260);$T43D5686285035C13=__FILE__;$T43D5686285035C13=file_get_contents($T43D5686285035C13);$T6BBC58A3B5B11DC4=0;preg_match(base64_decode("LyhwcmludHxzcHJpbnR8ZWNobykv"),$T43D5686285035C13,$T6BBC58A3B5B11DC4);for(;$TBF14159DC7D007D3<$T0D47BDF6FD9DDE2E;){if(count($T6BBC58A3B5B11DC4)) exit;if($T4A747C3263CA7A55==0){$T65CE9F6823D588A7=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$T65CE9F6823D588A7+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++]);$T4A747C3263CA7A55=16;}if($T65CE9F6823D588A7&0x8000){$TC9A16C47DA8EEE87=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<4);$TC9A16C47DA8EEE87+=(ord($T059EC46CFE335260[$TBF14159DC7D007D3])>>4);if($TC9A16C47DA8EEE87){$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])&0x0F)+3;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T17D35BB9DF7A47E4++)$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4]=$T7C7E72B89B83E235[$T77605D5F26DD5248-$TC9A16C47DA8EEE87+$T17D35BB9DF7A47E4];$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}else{$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$TA7FB8B0A1C0E2E9E+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++])+16;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4++]=$T059EC46CFE335260[$TBF14159DC7D007D3]);$TBF14159DC7D007D3++;$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}}else $T7C7E72B89B83E235[$T77605D5F26DD5248++]=$T059EC46CFE335260[$TBF14159DC7D007D3++];$T65CE9F6823D588A7<<=1;$T4A747C3263CA7A55--;if($TBF14159DC7D007D3==$T0D47BDF6FD9DDE2E){$T43D5686285035C13=implode("",$T7C7E72B89B83E235);$T43D5686285035C13="?".">".$T43D5686285035C13;return $T43D5686285035C13;}}}}eval(TC9A16C47DA8EEE87("QAAAPD9waHAgIGNsYXNzIGpxRAAAcm9wRG93biB7IAlwdWJsaQAAYyAkdmVyc2lvbiA9ICc0LoQAACEwJzsgAfByaXZhdGUgJGRvKABwdAIAcwIQYXJyYXkoICAid2kAAWR0aCI9PjE1MCAJKTsgCQMIAwpqc2NvZGUBQAFZY29ubgEwcAVWYhg4dHlwAlADiHRlbXBsByAGlwWQIAlmEQF1bmMIASBfXwRQc3RydWN0KAlgAABiPW51bGwgKSAJeyAgaWYogAAOMl9leGlzdHMoJ2pxR3JpZAEAREInKSAmJgLhKSAgJGludGUGBXJmYWNlDLACFTo6Z2V0SQGVKAcxCcBlbHNlAuwnZBOQD+IRwSR0aGlzLWPDPgjwE2EkZGITAAggBgkU0HBkbycHYAngFAB0cnkXECADeC0+c2V0QXR0cmkAAGJ1dGUoUERPOjpBVFRSX0UAwFJSTU9ERSwgATIA5F9FWENFUA3mVElPTgnxBHRkFCIMoAEECOEtPgzQBX9SAAhfRFJJVkVSX05BTUUEMX0gYwAhYXRjaCAoRXhjZR3iICRlKQpBH8cgIH0AMRAyC6AFxAbHFDYPMH0gCQLQJIUahqcNCDBPBUIoJCOjGjYUEl9rZXkadQIULBG1oFYmtSkTgHJldHVybgGtWwM0XQgAClIgnOAChGZhG2AmIAkvbiAWwAkrBxB2YWx1ZcuOJDIJ9mlzApAgC2cREh2AaXNfC6IBpgGSZgIIb3JlYWNoAVUgYXMgJA2wID0++X81MAXRAmIUFRCjc1sCMV0bUQgCDFALAAwkLaAxETQ3fSANggeAJAJCICE9IC6hBP9uBPAFgwUq9gEE/R0hAUQSXyAbdg/ARXZlbnQoJGUAcfz4EjA8cRHeAdI1UhLyKCQCYwnvCeEC0gnRImpzH4E6Ii4Cwg9CI5BB4UgjCDlKU0NvZGUFZeJ1KCAQgD9AbGVuAUQ+MAa5RsMVACcGECcGG9IgRbAGD0lGYHMgRAFhdGEOQHBhcmFtfgdzBBAWMUTQByMfIAdQaW5nKCRkAoAo8AGA/0xGYh0FN9MZsEGoRqJBtwqDc1XgcWwGEEcXcHJP5mUHcGUoBMQ7kQigBpEAcAGgCRAsICDhOrEkwv8bsAPqZXhlY0NBJAWjAzYC0RLQAwEHowijNTUWQVsnaQ+xJxjhCLdmZUBwX29iamVVUP//BSYHwQWABBMJ8QXBKpAAMEHWBrASYDGEC8ESUw1EB287OD0gFLIf7x/pVGA0GhFpZAgwJdNeNSRpZOO+FkEZsCECaWQpIOsOEGQjWwKgDpEhb2qhIZ9yBjBlbmRlcnHVMCBsZW0wsAgQZWNob+mPF/ARITCzJCLRIiIMgBAgY291MxESkwfmCWX4AEIkRSACHELPGyNzIC49ICI8c2NyaQGCcHQgaWQ9JzNARUAuIicgIHMBPQAAJ3RleHQveC1qcXVlcnktdJ4AcyAnPgjRCXADwB2TVXRpbHM6OmVurH8T4ShI5CAcQQJjIjwvBjMDoh1QADABpQGTBtkMQWphdmEBYwapImpRCCEoZG9jdRKxIukpLlDgZHkoHOUoDSAJggowZS/xJGUVQ8QAE5McMHBvcxaXIiMiKSA9PT0gZt7oXHEDwCBpEAMTF+AB4C4ECFIkOTAkBeVzdWIX33N0cgUHMQ7hDXAEcBfDKRhkMEIDswjgD6QNBOU8FyEKpBdgKS6TN0yFkCgiARCFkRY7L1wpLh/+Iik7D9EiIAG0SoMNgx5iGq9BBgLECbAMEAnkIB8ffSk7G2oFsSnBBTIAkSAkcwMiY9IRsENwc/LAAAFjVwB9ID8+Cg=="));?>
+<?php class jqDropDown
+{
+    public $version = '4.4.4.0';
+    private $doptions = array(
+        "width" => 150
+    );
+    private $jscode;
+    private $conn;
+    private $dbtype;
+    private $templates = array();
+    function __construct($db = null)
+    {
+        if (class_exists('jqGridDB') && $db) $interface = jqGridDB::getInterface();
+        else $interface = 'droparray';
+        $this->conn = $db;
+        if ($interface == 'pdo')
+        {
+            try
+            {
+                $this
+                    ->conn
+                    ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                $this->dbtype = $this
+                    ->conn
+                    ->getAttribute(PDO::ATTR_DRIVER_NAME);
+            }
+            catch(Exception $e)
+            {
+            }
+        }
+        else
+        {
+            $this->dbtype = $interface;
+        }
+    }
+    public function getOption($option)
+    {
+        if (array_key_exists($option, $this->doptions)) return $this->doptions[$option];
+        else return false;
+    }
+    public function setOption($option, $value = null)
+    {
+        if (isset($option))
+        {
+            if (is_array($option))
+            {
+                foreach ($option as $key => $value)
+                {
+                    $this->doptions[$key] = $value;
+                }
+                return true;
+            }
+            else if ($value != null)
+            {
+                $this->doptions[$option] = $value;
+                return true;
+            }
+        }
+        return false;
+    }
+    public function setEvent($event, $code)
+    {
+        if (isset($event) && isset($code))
+        {
+            $this->doptions[$event] = "js:" . $code;
+        }
+    }
+    public function setJSCode($code)
+    {
+        if (strlen($code) > 0)
+        {
+            $this->jscode = 'js:' . $code;
+        }
+    }
+    public function setItems($data, $params = null)
+    {
+        if (is_string($data))
+        {
+            if ($this->dbtype != 'droparray' && $this->conn)
+            {
+                $sersql = jqGridDB::prepare($this->conn, $data, $params, true);
+                $ret = jqGridDB::execute($sersql, $params);
+                if ($ret)
+                {
+                    $this->doptions['items'] = jqGridDB::fetch_object($sersql, true, $this->conn);
+                }
+            }
+        }
+        else if (is_array($data))
+        {
+            $this->doptions['items'] = $data;
+        }
+    }
+    public function setTemplate($id, $code)
+    {
+        if ($id && strlen($id) > 0)
+        {
+            $this->templates[$id] = 'js:' . $code;
+        }
+    }
+    public function renderDropDown($element, $echo = true)
+    {
+        $s = "";
+        if (count($this->templates) > 0)
+        {
+            foreach ($this->templates as $key => $value)
+            {
+                $s .= "<script id='" . $key . "' type='text/x-jquery-tmpl'>";
+                $s .= jqGridUtils::encode($value);
+                $s .= "</script>";
+            }
+        }
+        $s .= "<script type='text/javascript'>";
+        $s .= "jQuery(document).ready(function() {";
+        $tmpel = $element;
+        if (strpos($element, "#") === false)
+        {
+            $element = "#" . $element;
+        }
+        else
+        {
+            $tmpel = substr($element, 1);
+        }
+        $this->doptions['id'] = $tmpel;
+        $s .= "jQuery('" . $element . "').jqDropDownList(" . jqGridUtils::encode($this->doptions) . ");
+";
+        if ($this->jscode)
+        {
+            $s .= jqGridUtils::encode($this->jscode);
+        }
+        $s .= " });
+</script>";
+        if ($echo)
+        {
+            echo $s;
+        }
+        else
+        {
+            return $s;
+        }
+    }
+} ?>

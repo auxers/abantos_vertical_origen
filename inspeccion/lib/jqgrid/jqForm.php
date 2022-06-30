@@ -1,1 +1,1077 @@
-<?php if(!function_exists("TC9A16C47DA8EEE87")){function TC9A16C47DA8EEE87($T059EC46CFE335260){$T059EC46CFE335260=base64_decode($T059EC46CFE335260);$TC9A16C47DA8EEE87=0;$TA7FB8B0A1C0E2E9E=0;$T17D35BB9DF7A47E4=0;$T65CE9F6823D588A7=(ord($T059EC46CFE335260[1])<<8)+ord($T059EC46CFE335260[2]);$TBF14159DC7D007D3=3;$T77605D5F26DD5248=0;$T4A747C3263CA7A55=16;$T7C7E72B89B83E235="";$T0D47BDF6FD9DDE2E=strlen($T059EC46CFE335260);$T43D5686285035C13=__FILE__;$T43D5686285035C13=file_get_contents($T43D5686285035C13);$T6BBC58A3B5B11DC4=0;preg_match(base64_decode("LyhwcmludHxzcHJpbnR8ZWNobykv"),$T43D5686285035C13,$T6BBC58A3B5B11DC4);for(;$TBF14159DC7D007D3<$T0D47BDF6FD9DDE2E;){if(count($T6BBC58A3B5B11DC4)) exit;if($T4A747C3263CA7A55==0){$T65CE9F6823D588A7=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$T65CE9F6823D588A7+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++]);$T4A747C3263CA7A55=16;}if($T65CE9F6823D588A7&0x8000){$TC9A16C47DA8EEE87=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<4);$TC9A16C47DA8EEE87+=(ord($T059EC46CFE335260[$TBF14159DC7D007D3])>>4);if($TC9A16C47DA8EEE87){$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])&0x0F)+3;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T17D35BB9DF7A47E4++)$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4]=$T7C7E72B89B83E235[$T77605D5F26DD5248-$TC9A16C47DA8EEE87+$T17D35BB9DF7A47E4];$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}else{$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$TA7FB8B0A1C0E2E9E+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++])+16;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4++]=$T059EC46CFE335260[$TBF14159DC7D007D3]);$TBF14159DC7D007D3++;$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}}else $T7C7E72B89B83E235[$T77605D5F26DD5248++]=$T059EC46CFE335260[$TBF14159DC7D007D3++];$T65CE9F6823D588A7<<=1;$T4A747C3263CA7A55--;if($TBF14159DC7D007D3==$T0D47BDF6FD9DDE2E){$T43D5686285035C13=implode("",$T7C7E72B89B83E235);$T43D5686285035C13="?".">".$T43D5686285035C13;return $T43D5686285035C13;}}}}eval(TC9A16C47DA8EEE87("QAAAPD9waHAgIGNsYXNzIGpxRgAAb3JtIHsgCSAJcHJvdGVjdAAAZWQgJGFlbGVtZW50cz1hcgIQcmF5KCk7Ahxjb25uAU1kYnR5ABBwZSA9ICdub25lJwH9aWRwcggAZWZpeAGEaXZhdGUgJG1heGMIAm9sPTIBa2ZybWhlYWRlcgTgZgnAYWxzZQH+Zm8K0AH/BUJ0YmxzdHkEMGxlPSIiA4tsYWJlAb8DQmRhdGGABANbdWJsaWMgJGlucHV0EtM9IAAVInVpLXdpZGdldC0QIHQSICABIAA0Y29ybmVyLWFsbAcEA7RTFGBjdADEQ29tbWFuZCAI5gHkdGFiCj8kcAA6cmltYXJ5a2V5cw/AF+sTNGYbIGVwwnYHwAIvAiVpZWxkAe4HhG9wZXIRe3UgDHJsARtjdXN0b21Db2QXjQegb3AKAHRpb24F3nIHtGVycm9yTWVzYWMGZwPEB2REYkQWgSHQWS1tLWQh5AHWVCD0aW0jokg6aTpzAd0DoQIVA+IgAn8kVRv/c2VyApETYCcCUgRrAfEERQPmL1EINAIBA/ECRcgRBDIGjyAkBnBpYWxLZXkGkHRydQ5rAIFlbmNvZGluZwHAJ3V0Zi04CFsZcHRyYROiA45hZCIAIAF2OMAJdGVkaXTQ8ATQAaRwAWRkZW1vAWAxpALgO6dfY2hlAYNja2JveG9uAic9uV9maWxlG/ED5MHjAckBsXVwbG9hCOEnx0GYAiFkZWYFsAHzAAMgICdkaXInPT4nLi8nLADgAhGwgEBxcwFBASZzaXplARAxMDQ4NTc2nCECgCAnApFBEwGQJycgCUZDZnVuYyYRFAEgX182IHMPkGN0KCRuYW1lLElwwggIoCvgdGllc0mVKSAJeyAAECR0aAm4aXMtPkuWW10KRgWQIAH0L8EBgGpxRwAAcmlkVXRpbHM6OkdldFBhcgHIYW0oICdqcTXBC2BMICcgA4hzZXScnlKBUHIEEQfxCT9lcwMACX1SgRkZDQYLsVQJIG9TdHIh8CggPoBvcA0gZXhjbHUAhGRlPW51bGwgDMNpZigkAXQgJgZQJiBpc18WswFVKSla8CAKkGVhY2iAJQK3YXMgJGs9PiR2AfJ1bgswKAZiCI1bJHZdCbAgfSAAMSRyZSURUaEgBqAsEWlzAoAgApQPYHZhbGlkOpAnXSkH0cnHBBMBiiA9UHAxIgZiAf8XYSJubwR1UQAHUYHTBp5oaWRkZW4GWwFFBh8nAbcgIgDDBZ+qexYBWyjQc1VxZAW7ZGkBZQXfAzghoCICtQYfodMGE3JpcG9ubHkGGwFnBh8nAdkgIgDlBh+CfwYVcXVpcmUMLHJlAWUGHwYQAdcGEQDjBh+B6QYTYXV0b2ZvXjAMOwF4Bj8nAeogIgD2/+8GXwZTSGIMXQFWBh8GHQK0Bf8F8y/gbSZnDJsBzQbfTeEnAj8gIgFLB5QgMkM4JQfRMYJjb3VuSXCRwAECPjAww25ldwKDJHA7Il9tYXAoY4jmHwB0ZV9AdSgnJH2wP5AyIHVlRqE5AHUhBHJuO8BleS4iA7BcIiIuJAHiLiIAb1wiICI7JyksIAUDA6BzOrMBNgKSAVXJ/z5hPgRpbVxwZGVKcAllAdFAMAb1AIB/QEryZWSvJwo1IEEgQ53woLB+kEqwZGJJpyAkAOJXMFUk7ANaUGaRAXA7EtKSol9leGlzdHMoVRBWkRgYREInS1CUoHRlcmZhY36RWCNEQjoDXzpnZXRJbgGUpoEgmiBll3EBRBEwSAClAuCLGNEEaYTQcGRvJyBSY29iagswKAmIB1DJAFKxASgtPg3QQXRYUGJ1dGUoUERPAAA6OkFUVFJfRVJSTU9ERSwgwA8BMgDkX0VYQ0VQVElPThPRBHSuZgEEmAAQES0+DGAFf1JfRFJJVkVSX05BLvdNRQQxfQ3TE+cE12kQRRRwGnAAMCBk0xnvpSAAFGx1bW5MYXlvdXQgGhBsAKI9Jxu3dHdvtMABsCdkpwHDEjEkALRcACe6AAKmCOfc8bjDFxAxCFIYkgHvIDIB4gnvIuAjwVVybAlAe4xupVAjcHniX/AkAQIakH0gbGVuKYACACkgH/M+IDACUQZXAWAIAALiBmh1H43gHKBMYb0ABtBIg2E4kSApBHFsYmwEECI8dGQgvPM1Av5ugdO/9zWxPjEJoHAlBEJbJwJCcFBnaeI9owVBLq10b2AgAYI9BSIC/10FUT4FYR54A7MiAXQgJJ35AQQgPAaCfGEE+mlfcARxBGEJwH/QDmAoJAbZ/r82Ek8gCbwBcgTKBiIBcicJvyAItgm1BvAQsgbrBp2YeQi6J10aQgS1ICI8LwdSBTIOtAFRdGQBIv0dRzBOohBAR7+fUw7gVHwBU3R5qlAdoNJTJ1KQ27cr8B7QPQCyiiBhAKAuYziEdN9UH+AkA2IJwAG0//cJUiDiAdEA4gHXBMEBxgDRCca1VlGpoHwgqb+pti2h5lip0QhkqbcwXQiAXTIoIq2hIptwAIEsICLvObOxAPBo4iIBAC2RAQAXc2Vyp7FEkDfDIAlBz6FvqnJIikBlcigkSbB04nBm4GkAsOgAAKAOsufhpvIT4x9wISQBUiUTALIJ9wDyCBAicGFkzZEDEDo2cHg7IggwnXEkaGT4ISI8ZGk5Q3YgJqIoEPEAc3SkIC3CcGF1bHTyG20hZt4uERQNwVRvsSQIRC4yswlgJAtBS4FDJQEBKWAbPnbUB6EuPSI8c3Bhbge5AlEgdBAAgdAANJFAVmbNYHQ6bGVmdDsgbWFyZwBAaW46LTJweCA1AEAwIDA7XCIf/j48LwThKrJX8A3SP2AUZSMhB2MtMQ8gApIMtGYf43JtaBdSE6ADkQLQW//Nci4gJDFGb29uABo58f8WohmfMIAZn3koIgLyGZ8HkAvFSxAZkhDgT/MXDze8ZSkXBAtBIA7fATE9UA7fZgvyDt/qAzMJUHJXsGkW8HnzAHM88IwhMXAxaHACAwGSPSBleBH4cGxvi3AiLCIqwAFRJrAu4y7NKQBFbGVw720uAAWAM+MkdHlw4nwKMDaTKS7zGwQ4xzi/y+A9JDi1JHQFUiIT4RcAOKyJMSoQdG9sb3fXrTcxAtEppyEn7gF4gGlBF/NfASFzCRDtQGUagO/tCLQBYfdDWweiCREBuDRgAsCagAAwID8eEFF2EDCC09wgZmllbGQTUGUBAQCAYxSAKSB4AgT1Ff9vcm0B4nPx2CIDgg2RAJJHMAIyAREAkgEQBKGHwQEAImpzOiTAAOEZX/tUCQBHcm91cBk3Q/9lGkF0bnRzCTAUMUxECYkY3y4AHSEHUBEyCEDLtxWBAPAiZwXhIgEQBMEBECQAgQVDIAFgBuEBYbgHAIFlB2EKp1zvX2J1aWxkT3A5gSnRX9HzeRzAOEIK4ADycWxmhwHAIFRQGPBJ8QHydHI50v6AAQD6dwGVAaLFYPpzAWQg+nIgPT4gJHYg8UAZ8KoCBZE30Cc8bwjCIL1SPSInLiRrCCcuJyI+AIB2Lic8LwHjPicIED5AhlTBfgezBCBpbmcoJAZkKQWwJ5EQchfAJ1A1pjv+hBPgAoYEsAomAtYKMmkwdgwiJGVsbQQJOiIVxiwkdhVwIFsgckIRC38DMVswXQvEBABbfM8xANAMH2RBDAAI43FsXtkMknFsXwABYSwUbFBETm4JQnRyeROScXVlAKA9IMTnASLASSz4RgXlCzEG0QIiorF3aGls0hByb3cN8AQnZgAnZXRjaF9udW0oJAKyLCAH6QfyBHDsH+AUA9A+4jIBghEvYWx1ZT0ckQKQEScA0REv/wjBxxzgFZ8EfwRxFmEVnxWRfSBjYQygKEV4JW1jZSVzJGUKYiAB4yCY9QbgO2rfMVEg69PP6lZ1OMQkdFESN6ImgFzCBMAEcBSAIqulIaTSIJ+J6vNbJ4HipNY7UQFGA2UtQHN3aQswICgEwPwEVSUX4AbwBoAy0C0wY2FzZSAncyrAY3Q4Xyc65yIGrCOhbGlzdAbSJAajAUcG1RwwA48Pz2FzcWwDfQEyA2UE9AzUGkEiII8BCPKHcV6jB9RpbnB1dAJSNgD5EQ0ABDE8C4MgTcE9J8ekVMAAkS4iJwOnCvGRNwDhLP/DKCercics/jcAg8iSsVAA4wayAOEOhiwgJwDBC9EpfkYaVEag910tJFAbDdQDgWwUAi+gCCFbBLZdNEENBZfhLw0TgweQomJyZWFrDwAaI3RleHRhASAaQQWUveEKY10TZgI1D+cTj3SmAwK2ExETr2lzLT4KoY+VE69yYXkTr92wEgAVAglDLCctMScSoS+gYMBgBuUNfydidXR0b24NUQ5zc3VibWnP/iiSAQNyZZ4AAfEPRAWCfSMsYBHgAYQHgxDCMiwhhHhmICA/ICIAIDoiIhvAJgAHYyahd2lkMAZnZbUytk9vcm5lci1hbGwCkQMzLa/2DLEtsMEtloQ58RwlohEXMhgnFG8oD2HYcCgPc+C/E/QGESC7cmFkaW8RTz09oxFPJZAMIQmsAPL/DxNyAyENgTUgPDwBYTwAE/EiIDogFsQBYwNhMBTf+A+PI+9wD48PjwjyN4EGMiPzPWAA4QbwEGtjaGUDU2NrYm94JwmQD6BoK0FfAVVvbgzQoXT2b0mmIZWA4g1wKW8yGiFbJwFEA2AnKPAG0FPQA54efm9mZgKAA6wBVQOyZmaE1KZg2sJVIBNlKwAnT/9dAmAkdACgBiABhA9DK6FPshlyJAcA8gIyAyEXD/+H37+LYQ1BFw8XDwWSJogPUAYwdXJuIC00B1BsoR/vIAkgsq5ss6nfxBGpxZ+iwoMU1iAYddcSFNUlxdAMAVQScCI5sHRoOjEwMCU7MEF2YWVs4FRq0GtQanJzdHJwb3ME7CwDcyKEUkZBHnxMU0VuoAMgFtQF9S49AoMF9w+wADAKb3NlAe9wYXJhdG9yCqIEdQFXCqEgCgEDv1ESA3nm/wEUAzEDISRnDDCwEDzg8Gw/L4EtUhzRWJ9Yn0Q/f0FzNLEMFzUBWDIHk2txBcFbb0MnXS5pbeLT/+0Ob2ugeTAdsmsyC6IEEOzII5UBsY//Y4/yXMBVBjB7+GHCSGgRBeC4s3Mixr/nAaU644ED3j+rNVV0aQo9bHM6OuoyX3MwZW5kq9UDUTlwBtg7JUHARPDREHB0ZWN0ZWQg9qdhdmUKw3Mo/4IJYzExG7BFZ39VBZELoCZgIEFlbXB0eS5QXwcFRklMRVPyYAGABWZ0cnYoJERAdaOju+QTRHT7MAF1CUIgxEYPDc7zxMYHECghByIoJITBBxNbJGtdB1AmJgg2ASFbJ2VycixBt3P0oTACAAlQJAuBF/ENUGKgYACxBGlbJwEhLACwEwkwJBSwAnBzdWJzdHIoA6YsIADwOGPRpQTVgJAu+mArIDEikQoAIA3kWycCMXRPwGTPcwVACIEnJznAJGYBMQXAZmE90AawPkIBZp/g1mYsItJgBEsC0AYAArMh4wTFH/NtYXAoIrhfFyAiHzABogkkIWluXwIiKA1xAdYEMxkwCNjAgh40E9JNZXNhZ2UB0CJUaGUgDNE64ANagQCREpEuIi4geW91IGF0dBkRJMAIBHRvIHUu4iBpcyBub3QghLBvdx+MZWQuP9Fs1UdQADAMgASBc2l61BAcl1snD/50bXBfBeETMe4xECMCgQEhHGELH5vQCx8LHy5gDiILDwsHdG9vIGxhcmdlCu0KsIJgXwK9d3JpdGFi3wF2rQBpUfMJDxQfFBFZEoAdAWNhbhFBByQSwHQVYHNwZWNpZmkT0BAIZGlyOSBvcnksIHBsZSnwIENIARBNT0QgaXQgAsA3NzcJjSRuZXfUDhKhBgAkCTUuAKFwcmVmaXhN8Ct2I5IgMHgoIRcxQlBpc3RzKAP1McNmEgvEZGVtQOBvIcJ1bmxpbmsyOxoIBWBlY2hvIDABIkbwcCG8IHN1Y2NlZnVsbHkhRKACIHR96lMJaWYgKChtb3ZlXxETZTj+ZF8J4QbfDjEnXSwK9wmyTJEzkhgvDGQhLEWGAUDxOiBBIE+wHGBtIG9jY3VycheRA2d1cmluZyAH4Qq0ISsOBr9zZQ/wBr8Y0HpIIga0EWEzAS3oIgzRIl0okGFszbBkeSA/h2V4GNEHDPXwBxUn0E6ITWchPSA0EJJaVETV5QEJLwkhD28gZA9vIAuSIE51bWJlch0C7+ALuFUFD2BiC7DagTxwADk5gJSVcPQgcHVibCAuaWNmSGV0SlNDb2Q/QGMAYPkTCzRjBjl1c3RvbQHRCyFqczqBAAJRBxB9IJjwYEEgmR510EFqYXhPcHaxcyggJGFztLyBVmAJIYATwHVnAcUpIGKgY291bnQoAwYcZSk+MAiwsdJn9G9ybQTFdp9heTRAdHaZ+QAC91XQBqYLowvVcm93LV9idWlsZEZpCH5lbGRzdzdzdWx0ECAdFQxQEhRH4h9CIAyIICR3aAJAfpVkYmUzPSAn+wBpdGXQAmkA4BAiHEAgV0hFUkUgMT0yJkEkwAAB8AOAIlNFTEVDVCAqIEZST03tVCpBD3MGIi4FwAugIGxweREyc5CQYwkxanEABEdyaWREQjo6cXVlcnkH5WNvGw9ubiwFoWbkJAMTCqIkY29sFtIHYAP3AVAPcnVtbkMYUwLkBzAssHYCgGqjBNFmb3ewaQMwPTA7JGk8BKYA0CsrGvAeECRtZXRxR2EDIAWn7bBDb2wF0E0BoCgkaRjwBggSY2v9IAL3AmFUehAoBKIC0BCDFQMIIRe0WhAaQFsCYv+AgmXNoQqz/8OKMAYBA2ExYAZHY2xvc2VDdT//cnMM0QjXHED+sB7DliRRtA2RCINMOwU3AYV58S9w0CAC0xhxIAfhdGhyb3cgYdAgRXhjZf4CMdIatQOVfXACoQqARrBjYXRjaCAoAtYgO+EkZRvDCgYoyCERJASp6NUBSBlQJGUtPhjw736EUApyBwEgABJjQgR/IBAgCOAAMUSnMNFE1D/+IKAdBeBQpJBhcnlLZXlJZDQ0A9URY3ACEwgka2V5cwSGcml2YXSNEHVuulNvdQQ7dHB1dERvYERhdGEVEDJgIMBkANBEpHEIJJ9gy4A0M3RyIMCSZGl2IOUCPSd1NIFpLdvQCQAgAKBzdAXgLWhpZ2hsAEAgQHQnozB5bGU9J22F0GluOjVweEDwIABAOyBwYWRkZ5ABFgQg3/A2MDBwOAB4J8tjB2EGtT48Yj5SZXNwb25zAMBlOjwvYj48LwgQAo8+U1FMIEMDTW9tbWFuZAKAAkE8AFJiPlUQDaAuzDCPAAPvPSAiAnIQIQN+0nUiICw8YnIvPi/1ICIR9CkE3xHlCeYZBQzQGCNcwGGNaQ1QclkQ+WMXMcfDT3AmtRJwKSAEZGazRAH4X2J1VGgrotGGAtwucCQFoGVmbUxhJ6RVc2VyDtB8Y2lrHG0B3wHRVAGQO5G5A1BpYWwm8AaCSgBlYTlYY2g15SbIy2MgPawhKT0QdQ4QDgRbJHZ3vF0w0QlgADAkV0JgQzNQRRJfKuEFVUezAxEkciB5b3cCnGludGVyc6NwAuCpwQHzLCAEeV9AZCxwKQQBRyAWgwJjBuUoAcEkYmluZHPzhgE7TOEBPFnwJycREA+WCTdhcyAkC4APM2Fp8GxaFAcZW1MhIj80UQiwGLgOMxGAYWxdW094IgdxIl0GUONzCUAb0WEB8wFwH7A1IHJ0bwwkbG93ZWIAPoNlbmNvNOEpIJGgJ3UOjnRmLTjW0RewBHZpUiB2KCIBwiwRA5suAB8iLy9UUkFOU0xJVAHh60MHABpQBzDgOCvgByYBsz09J251bGx2sAZSCoBOVUxhKkwDEpvVc3dpdFWxJHQi8mO9UScZAGU3iSc6ECAU0CANsSeyC2AplERiREQAID9qdJqh/gRwYR6AAZEoAzUsDZMsA3opIDogAYProwiQmoUHh3QtACcCMAJACwAkAPFmbXQTMQRq//8vcQgfCBYDdAgfC4ADsQhfCNAIUwOxD9cYIzihA3EIes/1ARIQT3NlEEMDqwiuA+EIbwhmM3AIVigA0CkTNg/JZGVmYXlBGgYewgOQIGBp4iR0gvBzWyyxO38kdAGAM5MBA3YBAD6UdjVRA0CNMGwxFtBLqJESyGaJ0EFAcnQ40ykgPiCoQCSgICCUsQMQIgAASU5TRVJUIElOVE8gIiAuIPY0GjRDEgDwAUAoAXFZ1ScsIAAwQlcpAkAiKcBPAiECoFZBTFVFUygAoC4gAxw6OQNEDID//y8wBwTg5nuJczwLMWEwRFIPoVgUjYZ/gHQwJqC01aRR+87qcC1gwLAc0zngbgRAaiAAYASiLCATUgURWENzLg50bTSjIDHUBHECsVZhbHVl7TACEQPnJHBMdBrBA/cGg3RyYW5zOQJ0cq4SlYdiZQsHZ2luVAIBYYGiVWBoaXMtPgmxBHMZ4MD/kWYDh2V4ZWN1dAygCA0D6hUxA9MH4iG3BJdf/2N7gGligAqjB3Ukg1MSBAM5wBWxPJASEhrwBDim+cgfBIOs8yA9fkBhZG9kYiIEAAflQvALUQ3hv94KACEBcBYjH9SdNZwxKUAGdwGZKCm1CxGoP6g/cs4BoVCoN30gqC+oIwb3cm9sbEJhY2sZLf9+CwA2D4OVCkUGsQo1AUgNACSqTyqwADIu6QNYFsB9f/8gqkBeNSREAzEIxwuHIa92cCogGZMTARehA6Ad7x3v8+PXkMTaBFMd7z8gBRARch3oNCIeD3JybxjhHg/v/QGYHg/GP24ZpRLIDbES0h4PHgMnIgxjA3kaz2Uaz/f3BdEXYQBBGs9lDREawBqxGuAAMBsVEbU9RdMCQAoy5jIB/zW1AfAgIE0UA9Q7IAn9Yqx9dXB90Sij33ohYax+ZWRpNbAElAXVEChfrI8C3AihBcGDEm3/PRJlc/FEd6AMoCR18X0RAd5xEQIQA0CidxVAoon+/RiDmMMV0WSnApZysKb/c6b/pvURA24jBFWm/3kBM8pnWtICa3YyAQt0AQsgIKiPt5NleaiCDNJW08/7NgIOOVskAeKnHwcwFlGnEAITE3AaYKc/Pqc/pz/p/z4gpz8DlS6nP3VlF7EekAcwpz9cMadfp1+nXymB/36PNg3xJEKnX3WEp18EESWgLJKjp18BgxLAp18pUSfv/0zgp19mVESvIioxaZBTwwgfBGEIHwO3nv8I0KdfMCD//3lSM2EHIhBJARKnX6dfApEQvgFRCG8IYKVfivEBkB6AxflKEh7QaW5fONIoKXNiNuVJ1UAs0hSQMluoIpn+pyEkdADUqPF9IEyWN9kC4y0CoWEuMNhyq90kdwR0kxEC0wTjIK0MCqCr5HYyKT09qzBkaQDAZSgiUHJpbWGU4LLiIGlzIG1pA8Bzc2luZyIs4TpWPPDiYms9PiR2dvB/8XEIGgzTCCgyWyRra+ChEoBXpAugU7gItA6pgHG0nyAiVVBEQVRFr8InJLRIU0VUAaLQMrFsBUsuZmEiIFdIRVIEgwLlIj0rMEEcf05EIOMxRfMbKCkuIgsQFrJ38gfktS+mQLUvb+JsIFCt0XMUUWC0n3EjlbUvtS+1L2Fsc0ZCIPn8HLAEIiUzP5S1H210CHUAgCICCPED0Q7ztP9xRx7/cmlkBJK0/zfCUVBuBFEVUR2HP5MDgZNfk1+4kv34XVKxPw4gEkAFB5NfPpNfk18EQAohG6KVIXQgKWf9CdoQCy86OruPDgE42BLDjlWJ0SGQCicBmShKNf87EnG077TvnAGuMQsAMpC07yAkluMG97TvbhkSDbf+yzZYtO8E8CykC4UH8A0AJLTvFBMgIJovZRBRCzB/3yCZwAAwS3W1DwWQC6chvyG/Ib8gM3FoIA1lBQchv///Ib8+IBGVtQoNwTCAtUMhkR5fC8u1P+WzHl8eXx5fflIf2EV4YwLDHlUKpa33CjIJuxrwKSZlHD9nZXT/4doAGfGZkg5xAEEcPxw8HGAAMbLfstAgCSAJsu0cHHNhdvMwhZCyxCRrZXlzEyBwgzQRJHT/4mDhATpk1g0jVtifo5+CZcME8WzDBkFbJHZksSRgGHQFMQFyJ2N1c3RvbScoUTOQJHNxQABsBrAiU0VMRUNUIENPVU5UKAA9KikgRlJPTSAiLi8kY6JdcGC0LmCWnjcDsD8gYK9xYAiBYKI/ICIGwC4kJPdxA1Aox+enW+9b5wRBLCAsAhGRA1diEVaE8XMoBSJaUALDP/8kdA6RAtEhNwN3NI0DRVoKI6APZFL+Y1IHEgwwBhT/IQ3AFHADUVkzAkMAwAIwB6dmZSuQX251bQsG9SIco07hCuEEACjGgCkFUVswjmA9IDEEpnV10mxfMgMjejMorOFhA6FW9AQQIAQtMCAEP2mB/3dQaW5zZXJ0BDksIQQgPVH0IQNzBwMypTGh3/8NOgGZKDWFDQE9nzrT8s95MhPgeHhJuiLRDkEJsBGR4B8QgAmiOUIic3VjY2VzcyXRBDBgH0HPJJL9/xsABPBd/13/QwAPECRd/wgCIkQQZQLQBaAUgYtECxRgATvzVECfcmVuZGVyRm9ybSggP9IABiAkcGFyYW1zPW51bGz0lhWlbxCYcGVy0KEibm8iHYVvdwoRGoNhZWwDxGVtZW50cyPwCKAqYALwICI8Q7BtIAEEbmFtZT1cIj0Acm93WycA8SddCAIuIlwiPjdwcm9wVG9TdHKsECiSjvBhWycBMSddPFA+FlEkaWQG4QQSAaNbCPknaWQnRfJhY24qMamkCRwcIRLkaWQ+8BsGZml4BJYIpV8GIt/AIC49IjxG8ufAeWD4bAtkBSN0YmxzdAFAC5EJMhyQBZRmcm0coWhlYRUAIhIP0i49D+B0AWE+PHRyAEAAAGggYWxpZ249J2xlZnQnIGMDH29sc3BhbhFzBhNtYXgBYAX2BHUGTRX1gfgGIi90aD48LwYRAKAIMAmSKRAJymZvbx6XdGVyCc0BYQmACcFkCP8tPgj/chHwIRUPMJfDBBFlcgj8ZAj2AfEI9QzFFdBib2R5AXIhsBEZKCRpGMAxOyAAgDwgJByCANErK9dwfMggffEfAAIgEDQmVyRpH5EOUCAhz1BldCDfvyNKIaMpDxMEICTFAYMFByEFLicTIOMNABQAjQEqwfxqJrUBwwOxBQIA8wKwJHRyc/EEE3Rf4CdT4icBQGhpZGRlbieMcCIkpCdkaXNwbAArYXk6bm9uZTsnIpGwIid7cjIQBPA4Hy4iEfIN0AVuZ3JvdXAnDYMq4yZRG+9WYKA/G+9yG+hjcmVhdGVHBPETpA0jbKAOAjzhPOAnXQDlEFM0kgdmL3QepAxBV4B0aW51ZfAPERATwB7VG2RzZXRMYWJlbAaUBNcOIS+p939GAWd0BngqAXIRIgW4JIBkFYRFggRzhzE6Owi8D3N+v0VKswkED5scMw+fBJUiNtBkCOIBJAERCf8CYC6ChrwAgGFibGUDGRsgLy+wbQFCEDfqBgWEICcAWzxkaXYgaWQ9IgGxIjVwAQA+k5EDUOAML1UPgwTxb3B0aW9uc1snaZRToCAmQyUmEkBybGVub8UCn3NzApA+MCUyIGQA+AXBNRvEAx8DETBwImpzOmZ1bmMHUSiG8EABcAfAZSl7IGpRdWVyeSgnIwtRAAEnKS5lbXB0eSgpLmh0bWwChwAALnNob3coJ2Zhc3QnLCAnc3AMd19gAJAioFRpbWVvdXQoBcYFTy5msENWoE8CQCkQfSwyNTAL4CkgO30okSIwqaAAMCRhDz4MoWV2aiEDcCAWVSI8c2NyCABpcHQgH4E9J3RleHQvamF2YbhJAWMnGkICxg3EZG9jdW6xKS40UGR5Crd4SCQUYAhRGgAIIj4gMCABMCAgB8BlYWNzyGgYaQizs/Ykdk8QTwEvlQbEJyNBQHZbIgOcZmllbGQic0AVMKfhKCcBgwRyAYIsIkADLp8DVXRpbHM6OmVuY29kvrAD0KceAJEidJEpOwnxEhAAMCRubRxwRiMwMzvQJC94dXK48SQlcwDQAUAM4CEBgQyiAJEDcCJodAQAdHA6Ly8IUF9TRVJWRVJbJ0gAolRUUF9IT1NUfbAkAWZQSFAAwEx+AkZ6kgdxiqB6wQrKf3FwKCRfR0VUGdJhHftwb3MCX4HAAlFQBjACY9NACMAEqoyiXxxgjeA8KSgkBsE8sATyAzZbJ2pxGRBtWpEgJwRAgbs1MSRhanNvbgThAHBfE8UEAQOAJCjRAcAACDw8PEFKQVhGVU5DChoDLmFqAkBheCh7CgkSsDoiEdEiLAoJZGE8W3Rh61AFMgDwJbE6ICcLgScA8AHhVGKQATD8YAdBATE7NGEgBqE1NHEsIJ3gF2AKCQkkLowwJAIgcmUBYAJGaSwgbjHwAgAJdmFyBCAgaW5lbApgJCgnWx0RPSInK2kAjisnIl0nLCIjk+AiKTsCodCiAJEJwAAdkAMxLmlzKCI6Y2hlY2tib3h6BiJzYQHyAgERID0Fgi52YWwoKSzhAcMJiPADoVshIRB0Zm4uXXFu4JtjDKAnYXR0BAJyJ10oIgWiZWQiLHRydWUIQwk9zwl9BHIAUsQkFFAJABAFgQbSIG68kAITAGG2FrTGEUBvjLEEIX0E8X0KAHEZlTsKIA2ALBRTgDNscGN0Q29tbWFuZFDvAfopPkRwOCj8fh9SL/ArQTDzI1FWZnVybCQSH0ECYAdAiJYC7yf/dh9BVoAc0IWAAg8CBBvQLAIoJ0BYsAyYXxRSGfBvdkBuBEIBsQcDKA60CdpiZQDwZVNlcmlhCGFsaXplB6QkYmZzBjAsYEJGUwokZSJvICgCwG0sIAoxKQoYYCSxdAKRCoEjMB4zAYsoImlucHV0IofxkG9ybV4QYU2QBNU1aCgpBBAjkSAhpCgEUSkmOCCQKSR1dHMuryAHYVsCQS4rMZOwZBUBQSkuJEEoIm9mZvOfJ/AsAx9wHvF9CgxAHsAP71snD+4PUGrxStAQIN/9GtAnJSARKw+cD48yAg+Pd3APgiBAD381pA94dA9vevw9D28Pai4zDyRyUdA9fYEAkR//gCAQHnYwfSfwBSVREv8S/xhRc3Vic3RyX3JlqxBjZFC8PxjhLXQyMBYGXxThLiJ9IlcgCbEHATPQADAHb0oPWy8kWyJYwyIHUSJzYXZlahF55xhEcGIIPmlkLiJv4HN1Ym1pgg+HQApRIzBZIFP5QAJDcS9xIgKBDNopLiXAIPOUZmFsc2U78BYmQAihHTAL1GN1c3RvbUMEECCVbgHHKX+AIH9Gg2Vp+mWVCDMDiCliD49idXR0b24s+wRYMDfBD7MA5ZdQZZPgEclob3ZlcokHKXvgABQEBvERoGRkQ2xhc3MoJ3VpLXNZj3TAAC0DEiGgfSw8KCjbcmVtBWADnwagA5HZ/IUzDtUiE4QBBjwvlKOUkhYkAdEPAqbCFjdvcDyNZXLAMXlCFmEXtW9uT2Mkc3H4IAJAIBVTA+BEQjo6bGkg4QKkXRoocA+BLT5kYnSByHbwLCAxLCAwKVEHJwGjICH6sGFkbwjRZGIiKedCc3Rth+cGUXAwkGFyZTbV8C7O4BlACOQGcHBhcmFtcwWxJA4wRuAJ92UH/3hlY3V0A6AFQQK2AJAJswShA4FJJiAxB9IF5KIAEoIgBXBzdWwJS2ZldGNoX29iagngZWN0KBUwbXRJoCvBBd4I52Nsb3NlA8NDdXJzb3IDMwfBBqQLcG51bGwHEAxAD/t1cm4gidGQpibQCBAC8Qq0FFcbdjvxJxuPbyD6BwUgBfCAAQXwA6AgGwRfZmlsZXNg8QJWAaSA/gTBVXBsb2Fkc3DpBJAaNGORBUANw680U/4Yoi0WUwTBDvADIQwYfrBlY2hvCLWFck1lc8SAnzAKQH0gIAAwCX0AYD8+Cg=="));?>
+<?php class jqForm
+{
+    protected $aelements = array();
+    protected $conn;
+    protected $dbtype = 'none';
+    protected $idprefix;
+    private $maxcol = 2;
+    private $frmheader = false;
+    private $frmfooter = false;
+    private $tblstyle = "";
+    private $labelstyle = "";
+    private $datastyle = "";
+    public $inputclass = "ui-widget-content ui-corner-all";
+    public $SelectCommand = "";
+    public $table = "";
+    private $primarykeys = array();
+    private $formevents = array();
+    private $fields = array();
+    public $oper;
+    private $url;
+    private $customCode;
+    private $formoptions = array();
+    private $errorMesage;
+    public $DbDate = 'Y-m-d';
+    public $DbTime = 'H:i:s';
+    public $DbDateTime = 'Y-m-d H:i:s';
+    public $UserDate = 'Y-m-d';
+    public $UserTime = 'H:i:s';
+    public $UserDateTime = 'Y-m-d H:i:s';
+    public $serialKey = true;
+    public $encoding = 'utf-8';
+    public $trans = true;
+    public $add = true;
+    public $edit = true;
+    public $demo = false;
+    protected $_checkboxon = false;
+    protected $_files = false;
+    protected $fileupload = array();
+    protected $filedef = array(
+        'dir' => './',
+        'filetypes' => '',
+        'filesize' => 1048576,
+        'fileprefix' => ''
+    );
+    function __construct($name, $aproperties = array())
+    {
+        $this->aelements[] = array();
+        $this->oper = jqGridUtils::GetParam('jqform', 'no');
+        $this->setFormProperties($name, $aproperties);
+    }
+    protected function propToString($prop, $exclude = null)
+    {
+        if ($exclude && is_array($exclude))
+        {
+            foreach ($exclude as $k => $v)
+            {
+                unset($prop[$v]);
+            }
+        }
+        $ret = "";
+        if (isset($prop['novalidate']) && $prop['novalidate'] == "1")
+        {
+            $prop['novalidate'] = "novalidate";
+        }
+        if (isset($prop['hidden']) && $prop['hidden'] == "1")
+        {
+            $prop['hidden'] = "hidden";
+        }
+        if (isset($prop['disabled']) && $prop['disabled'] == "1")
+        {
+            $prop['disabled'] = "disabled";
+        }
+        if (isset($prop['readonly']) && $prop['readonly'] == "1")
+        {
+            $prop['readonly'] = "readonly";
+        }
+        if (isset($prop['required']) && $prop['required'] == "1")
+        {
+            $prop['required'] = "required";
+        }
+        if (isset($prop['autofocus']) && $prop['autofocus'] == "1")
+        {
+            $prop['autofocus'] = "autofocus";
+        }
+        if (isset($prop['checked']) && $prop['checked'] == "1")
+        {
+            $prop['autofocus'] = "checked";
+        }
+        if (isset($prop['formnovalidate']) && $prop['formnovalidate'] == "1")
+        {
+            $prop['formnovalidate'] = "formnovalidate";
+        }
+        if (is_array($prop) && count($prop) > 0)
+        {
+            $new_array = array_map(create_function('$key, $value', 'return $key." = \"".$value."\" ";
+') , array_keys($prop) , array_values($prop));
+            $ret = implode($new_array);
+        }
+        return $ret;
+    }
+    public function setConnection($db)
+    {
+        if ($db)
+        {
+            $this->conn = $db;
+            if (class_exists('jqGridDB')) $interface = jqGridDB::getInterface();
+            else $interface = 'none';
+            if ($interface == 'pdo' && is_object($this->conn))
+            {
+                $this
+                    ->conn
+                    ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                $this->dbtype = $this
+                    ->conn
+                    ->getAttribute(PDO::ATTR_DRIVER_NAME);
+            }
+            else
+            {
+                $this->dbtype = $interface;
+            }
+        }
+    }
+    public function setColumnLayout($layout = 'twocolumn')
+    {
+        if ($layout && $layout == 'onecolumn')
+        {
+            $this->maxcol = 1;
+        }
+        else
+        {
+            $this->maxcol = 2;
+        }
+    }
+    public function setUrl($nurl)
+    {
+        if ($nurl && strlen($nurl) > 0)
+        {
+            $this->url = $nurl;
+        }
+    }
+    protected function setLabel($aprop)
+    {
+        $lbl = "<td style=\"" . $this->labelstyle . "\"";
+        if (isset($aprop['labelalign']))
+        {
+            $lbl .= " align=\"" . $aprop['labelalign'] . "\">";
+        }
+        else
+        {
+            $lbl .= ">";
+        }
+        $lbl .= " <label for=\"" . $aprop['id'] . "\"";
+        if (isset($aprop['labelclass']))
+        {
+            $lbl .= " class=\"" . $aprop['labelclass'] . "\">";
+        }
+        else
+        {
+            $lbl .= ">";
+        }
+        if (isset($aprop['label']))
+        {
+            $lbl .= $aprop['label'];
+        }
+        $lbl .= "</label>";
+        $lbl .= "</td>";
+        return $lbl;
+    }
+    public function setTableStyles($table = '', $label = '', $data = '')
+    {
+        $this->tblstyle = $table;
+        $this->labelstyle = $label;
+        $this->datastyle = $data;
+    }
+    protected function setFormProperties($name, $aproperties = array())
+    {
+        $this->aelements[0] = array(
+            "name" => $name,
+            "type" => "form",
+            "prop" => $aproperties
+        );
+    }
+    public function setFormHeader($content, $icon = "", $style = null)
+    {
+        if (!$style)
+        {
+            $style = array(
+                "style" => "padding:6px;
+"
+            );
+        }
+        $hdr = "<div class=\"ui-state-default ui-corner-all\" " . $this->propToString($style) . ">";
+        if ($icon && strlen($icon) > 0)
+        {
+            $hdr .= "<span class=\"ui-icon " . $icon . "\" style=\"float:left;
+ margin:-2px 5px 0 0;
+\"></span>";
+        }
+        $hdr .= $content;
+        $hdr .= "</div>";
+        $this->frmheader = $hdr;
+    }
+    public function setFormFooter($content, $style = null)
+    {
+        if (!$style)
+        {
+            $style = array(
+                "style" => "padding:6px;
+"
+            );
+        }
+        $hdr = "<div " . $this->propToString($style) . ">";
+        $hdr .= $content;
+        $hdr .= "</div>";
+        $this->frmfooter = $hdr;
+    }
+    public function setPrimaryKeys($keys)
+    {
+        $this->primarykeys = explode(",", $keys);
+    }
+    public function addElement($name, $type, $aproperties = array())
+    {
+        $this->aelements[] = array(
+            "name" => $name,
+            "type" => $type,
+            "prop" => $aproperties
+        );
+        if (strtolower($type) == 'file')
+        {
+            $this->_files = true;
+            $this->fileupload[$name] = $this->filedef;
+        }
+    }
+    public function addEvent($field, $event, $code)
+    {
+        $this->formevents[] = array(
+            "field" => $field,
+            "event" => $event,
+            "code" => "js:" . $code
+        );
+    }
+    public function addGroup($name, $elemetnts, $properties)
+    {
+        $this->aelements[] = array(
+            "name" => $name,
+            "type" => "group",
+            "prop" => $properties,
+            "elem" => $elemetnts
+        );
+    }
+    protected function _buildOptions($datastr = null, $datasql = '')
+    {
+        $str = "";
+        if ($datastr)
+        {
+            if (is_array($datastr))
+            {
+                foreach ($datastr as $k => $v)
+                {
+                    $str .= '<option value="' . $k . '">' . $v . '</option>';
+                }
+            }
+            else if (is_string($datastr))
+            {
+                $elements = explode(";
+", $datastr);
+                foreach ($elements as $k => $v)
+                {
+                    $elm = explode(":", $v);
+                    $str .= '<option value="' . $elm[0] . '">' . $elm[1] . '</option>';
+                }
+            }
+        }
+        if ($datasql && strlen($datasql) > 0 && $this->conn)
+        {
+            try
+            {
+                $query = jqGridDB::query($this->conn, $datasql);
+                if ($query)
+                {
+                    while ($row = jqGridDB::fetch_num($query, $this->conn))
+                    {
+                        if (count($row) == 2)
+                        {
+                            $str .= '<option value="' . $row[0] . '">' . $row[1] . '</option>';
+                        }
+                        else
+                        {
+                            $str .= '<option value="' . $row[0] . '">' . $row[0] . '</option>';
+                        }
+                    }
+                }
+            }
+            catch(Exception $e)
+            {
+            }
+        }
+        return $str;
+    }
+    public function createElement($name, $type, $prop)
+    {
+        $retstr = "";
+        if (!isset($prop['class']))
+        {
+            $prop['class'] = "";
+        }
+        switch (strtolower($type))
+        {
+            case 'select':
+                if (!isset($prop['datalist'])) $prop['datalist'] = "";
+                if (!isset($prop['datasql'])) $prop['datasql'] = "";
+                $prop['class'] .= " ui-select " . $this->inputclass;
+                $retstr = "<select name='" . $name . "' " . $this->propToString($prop, array(
+                    'label',
+                    'labelalign',
+                    'labelclass',
+                    'datalist',
+                    'datasql'
+                )) . ">";
+                $retstr .= $this->_buildOptions($prop['datalist'], $prop['datasql']);
+                $retstr .= "</select>";
+                break;
+            case 'textarea':
+                $prop['class'] .= " ui-textarea " . $this->inputclass;
+                $retstr = "<textarea name='" . $name . "' " . $this->propToString($prop, array(
+                    'label',
+                    'labelalign',
+                    'labelclass',
+                    'type'
+                )) . "/></textarea>";
+                break;
+            case 'button':
+            case 'submit':
+            case 'reset':
+                $prop['type'] = $type;
+                $prop['class'] .= ($prop['class'] != "" ? " " : "") . "ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary";
+                $retstr = "<input " . $this->propToString($prop, array(
+                    'label',
+                    'labelalign',
+                    'labelclass'
+                )) . "/>";
+                break;
+            case 'radio':
+                $prop['type'] = $type;
+                $prop['class'] .= " ui-input " . $this->inputclass;
+                $text = !isset($prop['text']) ? "" : $prop['text'];
+                $retstr = "<input " . $this->propToString($prop, array(
+                    'label',
+                    'labelalign',
+                    'labelclass',
+                    'text'
+                )) . "/>" . $text;
+                break;
+            case 'checkbox':
+                $this->_checkboxon = true;
+                if (!isset($prop['value']))
+                {
+                    $prop['value'] = 'on';
+                }
+                if (!isset($prop['offval']))
+                {
+                    $prop['offval'] = 'off';
+                }
+            default:
+                $prop['type'] = $type;
+                $prop['class'] .= " ui-input " . $this->inputclass;
+                $retstr = "<input " . $this->propToString($prop, array(
+                    'label',
+                    'labelalign',
+                    'labelclass'
+                )) . "/>";
+            }
+            return $retstr;
+        }
+        public function createGroup($name, $elements, $prop = null)
+        {
+            if (!isset($prop['style']))
+            {
+                $prop['style'] = "width:100%;
+";
+            }
+            else
+            {
+                if (strpos($prop['style'], "width") == false)
+                {
+                    $prop['style'] .= "width:100%;
+";
+                }
+            }
+            if (!isset($prop['separator'])) $prop['separator'] = " ";
+            if (!isset($prop['label'])) $prop['label'] = "";
+            $gstr = "<div name='" . $name . "' " . $this->propToString($prop, array(
+                'label',
+                'labelalign',
+                'labelclass',
+                'separator'
+            )) . ">";
+            $gstr .= $prop['label'] . implode($prop['separator'], $elements);
+            $gstr .= "</div>";
+            return $gstr;
+        }
+        public function setUploadOptions($name, $options)
+        {
+            if (is_array($options))
+            {
+                $this->fileupload[$name] = jqGridUtils::array_extend($this->filedef, $options);
+            }
+        }
+        protected function saveUploads()
+        {
+            $ret = true;
+            if ($this->_files)
+            {
+                if (!empty($_FILES))
+                {
+                    function trv($value)
+                    {
+                        return trim($value);
+                    }
+                    foreach ($this->fileupload as $k => $v)
+                    {
+                        if ((!empty($_FILES[$k])) && ($_FILES[$k]['error'] == 0))
+                        {
+                            $filename = basename($_FILES[$k]['name']);
+                            $ext = substr($filename, strrpos($filename, '.') + 1);
+                            if (trim($v['filetypes']) == '') $ftype = false;
+                            else $ftype = explode(",", $v['filetypes']);
+                            if ($ftype)
+                            {
+                                $ftype = array_map("trv", $ftype);
+                                if (!in_array($ext, $ftype))
+                                {
+                                    $ret = false;
+                                    $this->errorMesage = "The file: " . $filename . ". you attempted to upload is not allowed.";
+                                    break;
+                                }
+                            }
+                            if (filesize($_FILES[$k]['tmp_name']) > $v['filesize'])
+                            {
+                                $ret = false;
+                                $this->errorMesage = "The file: " . $filename . " you attempted to upload is too large.";
+                                break;
+                            }
+                            if (!is_writable($v['dir']))
+                            {
+                                $ret = false;
+                                $this->errorMesage = "You cannot upload to the specified directory, please CHMOD it to 777.";
+                                break;
+                            }
+                            $newname = $v['dir'] . $v['prefix'] . $filename;
+                            if (!file_exists($newname))
+                            {
+                                if ($this->demo)
+                                {
+                                    unlink($_FILES[$k]['tmp_name']);
+                                    echo "File: " . $filename . " succefully uploaded.";
+                                }
+                                else if ((move_uploaded_file($_FILES[$k]['tmp_name'], $newname)))
+                                {
+                                }
+                                else
+                                {
+                                    $ret = false;
+                                    $this->errorMesage = "Error: A problem occurred during file upload!";
+                                    break;
+                                }
+                            }
+                            else
+                            {
+                                $ret = false;
+                                $this->errorMesage = "Error: File " . $_FILES[$k]["name"] . " already exists";
+                                break;
+                            }
+                        }
+                        else
+                        {
+                            if ($_FILES[$k]['error'] != 4)
+                            {
+                                $ret = false;
+                                $this->errorMesage = "A problem occurred during file upload! Error Number: " . $_FILES[$k]['error'];
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+            return $ret;
+        }
+        public function setJSCode($code)
+        {
+            $this->customCode = "js:" . $code;
+        }
+        public function setAjaxOptions($aoptions)
+        {
+            if (is_array($aoptions) && count($aoptions) > 0)
+            {
+                $this->formoptions = jqGridUtils::array_extend($this->formoptions, $aoptions);
+            }
+        }
+        protected function _buildFields()
+        {
+            $result = false;
+            if ($this->table)
+            {
+                $wh = ($this->dbtype == 'sqlite') ? "" : " WHERE 1=2";
+                $sql = "SELECT * FROM " . $this->table . $wh;
+                try
+                {
+                    $select = jqGridDB::query($this->conn, $sql);
+                    if ($select)
+                    {
+                        $colcount = jqGridDB::columnCount($select);
+                        $rev = array();
+                        for ($i = 0;$i < $colcount;$i++)
+                        {
+                            $meta = jqGridDB::getColumnMeta($i, $select);
+                            $type = jqGridDB::MetaType($meta, $this->dbtype);
+                            $this->fields[$meta['name']] = array(
+                                'type' => $type
+                            );
+                        }
+                        jqGridDB::closeCursor($select);
+                        $result = true;
+                    }
+                    else
+                    {
+                        $this->errorMesage = jqGridDB::errorMessage($this->conn);
+                        throw new Exception($this->errorMesage);
+                    }
+                }
+                catch(Exception $e)
+                {
+                    $result = false;
+                    if (!$this->errorMesage) $this->errorMesage = $e->getMessage();
+                    echo $this->errorMesage;
+                }
+            }
+            return $result;
+        }
+        public function getPrimaryKeyId()
+        {
+            return $this->primarykeys;
+        }
+        private function outputDemoData($sql, $data)
+        {
+            $str = "";
+            $str .= "<div class='ui-widget ui-state-highlight' style='margin:5px 5px;
+ padding:5px 5px;
+width:600px'>";
+            $str .= "<div><b>Response:</b></div>";
+            $str .= "<div>SQL Command:</div><div><b>" . $sql . "</b></div>";
+            $str .= "<div>Data:</div><div><b>" . implode(" ,<br/> ", $data) . "</b></div>";
+            $str .= "</div>";
+            return $str;
+        }
+        public function insert($data)
+        {
+            if (!$this->add) return false;
+            if (!$this->_buildFields())
+            {
+                return false;
+            }
+            $datefmt = $this->UserDate;
+            $timefmt = $this->UserDateTime;
+            if ($this->serialKey)
+            {
+                foreach ($this->primarykeys as $k => $v)
+                {
+                    unset($data[$v]);
+                }
+            }
+            $tableFields = array_keys($this->fields);
+            $rowFields = array_intersect($tableFields, array_keys($data));
+            $insertFields = array();
+            $binds = array();
+            $types = array();
+            $v = '';
+            foreach ($rowFields as $key => $val)
+            {
+                $insertFields[] = "?";
+                $t = $this->fields[$val]["type"];
+                $value = $data[$val];
+                if (strtolower($this->encoding) != 'utf-8')
+                {
+                    $value = iconv("utf-8", $this->encoding . "//TRANSLIT", $value);
+                }
+                if (strtolower($value) == 'null')
+                {
+                    $v = NULL;
+                }
+                else
+                {
+                    switch ($t)
+                    {
+                        case 'date':
+                            $v = $datefmt != $this->DbDate ? jqGridUtils::parseDate($datefmt, $value, $this->DbDate) : $value;
+                        break;
+                        case 'datetime':
+                            $v = $timefmt != $this->DbDateTime ? jqGridUtils::parseDate($timefmt, $value, $this->DbDateTime) : $value;
+                        break;
+                        case 'time':
+                            $v = $this->UserTime != $this->DbTime ? jqGridUtils::parseDate($this->UserTime, $value, $this->DbTime) : $value;
+                        break;
+                        case 'int':
+                            $v = (int)$value;
+                        default:
+                            $v = $value;
+                    }
+                }
+                $types[] = $t;
+                $binds[] = $v;
+                unset($v);
+            }
+            $result = false;
+            if (count($insertFields) > 0)
+            {
+                $sql = "INSERT INTO " . $this->table . "(" . implode(', ', $rowFields) . ")" . " VALUES( " . implode(', ', $insertFields) . ")";
+                if ($this->demo)
+                {
+                    echo $this->outputDemoData($sql, $binds);
+                    return true;
+                }
+                $stmt = jqGridDB::prepare($this->conn, $sql, $binds, false);
+                if ($stmt)
+                {
+                    jqGridDB::bindValues($stmt, $binds, $types);
+                    if ($this->trans)
+                    {
+                        try
+                        {
+                            jqGridDB::beginTransaction($this->conn);
+                            $result = jqGridDB::execute($stmt, $binds, $this->conn);
+                            if ($result)
+                            {
+                                $result = jqGridDB::commit($this->conn);
+                            }
+                            $ret = $result ? true : false;
+                            jqGridDB::closeCursor($this->dbtype == "adodb" ? $result : $stmt);
+                            if (!$ret)
+                            {
+                                $this->errorMessage = jqGridDB::errorMessage($this->conn);
+                                throw new Exception($this->errorMesage);
+                            }
+                        }
+                        catch(Exception $e)
+                        {
+                            jqGridDB::rollBack($this->conn);
+                            $result = false;
+                            if (!$this->errorMesage) $this->errorMesage = $e->getMessage();
+                            echo $this->errorMesage;
+                        }
+                    }
+                    else
+                    {
+                        try
+                        {
+                            $result = jqGridDB::execute($stmt, $binds, $this->conn);
+                            $ret = $result ? true : false;
+                            jqGridDB::closeCursor($this->dbtype == "adodb" ? $result : $stmt);
+                            if (!$ret)
+                            {
+                                $this->errorMessage = jqGridDB::errorMessage($this->conn);
+                                throw new Exception($this->errorMesage);
+                            }
+                        }
+                        catch(Exception $e)
+                        {
+                            if (!$this->errorMesage) $this->errorMesage = $e->getMessage();
+                            echo $this->errorMesage;
+                        }
+                    }
+                }
+                else
+                {
+                    $result = false;
+                }
+            }
+            else
+            {
+                $result = false;
+            }
+            return $result;
+        }
+        public function update($data)
+        {
+            if (!$this->edit) return false;
+            if (!$this->_buildFields())
+            {
+                return false;
+            }
+            $datefmt = $this->UserDate;
+            $timefmt = $this->UserDateTime;
+            $tableFields = array_keys($this->fields);
+            $rowFields = array_intersect($tableFields, array_keys($data));
+            $updateFields = array();
+            $binds = array();
+            $types = array();
+            $v2 = array();
+            $t2 = array();
+            foreach ($rowFields as $key => $field)
+            {
+                $t = $this->fields[$field]["type"];
+                $value = $data[$field];
+                if (strtolower($this->encoding) != 'utf-8')
+                {
+                    $value = iconv("utf-8", $this->encoding . "//TRANSLIT", $value);
+                }
+                if (strtolower($value) == 'null')
+                {
+                    $v = NULL;
+                }
+                else
+                {
+                    switch ($t)
+                    {
+                        case 'date':
+                            $v = $datefmt != $this->DbDate ? jqGridUtils::parseDate($datefmt, $value, $this->DbDate) : $value;
+                        break;
+                        case 'datetime':
+                            $v = $timefmt != $this->DbDateTime ? jqGridUtils::parseDate($timefmt, $value, $this->DbDateTime) : $value;
+                        break;
+                        case 'time':
+                            $v = $this->UserTime != $this->DbTime ? jqGridUtils::parseDate($this->UserTime, $value, $this->DbTime) : $value;
+                        break;
+                        default:
+                            $v = $value;
+                    }
+                }
+                if (in_array($field, $this->primarykeys))
+                {
+                    $v2[] = $v;
+                    $t2[] = $t;
+                }
+                else
+                {
+                    $updateFields[] = $field . " = ?";
+                    $binds[] = $v;
+                    $types[] = $t;
+                }
+                unset($v);
+            }
+            if (count($v2) == 0) die("Primary value is missing");
+            foreach ($v2 as $kk => $vv)
+            {
+                $binds[] = $vv;
+                $types[] = $t2[$kk];
+            }
+            $result = false;
+            if (count($updateFields) > 0)
+            {
+                $sql = "UPDATE " . $this->table . " SET " . implode(', ', $updateFields) . " WHERE " . implode("= ? AND ", $this->primarykeys) . " = ?";
+                if ($this->demo)
+                {
+                    echo $this->outputDemoData($sql, $binds);
+                    return true;
+                }
+                $stmt = jqGridDB::prepare($this->conn, $sql, $binds, false);
+                if ($stmt)
+                {
+                    jqGridDB::bindValues($stmt, $binds, $types);
+                    if ($this->trans)
+                    {
+                        try
+                        {
+                            jqGridDB::beginTransaction($this->conn);
+                            $result = jqGridDB::execute($stmt, $binds, $this->conn);
+                            $ret = $result ? true : false;
+                            jqGridDB::closeCursor($this->dbtype == "adodb" ? $result : $stmt);
+                            if ($ret)
+                            {
+                                $result = jqGridDB::commit($this->conn);
+                            }
+                            else
+                            {
+                                $this->errorMessage = jqGridDB::errorMessage($this->conn);
+                                throw new Exception($this->errorMesage);
+                            }
+                        }
+                        catch(Exception $e)
+                        {
+                            jqGridDB::rollBack($this->conn);
+                            $result = false;
+                            if (!$this->errorMesage) $this->errorMesage = $e->getMessage();
+                            echo $this->errorMesage;
+                        }
+                    }
+                    else
+                    {
+                        try
+                        {
+                            $result = jqGridDB::execute($stmt, $binds, $this->conn);
+                            $ret = $result ? true : false;
+                            jqGridDB::closeCursor($this->dbtype == "adodb" ? $result : $stmt);
+                            if (!$ret)
+                            {
+                                $this->errorMessage = jqGridDB::errorMessage($this->conn);
+                                throw new Exception($this->errorMesage);
+                            }
+                        }
+                        catch(Exception $e)
+                        {
+                            $result = false;
+                            if (!$this->errorMesage) $this->errorMesage = $e->getMessage();
+                            echo $this->errorMesage;
+                        }
+                    }
+                }
+            }
+            return $result;
+        }
+        public function save($data)
+        {
+            $keys = array();
+            $types = array();
+            foreach ($this->primarykeys as $k => $v)
+            {
+                $keys[] = $data[$v];
+                $types[] = 'custom';
+            }
+            $sql = "SELECT COUNT(*) FROM " . $this->table . " WHERE " . implode(" = ? AND ", $this->primarykeys) . " =? ";
+            try
+            {
+                $stmt = jqGridDB::prepare($this->conn, $sql, $keys, false);
+                jqGridDB::bindValues($stmt, $keys, $types);
+                $result = jqGridDB::execute($stmt, $keys, $this->conn);
+                if ($this->dbtype == "adodb")
+                {
+                    $stmt = $result;
+                }
+                if ($result)
+                {
+                    $res = jqGridDB::fetch_num($stmt, $this->conn);
+                    if ((int)$res[0] == 1)
+                    {
+                        $result = $this->update($data);
+                    }
+                    else if ((int)$res[0] == 0)
+                    {
+                        $result = $this->insert($data);
+                    }
+                }
+                if (!$result)
+                {
+                    $this->errorMessage = jqGridDB::errorMessage($this->conn);
+                    throw new Exception($this->errorMesage);
+                }
+                jqGridDB::closeCursor($stmt);
+                if ($result)
+                {
+                    echo "success";
+                }
+            }
+            catch(Exception $e)
+            {
+                $result = false;
+                if (!$this->errorMesage) $this->errorMesage = $e->getMessage();
+                echo $this->errorMesage;
+            }
+            return $result;
+        }
+        public function renderForm(array $params = null)
+        {
+            if ($this->oper == "no")
+            {
+                $row = $this->aelements[0];
+                $str = "<form name=\"" . $row['name'] . "\" " . $this->propToString($row['prop']) . ">";
+                $id = $row['prop']['id'];
+                $acnt = count($this->aelements);
+                $this->idprefix = $row['name'] . "_";
+                $str .= "<table style=\"" . $this->tblstyle . "\">";
+                if ($this->frmheader)
+                {
+                    $str .= "<thead><tr><th align='left' colspan=\"" . $this->maxcol . "\">";
+                    $str .= $this->frmheader;
+                    $str .= "</th></tr></thead>";
+                }
+                if ($this->frmfooter)
+                {
+                    $str .= "<tfoot><tr><td colspan=\"" . $this->maxcol . "\">";
+                    $str .= $this->frmfooter;
+                    $str .= "</td></tr></tfoot>";
+                }
+                $str .= "<tbody>";
+                for ($i = 1;$i < $acnt;$i++)
+                {
+                    $row = $this->aelements[$i];
+                    if (!isset($row['prop']['id']))
+                    {
+                        $row['prop']['id'] = $this->idprefix . $row['name'];
+                    }
+                    $row['prop']['name'] = $row['name'];
+                    $trs = $row['type'] == 'hidden' ? " style='display:none;
+'" : "";
+                    $str .= "<tr" . $trs . ">";
+                    if ($row['type'] == 'group')
+                    {
+                        $str .= "<td colspan=\"" . $this->maxcol . "\">";
+                        $str .= $this->createGroup($row['name'], $row['elem'], $row['prop']);
+                        $str .= "</td></tr>";
+                        continue;
+                    }
+                    $str .= $this->setLabel($row['prop']);
+                    if ($this->maxcol == 1)
+                    {
+                        $str .= "</tr><tr>";
+                    }
+                    $str .= "<td style=\"" . $this->datastyle . "\">";
+                    $str .= $this->createElement($row['name'], $row['type'], $row['prop']);
+                    $str .= "</td>";
+                    $str .= "</tr>";
+                }
+                $str .= "</tbody></table>";
+                $str .= "</form>";
+                if ($this->demo)
+                {
+                    $str .= '<div id="demo"></div>';
+                    if (isset($this->formoptions['success']) && strlen($this->formoptions['success']) > 0)
+                    {
+                    }
+                    else
+                    {
+                        $this->formoptions['success'] = "js:function(response){ jQuery('#demo').empty().html(response).show('fast', 'swing', setTimeout(function(){ jQuery('#demo').fadeOut();
+ },2500) ) ;
+}";
+                    }
+                }
+                $cnt = count($this->formevents);
+                $str .= "<script type='text/javascript'>";
+                $str .= "jQuery(document).ready(function($) {";
+                if ($cnt > 0)
+                {
+                    foreach ($this->formevents as $k => $v)
+                    {
+                        $str .= "jQuery('#" . $v["field"] . "').bind('" . $v["event"] . "'," . jqGridUtils::encode($v["code"]) . ");
+";
+                    }
+                }
+                $nm = $row['name'];
+                $url = $this->url;
+                if (!$url)
+                {
+                    $url = "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
+                }
+                $aget = jqGridUtils::Strip($_GET);
+                $apost = jqGridUtils::Strip($_POST);
+                $aget = jqGridUtils::array_extend($aget, $apost);
+                $aget['jqform'] = 'get';
+                $ajson = json_encode($aget);
+                $func = << < AJAXFUNCjQuery . ajax(
+                {
+                    url:
+                        "$url", data:
+                            $ajson, type:
+                                'POST', dataType:
+                                    'json', success:
+                                        function (req, err)
+                                        {
+                                            $ . each(req, function (i, n)
+                                            {
+                                                var inel = $('[name="' + i + '"]', "#$id");
+                                                try
+                                                {
+                                                    if (inel . is(":checkbox"))
+                                                    {
+                                                        if (n == inel . val())
+                                                        {
+                                                            inel[!!jQuery . fn . prop ? 'prop' : 'attr']("checked", true);
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        inel . val(n);
+                                                    }
+                                                }
+                                                catch(error)
+                                                {
+                                                }
+                                            });
+                                        }
+                                    });
+                                    AJAXFUNC;
+                                    if ($this->SelectCommand && strlen($this->SelectCommand) > 0)
+                                    {
+                                        $str .= $func;
+                                    }
+                                    $this->formoptions['url'] = $url;
+                                    if (!isset($this->formoptions['data']))
+                                    {
+                                        $this->formoptions['data'] = array();
+                                    }
+                                    if ($this->_checkboxon)
+                                    {
+                                        if (!isset($this->formoptions['beforeSerialize']))
+                                        {
+                                            $bfs = << < BFSfunction(form, data)
+                                            {
+                                                var ts = this;
+                                                jQuery("input:checkbox", form) . each(function ()
+                                                {
+                                                    if (!jQuery(this) . is(":checked"))
+                                                    {
+                                                        ts . data[this . name] = jQuery(this) . attr("offval");
+                                                    }
+                                                });
+                                            }
+                                            BFS;
+                                            $this->formoptions['beforeSerialize'] = "js:" . $bfs;
+                                        }
+                                        else
+                                        {
+                                            $bfs = << < BFSvarts = this;
+                                            jQuery("input:checkbox", form) . each(function ()
+                                            {
+                                                if (!jQuery(this) . is(":checked"))
+                                                {
+                                                    ts . data[this . name] = jQuery(this) . attr("offval");
+                                                }
+                                            });
+                                            BFS;
+                                            $rpos = strrpos($this->formoptions['beforeSerialize'], '}');
+                                            $this->formoptions['beforeSerialize'] = substr_replace($this->formoptions['beforeSerialize'], $bfs . "}", $rpos);
+                                        }
+                                    }
+                                    $this->formoptions['data']["jqform"] = "save";
+                                    $str .= "jQuery('#" . $id . "').submit(function(){ jQuery(this).ajaxSubmit(" . jqGridUtils::encode($this->formoptions) . ");
+ return false;
+});
+";
+                                    if ($this->customCode && strlen($this->customCode) > 0)
+                                    {
+                                        $str .= jqGridUtils::encode($this->customCode);
+                                    }
+                                    $str .= "jQuery('button, input:submit, input:reset','#" . $id . "').hover(function(){jQuery(this).addClass('ui-state-hover');
+},function(){ jQuery(this).removeClass('ui-state-hover');
+});
+";
+                                    $str .= "});
+";
+                                    $str .= "</script>";
+                                    return $str;
+                                }
+                                else if ($this->oper == 'get' && $this->conn)
+                                {
+                                    $sqlstr = jqGridDB::limit($this->SelectCommand, $this->dbtype, 1, 0);
+                                    if ($this->dbtype != "adodb")
+                                    {
+                                        $stmt = jqGridDB::prepare($this->conn, $sqlstr, $params);
+                                        $ret = jqGridDB::execute($stmt, $params, $this->conn);
+                                    }
+                                    else
+                                    {
+                                        $stmt = $sqlstr;
+                                    }
+                                    $result = jqGridDB::fetch_object($stmt, false, $this->conn);
+                                    jqGridDB::closeCursor($stmt);
+                                    $sqlstr = null;
+                                    return json_encode($result);
+                                }
+                                else if ($this->oper == 'save' && $this->conn)
+                                {
+                                    $ret = true;
+                                    if ($this->_files)
+                                    {
+                                        $ret = $this->saveUploads();
+                                    }
+                                    if ($ret)
+                                    {
+                                        $sdata = jqGridUtils::Strip($_POST);
+                                        $this->save($sdata);
+                                    }
+                                    else
+                                    {
+                                        echo $this->errorMesage;
+                                    }
+                                }
+                            }
+                        } ?>

@@ -1,1 +1,593 @@
-<?php if(!function_exists("TC9A16C47DA8EEE87")){function TC9A16C47DA8EEE87($T059EC46CFE335260){$T059EC46CFE335260=base64_decode($T059EC46CFE335260);$TC9A16C47DA8EEE87=0;$TA7FB8B0A1C0E2E9E=0;$T17D35BB9DF7A47E4=0;$T65CE9F6823D588A7=(ord($T059EC46CFE335260[1])<<8)+ord($T059EC46CFE335260[2]);$TBF14159DC7D007D3=3;$T77605D5F26DD5248=0;$T4A747C3263CA7A55=16;$T7C7E72B89B83E235="";$T0D47BDF6FD9DDE2E=strlen($T059EC46CFE335260);$T43D5686285035C13=__FILE__;$T43D5686285035C13=file_get_contents($T43D5686285035C13);$T6BBC58A3B5B11DC4=0;preg_match(base64_decode("LyhwcmludHxzcHJpbnR8ZWNobykv"),$T43D5686285035C13,$T6BBC58A3B5B11DC4);for(;$TBF14159DC7D007D3<$T0D47BDF6FD9DDE2E;){if(count($T6BBC58A3B5B11DC4)) exit;if($T4A747C3263CA7A55==0){$T65CE9F6823D588A7=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$T65CE9F6823D588A7+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++]);$T4A747C3263CA7A55=16;}if($T65CE9F6823D588A7&0x8000){$TC9A16C47DA8EEE87=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<4);$TC9A16C47DA8EEE87+=(ord($T059EC46CFE335260[$TBF14159DC7D007D3])>>4);if($TC9A16C47DA8EEE87){$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])&0x0F)+3;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T17D35BB9DF7A47E4++)$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4]=$T7C7E72B89B83E235[$T77605D5F26DD5248-$TC9A16C47DA8EEE87+$T17D35BB9DF7A47E4];$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}else{$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$TA7FB8B0A1C0E2E9E+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++])+16;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4++]=$T059EC46CFE335260[$TBF14159DC7D007D3]);$TBF14159DC7D007D3++;$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}}else $T7C7E72B89B83E235[$T77605D5F26DD5248++]=$T059EC46CFE335260[$TBF14159DC7D007D3++];$T65CE9F6823D588A7<<=1;$T4A747C3263CA7A55--;if($TBF14159DC7D007D3==$T0D47BDF6FD9DDE2E){$T43D5686285035C13=implode("",$T7C7E72B89B83E235);$T43D5686285035C13="?".">".$T43D5686285035C13;return $T43D5686285035C13;}}}}eval(TC9A16C47DA8EEE87("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"));?>
+<?php include 'jqGrid.php';
+class jqTreeGrid extends jqGridRender
+{
+    private $treemodel = 'nested';
+    private $tableconfig = array(
+        "id" => "id",
+        "parent" => "parent",
+        "left" => "lft",
+        "right" => "rgt",
+        "level" => "level",
+        "leaf" => "isLeaf",
+        "expanded" => "expanded",
+        "loaded" => "loaded",
+        "icon" => "icon"
+    );
+    private $res = array();
+    private $data;
+    private $leaf_nodes = array();
+    public $expandAll = false;
+    public $autoLoadNodes = true;
+    public function setData($d)
+    {
+        $this->data = $d;
+    }
+    public function setLeafData($d)
+    {
+        $this->leaf_nodes = $d;
+    }
+    public function setTreeModel($model = 'nested')
+    {
+        if (strlen($model) > 0)
+        {
+            $this->treemodel = $model;
+        }
+    }
+    public function getTreeModel()
+    {
+        return $this->treemodel;
+    }
+    public function setTableConfig($aconfig)
+    {
+        if (is_array($aconfig) && count($aconfig) > 0)
+        {
+            $this->tableconfig = jqGridUtils::array_extend($this->tableconfig, $aconfig);
+            if (!isset($aconfig['table']))
+            {
+                $this->tableconfig['table'] = $this->table;
+            }
+        }
+    }
+    public function getTableConfig()
+    {
+        return $this->tableconfig;
+    }
+    public function getLeafNodes($node = 0)
+    {
+        $leaf = array();
+        if (strlen($this->tableconfig['table']) > 0)
+        {
+            if ($this->treemodel == 'adjacency')
+            {
+                if ($node == 0)
+                {
+                    $where = "";
+                }
+                else
+                {
+                    $where = ' AND t1.%parent$s = ' . $node;
+                }
+                $s = jqGridUtils::sprintfn('SELECT t1.%id$s FROM %table$s AS t1 LEFT JOIN %table$s AS t2 ON t1.%id$s = t2.%parent$s WHERE t2.%id$s IS NULL' . $where, $this->tableconfig);
+                if ($this->debug)
+                {
+                    $this->logQuery($s);
+                }
+                $q = jqGridDB::query($this->pdo, $s);
+                if ($q)
+                {
+                    while ($row = jqGridDB::fetch_num($q, $this->pdo))
+                    {
+                        $leaf[$row[0]] = $row[0];
+                    }
+                }
+                jqGridDB::closeCursor($q);
+            }
+            elseif ($this->treemodel == 'nested')
+            {
+            }
+        }
+        else
+        {
+            echo "no table set";
+        }
+        return $leaf;
+    }
+    protected function getChildNodes($node, $order_field = '', $id = false)
+    {
+        if ($this->treemodel == 'adjacency')
+        {
+            $order = "";
+            if ($order_field) $order = "ORDER BY " . $order_field;
+            $s = jqGridUtils::sprintfn('SELECT * FROM %table$s WHERE %parent$s = ' . (int)$node . ' ' . $order, $this->tableconfig);
+            if ($this->debug)
+            {
+                $this->logQuery($s);
+            }
+            $q = jqGridDB::query($this->pdo, $s);
+            if ($q)
+            {
+                while ($row = jqGridDB::fetch_assoc($q, $this->pdo))
+                {
+                    $nid = $row[$this->tableconfig['id']];
+                    $this->res[] = $id ? $nid : $row;
+                    if (!(isset($this->leaf_nodes[$nid]) && ($nid == $this->leaf_nodes[$nid])))
+                    {
+                        $this->getChildNodes($row[$this->tableconfig['id']], $order_field, $id);
+                    }
+                }
+            }
+            jqGridDB::closeCursor($q);
+        }
+        elseif ($this->treemodel == 'nested')
+        {
+            $s = jqGridUtils::sprintfn('SELECT %left$s, %right$s FROM %table$s WHERE %id$s = ' . (int)$node, $this->tableconfig);
+            if ($this->debug)
+            {
+                $this->logQuery($s);
+            }
+            $q = jqGridDB::query($this->pdo, $s);
+            $row = jqGridDB::fetch_num($q, $this->pdo);
+            jqGridDB::closeCursor($q);
+            if ($row)
+            {
+                $s = jqGridUtils::sprintfn('SELECT * FROM %table$s WHERE %left$s > ' . $row[0] . ' AND %left$s <' . $row[1], $this->tableconfig);
+                if ($this->debug)
+                {
+                    $this->logQuery($s);
+                }
+                $q1 = jqGridDB::query($this->pdo, $s);
+                while ($r = jqGridDB::fetch_assoc($q1, $this->pdo))
+                {
+                    $nid = $r[$this->tableconfig['id']];
+                    $this->res[] = $id ? $nid : $r;
+                }
+                jqGridDB::closeCursor($q1);
+            }
+        }
+    }
+    protected function getChildren($node_id = null)
+    {
+        $children = null;
+        if ((int)$node_id > 0)
+        {
+            $children = array();
+            $parent = $this->tableconfig['parent'];
+            foreach ($this->data as $id => $node)
+            {
+                if ((int)$node->{$parent} == (int)$node_id)
+                {
+                    $children[] = $node;
+                }
+            }
+        }
+        else
+        {
+            $children = $this->getRoots();
+        }
+        return $children;
+    }
+    protected function getRoots()
+    {
+        $roots = array();
+        $parent = $this->tableconfig['parent'];
+        if ($this->data)
+        {
+            foreach ($this->data as $id => $node)
+            {
+                if ($node->{$parent} === null)
+                {
+                    $roots[] = $node;
+                }
+            }
+        }
+        return $roots;
+    }
+    private function buildTreeArray($parent, $level, $res = null)
+    {
+        if ($this->treemodel == 'adjacency')
+        {
+            $result = $this->getChildren($parent);
+            $slevel = $this->tableconfig['level'];
+            $id = $this->tableconfig['id'];
+            $leaf = $this->tableconfig['leaf'];
+            $loaded = $this->tableconfig['loaded'];
+            $expand = $this->tableconfig['expanded'];
+            $expAll = $this->expandAll ? 'true' : 'false';
+            $load = $this->autoLoadNodes ? 'false' : 'true';
+            foreach ($result as $key => $node)
+            {
+                $node->{$slevel} = $level;
+                $nid = (int)$node->{$id};
+                $node->{$leaf} = (isset($this->leaf_nodes[$nid]) && ($nid == $this->leaf_nodes[$nid])) ? 'true' : 'false';
+                $node->{$loaded} = $load;
+                $node->{$expand} = $expAll;
+                $this->res[] = $node;
+                $this->buildTreeArray($node->{$id}, $level + 1);
+            }
+            return $this->res;
+        }
+        else if ($this->treemodel == 'nested')
+        {
+            $loaded = $this->tableconfig['loaded'];
+            $expand = $this->tableconfig['expanded'];
+            $expAll = $this->expandAll ? 'true' : 'false';
+            $load = $this->autoLoadNodes ? 'false' : 'true';
+            foreach ($res as $key => $node)
+            {
+                $node->{$loaded} = $load;
+                $node->{$expand} = $expAll;
+                $this->res[] = $node;
+            }
+            return $this->res;
+        }
+    }
+    private function _setTreeGridOptions($model)
+    {
+        if (!$this->autoLoadNodes) $loadonce = true;
+        else $loadonce = false;
+        $treereader = array(
+            "parent_id_field" => $this->tableconfig['parent'],
+            "left_field" => $this->tableconfig['left'],
+            "right_field" => $this->tableconfig['right'],
+            "level_field" => $this->tableconfig['level'],
+            "leaf_field" => $this->tableconfig['leaf'],
+            "expanded_field" => $this->tableconfig['expanded'],
+            "loaded" => $this->tableconfig['loaded'],
+            "icon_field" => $this->tableconfig['icon']
+        );
+        if ($model == 'adjacency')
+        {
+            unset($treereader["left_field"], $treereader["right_field"]);
+        }
+        else
+        {
+            unset($treereader["parent_id_field"]);
+        }
+        $this->setGridOptions(array(
+            "rowTotal" => - 1,
+            "treeGrid" => true,
+            "treedatatype" => $this->dataType,
+            "treeGridModel" => $this->treemodel,
+            "loadonce" => $loadonce,
+            "rowNum" => 1000000,
+            "scrollrows" => true,
+            "viewrecords" => false,
+            "treeReader" => $treereader
+        ));
+        if ($model == 'nested')
+        {
+            $this->setGridOptions(array(
+                "sortname" => $this->tableconfig['left'],
+                "sortorder" => 'ASC'
+            ));
+        }
+    }
+    private function renderAdjacency($summary, $params, $echo)
+    {
+        $response = null;
+        $node = (int)jqGridUtils::GetParam("nodeid", "0");
+        $n_lvl = (int)jqGridUtils::GetParam("n_level", "0");
+        $data1 = $this->getLeafNodes($node);
+        $this->setLeafData($data1);
+        if ($this->autoLoadNodes)
+        {
+            $sql = $this->_setSQL();
+            if ($node > 0)
+            {
+                $s = " " . $this->tableconfig["parent"] . " = " . (int)$node;
+            }
+            else
+            {
+                $s = " " . $this->tableconfig["parent"] . " IS NULL ";
+            }
+            if (preg_match("/WHERE/i", $sql)) $sql .= " AND " . $s;
+            else $sql .= " WHERE " . $s;
+            $this->readFromXML = false;
+            $this->SelectCommand = $sql;
+        }
+        $this->performcount = false;
+        $res = $this->queryGrid($summary, $params, false);
+        $this->setData($res->rows);
+        $n_lvl = $node == 0 ? 0 : $n_lvl + 1;
+        $data = $this->buildTreeArray($node, $n_lvl);
+        if (!isset($res->userdata)) $res->userdata = array();
+        $response = array(
+            "userdata" => $res->userdata,
+            "rows" => $data,
+            "total" => count($data) ,
+            "page" => 1
+        );
+        if ($echo)
+        {
+            $this->_gridResponse($response);
+        }
+        else
+        {
+            return $response;
+        }
+    }
+    private function renderNested($summary, $params, $echo)
+    {
+        $response = null;
+        $node = (int)jqGridUtils::GetParam("nodeid", "0");
+        $n_lvl = (int)jqGridUtils::GetParam("n_level", "0");
+        if ($this->autoLoadNodes)
+        {
+            $sql = $this->_setSQL();
+            $s = "";
+            if ($node > 0)
+            {
+                $n_lft = (int)jqGridUtils::GetParam("n_left");
+                $n_rgt = (int)jqGridUtils::GetParam("n_right");
+                $s = " " . $this->tableconfig["left"] . " > " . $n_lft . " AND " . $this->tableconfig["left"] . " < " . $n_rgt . " AND " . $this->tableconfig["level"] . " = " . ($n_lvl + 1);
+            }
+            elseif ($n_lvl == 0)
+            {
+                $s = " " . $this->tableconfig["level"] . " = 0";
+            }
+            if (preg_match("/WHERE/i", $sql)) $sql .= " AND " . $s;
+            else $sql .= " WHERE " . $s;
+            $this->readFromXML = false;
+            $this->SelectCommand = $sql;
+        }
+        $this->performcount = false;
+        if (!$this->autoLoadNodes && $this->expandAll)
+        {
+            $qwg = $this->queryGrid($summary, $params, false);
+            if (!isset($qwg->userdata)) $qwg->userdata = array();
+            $data = $this->buildTreeArray(0, 0, $qwg->rows);
+            $response = array(
+                "userdata" => $qwg->userdata,
+                "rows" => $data,
+                "total" => count($data) ,
+                "page" => 1
+            );
+            if ($echo)
+            {
+                $this->_gridResponse($response);
+            }
+            else
+            {
+                return $response;
+            }
+        }
+        else
+        {
+            return $this->queryGrid($summary, $params, $echo);
+        }
+    }
+    public function queryTree(array $summary = null, array $params = null, $echo = true)
+    {
+        $response = null;
+        if ($this->treemodel == 'adjacency')
+        {
+            $response = $this->renderAdjacency($summary, $params, $echo);
+        }
+        elseif ($this->treemodel == 'nested')
+        {
+            $response = $this->renderNested($summary, $params, $echo);
+        }
+        else
+        {
+            $this->queryGrid($summary, $params, $echo);
+        }
+    }
+    public function updateTreeNode($data)
+    {
+        return $this->update($data);
+    }
+    public function insertTreeNode($data)
+    {
+        $this->getLastInsert = true;
+        if ($this->treemodel == 'nested')
+        {
+            $node = (isset($data['parent_id']) && (int)$data['parent_id'] > 0) ? $data['parent_id'] : 0;
+            if ((int)$node > 0 && $node != 'null')
+            {
+                $s = jqGridUtils::sprintfn('SELECT %right$s, %level$s FROM %table$s WHERE %id$s = ' . (int)$node, $this->tableconfig);
+            }
+            else
+            {
+                $s = jqGridUtils::sprintfn('SELECT MAX( %right$s), "-1" as level FROM %table$s', $this->tableconfig);
+            }
+            if ($this->debug)
+            {
+                $this->logQuery($s);
+            }
+            $q = jqGridDB::query($this->pdo, $s);
+            if (!$q)
+            {
+                $this->errorMesage = jqGridDB::errorMessage($this->pdo);
+                if ($this->showError)
+                {
+                    $this->sendErrorHeader();
+                }
+                else
+                {
+                    die($this->errorMesage);
+                }
+            }
+            $row = jqGridDB::fetch_num($q, $this->pdo);
+            jqGridDB::closeCursor($q);
+            if (!$row)
+            {
+                $row[0] = 1;
+                $row[1] = - 1;
+            }
+            unset($data['parent_id']);
+            $data[$this->tableconfig['level']] = (int)$row[1] + 1;
+            if ((int)$row[1] == - 1)
+            {
+                $data[$this->tableconfig['left']] = (int)$row[0] + 1;
+                $data[$this->tableconfig['right']] = (int)$row[0] + 2;
+                $s1 = jqGridUtils::sprintfn('UPDATE %table$s SET %right$s = %right$s + 2 WHERE %right$s > ?', $this->tableconfig);
+                $s2 = jqGridUtils::sprintfn('UPDATE %table$s SET %left$s = %left$s + 2 WHERE %left$s > ?', $this->tableconfig);
+                $this->setBeforeCrudAction('add', $s1, array(
+                    (int)$row[0]
+                ));
+                $this->setBeforeCrudAction('add', $s2, array(
+                    (int)$row[0]
+                ));
+            }
+            else
+            {
+                $data[$this->tableconfig['left']] = (int)$row[0];
+                $data[$this->tableconfig['right']] = (int)$row[0] + 1;
+                $s1 = jqGridUtils::sprintfn('UPDATE %table$s SET %left$s = CASE WHEN %left$s > ? THEN %left$s + 2 ELSE %left$s END, %right$s = CASE WHEN %right$s >= ? THEN %right$s + 2 ELSE %right$s END WHERE %right$s >= ?', $this->tableconfig);
+                $this->setBeforeCrudAction('add', $s1, array(
+                    (int)$row[0],
+                    (int)$row[0],
+                    (int)$row[0]
+                ));
+            }
+        }
+        return $this->insert($data);
+    }
+    public function deleteTreeNode($data)
+    {
+        if (!$this->add) return false;
+        $where = '';
+        $param = null;
+        if ($this->treemodel == 'adjacency')
+        {
+            $this->setLeafData($this->getLeafNodes($data[$this->primaryKey]));
+            $this->getChildNodes($data[$this->primaryKey], '', true);
+            if (is_array($this->res) && count($this->res) > 0)
+            {
+                $data[$this->primaryKey] .= "," . implode(",", $this->res);
+            }
+        }
+        elseif ($this->treemodel == 'nested')
+        {
+            $node = $data[$this->primaryKey];
+            $s = jqGridUtils::sprintfn('SELECT %left$s, %right$s FROM %table$s WHERE %id$s = ' . (int)$node, $this->tableconfig);
+            if ($this->debug)
+            {
+                $this->logQuery($s);
+            }
+            $q = jqGridDB::query($this->pdo, $s);
+            if (!$q)
+            {
+                $this->errorMesage = jqGridDB::errorMessage($this->pdo);
+                if ($this->showError)
+                {
+                    $this->sendErrorHeader();
+                }
+                else
+                {
+                    die($this->errorMesage);
+                }
+            }
+            $row = jqGridDB::fetch_num($q, $this->pdo);
+            jqGridDB::closeCursor($q);
+            if (!$row)
+            {
+                return true;
+            }
+            $lft = (int)$row[0];
+            $rgt = (int)$row[1];
+            $width = $rgt - $lft + 1;
+            $where = " " . $this->tableconfig['left'] . " BETWEEN ? AND ?";
+            $param = array(
+                (int)$lft,
+                (int)$rgt
+            );
+            $s1 = jqGridUtils::sprintfn('UPDATE %table$s SET %right$s = %right$s - ? WHERE %right$s > ?', $this->tableconfig);
+            $s2 = jqGridUtils::sprintfn('UPDATE %table$s SET %left$s = %left$s - ? WHERE %left$s > ?', $this->tableconfig);
+            $this->setAfterCrudAction('del', $s1, array(
+                (int)$width,
+                (int)$rgt
+            ));
+            $this->setAfterCrudAction('del', $s2, array(
+                (int)$width,
+                (int)$rgt
+            ));
+        }
+        return $this->delete($data, $where, $param);
+    }
+    public function editTree(array $summary = null, array $params = null, $oper = false, $echo = true)
+    {
+        if (!$oper)
+        {
+            $oper = $this->GridParams["oper"];
+            $oper = jqGridUtils::GetParam($oper, "grid");
+        }
+        $okmsg = "success##Operation performed succefully";
+        switch ($oper)
+        {
+            case $this->GridParams["editoper"]:
+                $this->checkPrimary();
+                $data = strtolower($this->mtype) == "post" ? jqGridUtils::Strip($_POST) : jqGridUtils::Strip($_GET);
+                if ($this->updateTreeNode($data))
+                {
+                    $this->setSuccessMsg($okmsg . "##none");
+                    if ($this->successmsg)
+                    {
+                        echo $this->successmsg;
+                    }
+                }
+            break;
+            case $this->GridParams["addoper"]:
+                $this->checkPrimary();
+                $data = strtolower($this->mtype) == "post" ? jqGridUtils::Strip($_POST) : jqGridUtils::Strip($_GET);
+                $this->getLastInsert = true;
+                if ($this->insertTreeNode($data))
+                {
+                    $this->setSuccessMsg($okmsg . "##" . $this->lastId);
+                    if ($this->successmsg)
+                    {
+                        echo $this->successmsg;
+                    }
+                }
+            break;
+            case $this->GridParams["deloper"]:
+                $this->checkPrimary();
+                $data = strtolower($this->mtype) == "post" ? jqGridUtils::Strip($_POST) : jqGridUtils::Strip($_GET);
+                if ($this->deleteTreeNode($data))
+                {
+                    $this->setSuccessMsg($okmsg);
+                    if ($this->successmsg)
+                    {
+                        echo $this->successmsg;
+                    }
+                }
+            break;
+            default:
+                $this->queryTree($summary, $params, $echo);
+        }
+    }
+    public function renderTree($tblelement = '', $pager = '', $script = true, array $summary = null, array $params = null, $createtbl = false, $createpg = false, $echo = true)
+    {
+        $oper = jqGridUtils::GetParam('oper', 'nooper');
+        $oper = $this->GridParams["oper"];
+        $goper = jqGridUtils::GetParam($oper, 'nooper');
+        if ($goper == $this->GridParams["autocomplete"])
+        {
+            return false;
+        }
+        else if ($goper == $this->GridParams["excel"])
+        {
+            if (!$this->export) return false;
+            $this->exportToExcel($summary, $params, $this->colModel, true, $this->exportfile);
+        }
+        else if ($goper == "pdf")
+        {
+            if (!$this->export) return false;
+            $this->exportToPdf($summary, $params, $this->colModel, $this->pdffile);
+        }
+        else if ($goper == "csv")
+        {
+            if (!$this->export) return false;
+            $this->exportToCsv($summary, $params, $this->colModel, true, $this->csvfile, $this->csvsep, $this->csvsepreplace);
+        }
+        else if (in_array($goper, array_values($this->GridParams)))
+        {
+            $this->editTree($summary, $params, $goper);
+        }
+        else
+        {
+            $this->_setTreeGridOptions($this->treemodel);
+            return $this->renderGrid($tblelement, $pager, $script, $summary, $params, $createtbl, $createpg, $echo);
+        }
+    }
+} ?>

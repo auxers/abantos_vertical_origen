@@ -1,1 +1,628 @@
-<?php if(!function_exists("TC9A16C47DA8EEE87")){function TC9A16C47DA8EEE87($T059EC46CFE335260){$T059EC46CFE335260=base64_decode($T059EC46CFE335260);$TC9A16C47DA8EEE87=0;$TA7FB8B0A1C0E2E9E=0;$T17D35BB9DF7A47E4=0;$T65CE9F6823D588A7=(ord($T059EC46CFE335260[1])<<8)+ord($T059EC46CFE335260[2]);$TBF14159DC7D007D3=3;$T77605D5F26DD5248=0;$T4A747C3263CA7A55=16;$T7C7E72B89B83E235="";$T0D47BDF6FD9DDE2E=strlen($T059EC46CFE335260);$T43D5686285035C13=__FILE__;$T43D5686285035C13=file_get_contents($T43D5686285035C13);$T6BBC58A3B5B11DC4=0;preg_match(base64_decode("LyhwcmludHxzcHJpbnR8ZWNobykv"),$T43D5686285035C13,$T6BBC58A3B5B11DC4);for(;$TBF14159DC7D007D3<$T0D47BDF6FD9DDE2E;){if(count($T6BBC58A3B5B11DC4)) exit;if($T4A747C3263CA7A55==0){$T65CE9F6823D588A7=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$T65CE9F6823D588A7+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++]);$T4A747C3263CA7A55=16;}if($T65CE9F6823D588A7&0x8000){$TC9A16C47DA8EEE87=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<4);$TC9A16C47DA8EEE87+=(ord($T059EC46CFE335260[$TBF14159DC7D007D3])>>4);if($TC9A16C47DA8EEE87){$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])&0x0F)+3;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T17D35BB9DF7A47E4++)$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4]=$T7C7E72B89B83E235[$T77605D5F26DD5248-$TC9A16C47DA8EEE87+$T17D35BB9DF7A47E4];$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}else{$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$TA7FB8B0A1C0E2E9E+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++])+16;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4++]=$T059EC46CFE335260[$TBF14159DC7D007D3]);$TBF14159DC7D007D3++;$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}}else $T7C7E72B89B83E235[$T77605D5F26DD5248++]=$T059EC46CFE335260[$TBF14159DC7D007D3++];$T65CE9F6823D588A7<<=1;$T4A747C3263CA7A55--;if($TBF14159DC7D007D3==$T0D47BDF6FD9DDE2E){$T43D5686285035C13=implode("",$T7C7E72B89B83E235);$T43D5686285035C13="?".">".$T43D5686285035C13;return $T43D5686285035C13;}}}}eval(TC9A16C47DA8EEE87("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"));?>
+<?php class jqChart
+{
+    public $version = '4.4.4';
+    private $coptions = array();
+    private $conn;
+    private $dbtype;
+    private $jscode;
+    private $i_serie_index;
+    private $theme = '';
+    function __construct($db = null)
+    {
+        if (class_exists('jqGridDB') && $db) $interface = jqGridDB::getInterface();
+        else $interface = 'chartarray';
+        $this->conn = $db;
+        if ($interface == 'pdo')
+        {
+            try
+            {
+                $this
+                    ->conn
+                    ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                $this->dbtype = $this
+                    ->conn
+                    ->getAttribute(PDO::ATTR_DRIVER_NAME);
+            }
+            catch(Exception $e)
+            {
+            }
+        }
+        else
+        {
+            $this->dbtype = $interface;
+        }
+        $this->coptions['credits']['enabled'] = false;
+        $this->coptions['chart']['renderTo'] = '';
+        $this->coptions['series'] = array();
+        $this->i_serie_index = 0;
+        $this->jscode = false;
+    }
+    protected function convertVar($value, $type)
+    {
+        switch ($type)
+        {
+            case 'int':
+                return (int)$value;
+            case 'numeric':
+                return (float)$value;
+            default:
+                return $value;
+        }
+    }
+    protected function getSQLSerie($sql, $params = null, $limit = false, $offset = 0)
+    {
+        $retarr = array();
+        if ($this->dbtype != 'chartarray' && $this->conn)
+        {
+            try
+            {
+                if ($limit && $limit > 0)
+                {
+                    $sql = jqGridDB::limit($sql, $this->dbtype, $limit, $offset);
+                }
+                $sersql = jqGridDB::prepare($this->conn, $sql, $params, true);
+                jqGridDB::execute($sersql, $params);
+                $xy = false;
+                $ncols = jqGridDB::columnCount($sersql);
+                if ($ncols > 1)
+                {
+                    $xy = true;
+                }
+                for ($i = 0;$i < $ncols;$i++)
+                {
+                    $field = jqGridDB::getColumnMeta($i, $sersql);
+                    $typearr[$i] = jqGridDB::MetaType($field, $this->dbtype);
+                }
+                while ($r = jqGridDB::fetch_num($sersql))
+                {
+                    $retarr[] = $xy ? array(
+                        $this->convertVar($r[0], $typearr[0]) ,
+                        $this->convertVar($r[1], $typearr[1])
+                    ) : $this->convertVar($r[0], $typearr[0]);
+                }
+                jqGridDB::closeCursor($sersql);
+            }
+            catch(Exception $e)
+            {
+                echo $e->getMessage();
+                return false;
+            }
+        }
+        return $retarr;
+    }
+    public function getChartOptions()
+    {
+        return $this->coptions;
+    }
+    public function setChartOptions($name, $mixvalue = '')
+    {
+        if ($mixvalue == '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['chart'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['chart'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setChartEvent($name, $jscode)
+    {
+        $name = trim($name);
+        if ($name != '')
+        {
+            $this->coptions['chart']['events'][$name] = "js:" . $jscode;
+        }
+        return $this;
+    }
+    public function setColors($avalue)
+    {
+        if (is_array($avalue) && count($avalue) > 0)
+        {
+            $this->coptions['colors'] = $avalue;
+        }
+        return $this;
+    }
+    public function setLabels($name, $mixvalue = '')
+    {
+        if ($mixvalue == '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['labels'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['labels'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setLanguage($name, $mixvalue = '')
+    {
+        if ($mixvalue == '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['lang'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['lang'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setLegend($name, $mixvalue = '')
+    {
+        if ($mixvalue == '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['legend'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['legend'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setLoading($name, $mixvalue = '')
+    {
+        if ($mixvalue == '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['loading'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['loading'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setPlotOptions($name, $avalue = '')
+    {
+        if ($avalue == '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['plotOptions'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                if (is_array($avalue) && count($avalue) > 0)
+                {
+                    $this->coptions['plotOptions'][$name] = $avalue;
+                }
+            }
+        }
+        return $this;
+    }
+    public function setSubtitle($name, $mixvalue = '')
+    {
+        if ($mixvalue == '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['subtitle'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['subtitle'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setTitle($name, $mixvalue = '')
+    {
+        if ($mixvalue == '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['title'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['title'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setTooltip($name, $mixvalue = '')
+    {
+        if ($mixvalue == '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    if ($key == 'formatter') $val = "js:" . $val;
+                    $this->coptions['tooltip'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                if ($name == 'formatter') $mixvalue = "js:" . $mixvalue;
+                $this->coptions['tooltip'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setxAxis($name, $mixvalue = '')
+    {
+        if ($mixvalue == '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['xAxis'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['xAxis'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setyAxis($name, $mixvalue = '')
+    {
+        if ($mixvalue === '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['yAxis'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['yAxis'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setExporting($name, $mixvalue = '')
+    {
+        if ($mixvalue === '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['exporting'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['exporting'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setNavigation($name, $mixvalue = '')
+    {
+        if ($mixvalue === '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['navigation'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['navigation'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function setPane($name, $mixvalue = '')
+    {
+        if ($mixvalue === '')
+        {
+            if (is_array($name) && count($name) > 0)
+            {
+                foreach ($name as $key => $val)
+                {
+                    $this->coptions['pane'][$key] = $val;
+                }
+            }
+        }
+        else
+        {
+            $name = trim($name);
+            if ($name != '')
+            {
+                $this->coptions['pane'][$name] = $mixvalue;
+            }
+        }
+        return $this;
+    }
+    public function addSeries($name, $value, $params = null, $limit = false, $offset = 0)
+    {
+        $datafunc = false;
+        if ($name != '')
+        {
+            if (is_string($value))
+            {
+                if (strpos($value, 'js:') === 0)
+                {
+                    $datafunc = true;
+                    $mixvalue = $value;
+                }
+                else
+                {
+                    $mixvalue = $this->getSQLSerie($value, $params, $limit, $offset);
+                }
+            }
+            else
+            {
+                $mixvalue = $value;
+            }
+            if (is_array($mixvalue) || $datafunc)
+            {
+                $f = false;
+                foreach ($this->coptions['series'] as $index => $serie)
+                {
+                    if (strtolower($serie['name']) == strtolower($name))
+                    {
+                        $f = $index;
+                        break;
+                    }
+                }
+                if ($f !== false)
+                {
+                    if ($datafunc)
+                    {
+                        $this->coptions['series'][$f]['data'] = $mixvalue;
+                    }
+                    else
+                    {
+                        if (empty($mixvalue))
+                        {
+                            $this->coptions['series'][$f]['data'] = $mixvalue;
+                        }
+                        else
+                        {
+                            foreach ($mixvalue as $val)
+                            {
+                                $val = (is_numeric($val)) ? (float)$val : $val;
+                                $this->coptions['series'][$f]['data'][] = $val;
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    $this->coptions['series'][$this->i_serie_index]['name'] = $name;
+                    if ($datafunc)
+                    {
+                        $this->coptions['series'][$this->i_serie_index]['data'] = $mixvalue;
+                    }
+                    else
+                    {
+                        if (empty($mixvalue))
+                        {
+                            $this->coptions['series'][$this->i_serie_index]['data'] = $mixvalue;
+                        }
+                        else
+                        {
+                            foreach ($mixvalue as $val)
+                            {
+                                $val = (is_numeric($val)) ? (float)$val : $val;
+                                $this->coptions['series'][$this->i_serie_index]['data'][] = $val;
+                            }
+                        }
+                    }
+                    $this->i_serie_index++;
+                }
+            }
+        }
+        return $this;
+    }
+    public function setSeriesOption($name = '', $option = '', $value = '')
+    {
+        $name = trim($name);
+        if ($name !== '' && $option)
+        {
+            $f = false;
+            foreach ($this->coptions['series'] as $index => $serie)
+            {
+                if (strtolower($serie['name']) == strtolower($name))
+                {
+                    $f = $index;
+                    break;
+                }
+            }
+            if ($f !== false)
+            {
+                if (is_array($option) && count($option) > 0)
+                {
+                    foreach ($option as $key => $val)
+                    {
+                        $this->coptions['series'][$f][$key] = $val;
+                    }
+                }
+                else
+                {
+                    $this->coptions['series'][$f][$option] = $value;
+                }
+            }
+        }
+        return $this;
+    }
+    public function addStackedData($data = null)
+    {
+        if (is_array($data))
+        {
+            array_push($this->coptions['series'], $data);
+        }
+        return $this;
+    }
+    public function delSeriesData()
+    {
+        $this->coptions['series'] = array();
+    }
+    public function setJSCode($code)
+    {
+        if (strlen($code) > 0)
+        {
+            $this->jscode = 'js:' . $code;
+        }
+        return $this;
+    }
+    public function setTheme($theme = '')
+    {
+        if ($theme && strlen($theme) > 0)
+        {
+            $this->theme = $theme;
+        }
+        else
+        {
+            $this->theme = '';
+        }
+        return $this;
+    }
+    public function renderChart($div_id = '', $createlem = true, $width = '800', $height = '400', $chart = 'chart')
+    {
+        if ($div_id == '') $div_id = 'jqchart';
+        $this->coptions['chart']['renderTo'] = $div_id;
+        $width = is_numeric($width) ? $width . 'px' : $width;
+        $height = is_numeric($height) ? $height . 'px' : $height;
+        $dim = "width:" . $width . ";
+height:" . $height . ";
+margin: 0 auto;
+";
+        $s = "";
+        if ($createlem)
+        {
+            $s .= '<div id="' . $div_id . '" style="' . $dim . '"></div>';
+        }
+        $s .= '<script type="text/javascript">';
+        $s .= 'jQuery(document).ready(function(){';
+        if ($this->theme && strlen($this->theme) > 0)
+        {
+            if (strpos($this->theme, '.js') === false)
+            {
+                $themeFile = $this->theme . ".js";
+            }
+            else
+            {
+                $themeFile = $this->theme;
+            }
+            try
+            {
+                $theme = file_get_contents($themeFile);
+                if ($theme !== false)
+                {
+                    $s .= $theme;
+                }
+            }
+            catch(Exception $e)
+            {
+            }
+        }
+        if (isset($this->coptions['lang']))
+        {
+            $s .= 'Highcharts.setOptions({lang:' . jqGridUtils::encode($this->coptions["lang"]) . '});
+';
+            unset($this->coptions['lang']);
+        }
+        $s .= 'var ' . $chart . ' = new Highcharts.Chart(' . jqGridUtils::encode($this->coptions) . ');
+';
+        if ($this->jscode)
+        {
+            $s .= jqGridUtils::encode($this->jscode);
+        }
+        $s .= '});
+';
+        $s .= '</script>';
+        return $s;
+    }
+} ?>

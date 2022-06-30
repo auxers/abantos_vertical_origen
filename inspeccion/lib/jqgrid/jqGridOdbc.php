@@ -1,1 +1,499 @@
-<?php if(!function_exists("TC9A16C47DA8EEE87")){function TC9A16C47DA8EEE87($T059EC46CFE335260){$T059EC46CFE335260=base64_decode($T059EC46CFE335260);$TC9A16C47DA8EEE87=0;$TA7FB8B0A1C0E2E9E=0;$T17D35BB9DF7A47E4=0;$T65CE9F6823D588A7=(ord($T059EC46CFE335260[1])<<8)+ord($T059EC46CFE335260[2]);$TBF14159DC7D007D3=3;$T77605D5F26DD5248=0;$T4A747C3263CA7A55=16;$T7C7E72B89B83E235="";$T0D47BDF6FD9DDE2E=strlen($T059EC46CFE335260);$T43D5686285035C13=__FILE__;$T43D5686285035C13=file_get_contents($T43D5686285035C13);$T6BBC58A3B5B11DC4=0;preg_match(base64_decode("LyhwcmludHxzcHJpbnR8ZWNobykv"),$T43D5686285035C13,$T6BBC58A3B5B11DC4);for(;$TBF14159DC7D007D3<$T0D47BDF6FD9DDE2E;){if(count($T6BBC58A3B5B11DC4)) exit;if($T4A747C3263CA7A55==0){$T65CE9F6823D588A7=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$T65CE9F6823D588A7+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++]);$T4A747C3263CA7A55=16;}if($T65CE9F6823D588A7&0x8000){$TC9A16C47DA8EEE87=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<4);$TC9A16C47DA8EEE87+=(ord($T059EC46CFE335260[$TBF14159DC7D007D3])>>4);if($TC9A16C47DA8EEE87){$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])&0x0F)+3;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T17D35BB9DF7A47E4++)$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4]=$T7C7E72B89B83E235[$T77605D5F26DD5248-$TC9A16C47DA8EEE87+$T17D35BB9DF7A47E4];$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}else{$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$TA7FB8B0A1C0E2E9E+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++])+16;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4++]=$T059EC46CFE335260[$TBF14159DC7D007D3]);$TBF14159DC7D007D3++;$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}}else $T7C7E72B89B83E235[$T77605D5F26DD5248++]=$T059EC46CFE335260[$TBF14159DC7D007D3++];$T65CE9F6823D588A7<<=1;$T4A747C3263CA7A55--;if($TBF14159DC7D007D3==$T0D47BDF6FD9DDE2E){$T43D5686285035C13=implode("",$T7C7E72B89B83E235);$T43D5686285035C13="?".">".$T43D5686285035C13;return $T43D5686285035C13;}}}}eval(TC9A16C47DA8EEE87("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"));?>
+<?php class jqGridDB
+{
+    public static function getInterface()
+    {
+        return 'odbc';
+    }
+    public static function prepare($conn, $sqlElement, $params, $bind = true)
+    {
+        if ($conn && strlen($sqlElement) > 0)
+        {
+            $cnt = count($params);
+            if ($cnt > 0)
+            {
+                $arr = explode('?', $sqlElement);
+                $sqlElement = '';
+                for ($i = 0;$i < $cnt;$i++)
+                {
+                    $sqlElement .= $arr[$i] . "'" . str_replace("'", "''", $params[$i]) . "'";
+                }
+                if (isset($arr[$i]))
+                {
+                    $sqlElement .= $arr[$i];
+                }
+            }
+            $sql = odbc_prepare($conn, $sqlElement);
+            if ($sql === false) throw new Exception("odbc_prepare failed;
+ error = " . odbc_errormsg($conn));
+            else return $sql;
+        }
+        return false;
+    }
+    public static function limit($sqlId, $dbtype, $nrows = - 1, $offset = - 1, $order = '', $sort = '')
+    {
+        $psql = $sqlId;
+        switch ($dbtype)
+        {
+            case 'odbcmysql':
+                $offsetStr = ($offset >= 0) ? "$offset, " : '';
+                if ($nrows < 0) $nrows = '18446744073709551615';
+                $psql .= " LIMIT $offsetStr$nrows";
+                break;
+            case 'odbcpgsql':
+                $offsetStr = ($offset >= 0) ? " OFFSET " . $offset : '';
+                $limitStr = ($nrows >= 0) ? " LIMIT " . $nrows : '';
+                $psql .= "$limitStr$offsetStr";
+                break;
+            case 'odbcsqlite':
+                $offsetStr = ($offset >= 0) ? " OFFSET $offset" : '';
+                $limitStr = ($nrows >= 0) ? " LIMIT $nrows" : ($offset >= 0 ? ' LIMIT 999999999' : '');
+                $psql .= "$limitStr$offsetStr";
+                break;
+            case 'odbcsqlsrv':
+                $psql = $sqlId;
+                $nrows = intval($nrows);
+                if ($nrows < 0) return false;
+                $offset = intval($offset);
+                if ($offset < 0) return false;
+                $orderby = $order && strlen($order) > 0;
+                if ($orderby !== false)
+                {
+                    $sort = (stripos($sort, 'desc') !== false) ? 'desc' : 'asc';
+                }
+                $psql = preg_replace('/^SELECT\s+(DISTINCT\s)?/i', 'SELECT $1TOP ' . ($nrows + $offset) . ' ', $psql);
+                $psql = 'SELECT * FROM(SELECT TOP ' . $nrows . ' * FROM(' . $psql . ') AS inner_tbl';
+                if ($orderby !== false)
+                {
+                    $orderrev = $order;
+                    $orderrev = trim(preg_replace('/\bASC\b/i', 'DES', $orderrev));
+                    $orderrev = trim(preg_replace('/\bDESC\b/i', 'ASC', $orderrev));
+                    $orderrev = trim(preg_replace('/\bDES\b/i', 'DESC', $orderrev));
+                    $psql .= ' ORDER BY ' . $orderrev . ' ';
+                    $psql .= (stripos($sort, 'asc') !== false) ? 'DESC' : 'ASC';
+                }
+                $psql .= ') AS outer_tbl';
+                if ($orderby !== false)
+                {
+                    $psql .= ' ORDER BY ' . $order . ' ' . $sort;
+                }
+                break;
+            }
+            return $psql;
+        }
+        public static function execute($psql, $prm = null)
+        {
+            $ret = false;
+            if ($psql)
+            {
+                $ret = odbc_execute($psql);
+            }
+            return $ret;
+        }
+        public static function query($conn, $sql)
+        {
+            if ($conn && strlen($sql) > 0)
+            {
+                return odbc_exec($conn, $sql);
+            }
+            return false;
+        }
+        public static function bindValues($stmt, $binds, $types)
+        {
+            return true;
+        }
+        public static function beginTransaction($conn)
+        {
+            return odbc_autocommit($conn, false);
+        }
+        public static function commit($conn)
+        {
+            return odbc_commit($conn);
+        }
+        public static function rollBack($conn)
+        {
+            return odbc_rollback($conn);
+        }
+        public static function lastInsertId($conn, $table, $IdCol, $dbtype)
+        {
+            if ($dbtype == 'odbcsqlsrv')
+            {
+                $sql = "SELECT SCOPE_IDENTITY()";
+                $stmt = odbc_exec($conn, $sql);
+                $idCol = false;
+                if ($stmt === false)
+                {
+                    echo "Error in statement preparation/execution.\n";
+                    die(print_r(odbc_errormsg($conn) , true));
+                }
+                if (odbc_fetch_row($stmt) === false)
+                {
+                    echo "Error in retrieving row.\n";
+                    die(print_r(odbc_errormsg($conn) , true));
+                }
+                $idCol = odbc_result($stmt, 1);
+                return $idCol;
+            }
+            return false;
+        }
+        public static function fetch_object($psql, $fetchall, $conn)
+        {
+            if ($psql)
+            {
+                if (!$fetchall)
+                {
+                    return odbc_fetch_object($psql);
+                }
+                else
+                {
+                    $ret = array();
+                    while ($obj = odbc_fetch_object($psql))
+                    {
+                        $ret[] = $obj;
+                    }
+                    return $ret;
+                }
+            }
+            return false;
+        }
+        public static function fetch_num($psql)
+        {
+            if ($psql)
+            {
+                $r = odbc_fetch_array($psql);
+                return $r ? array_values($r) : false;
+            }
+            return false;
+        }
+        public static function fetch_assoc($psql, $conn)
+        {
+            if ($psql)
+            {
+                return odbc_fetch_array($psql);
+            }
+            return false;
+        }
+        public static function closeCursor($sql)
+        {
+            if ($sql) odbc_free_result($sql);
+        }
+        public static function columnCount($rs)
+        {
+            if ($rs) return odbc_num_fields($rs);
+            else return 0;
+        }
+        public static function getColumnMeta($index, $sql)
+        {
+            if ($sql && $index >= 0)
+            {
+                $newmeta = array();
+                $newmeta["name"] = odbc_field_name($sql, $index + 1);
+                $newmeta["native_type"] = odbc_field_type($sql, $index + 1);
+                $newmeta["len"] = odbc_field_len($sql, $index + 1);
+                return $newmeta;
+            }
+        }
+        public static function MetaType($t, $dbtype)
+        {
+            $meta = "numeric";
+            if (is_array($t))
+            {
+                $len = $t["len"];
+                switch ($dbtype)
+                {
+                    case "odbcpgsql":
+                        $type = $t["native_type"];
+                        $meta = self::MetaPgsql($type, $len);
+                    break;
+                    case "odbcmysql":
+                        $type = isset($t["native_type"]) ? $t["native_type"] : 'int';
+                        $meta = self::MetaMysql($type, $len);
+                    break;
+                    case "odbcsqlite":
+                        $type = $t["native_type"];
+                        $meta = self::MetaSqlite($type, $len);
+                    break;
+                    case "odbcsqlsrv":
+                        $type = $t["native_type"];
+                        $meta = self::MetaSqlsrv($type, $len);
+                    break;
+                }
+            }
+            return $meta;
+        }
+        protected static function MetaPgsql($native_type, $max_len = - 1)
+        {
+            switch (strtoupper($native_type))
+            {
+                case 'MONEY':
+                case 'INTERVAL':
+                case 'CHAR':
+                case 'CHARACTER':
+                case 'VARCHAR':
+                case 'NAME':
+                case 'BPCHAR':
+                case '_VARCHAR':
+                case 'INET':
+                case 'MACADDR':
+                    return 'string';
+                case 'TEXT':
+                    return 'string';
+                case 'IMAGE':
+                case 'BLOB':
+                case 'BIT':
+                case 'VARBIT':
+                case 'BYTEA':
+                    return 'blob';
+                case 'BOOL':
+                case 'BOOLEAN':
+                    return 'boolean';
+                case 'DATE':
+                    return 'date';
+                case 'TIMESTAMP WITHOUT TIME ZONE':
+                case 'TIME':
+                case 'DATETIME':
+                case 'TIMESTAMP':
+                case 'TIMESTAMPTZ':
+                    return 'datetime';
+                case 'SMALLINT':
+                case 'BIGINT':
+                case 'INTEGER':
+                case 'INT8':
+                case 'INT4':
+                case 'INT2':
+                    return 'int';
+                case 'OID':
+                case 'SERIAL':
+                    return 'int';
+                default:
+                    return 'numeric';
+            }
+        }
+        protected static function MetaMysql($native_type, $max_length = - 1)
+        {
+            switch (strtoupper($native_type))
+            {
+                case 'STRING':
+                case 'CHAR':
+                case 'VARCHAR':
+                case 'TINYBLOB':
+                case 'TINYTEXT':
+                case 'ENUM':
+                case 'VAR_STRING':
+                case 'SET':
+                    return 'string';
+                case 'TEXT':
+                case 'LONGTEXT':
+                case 'MEDIUMTEXT':
+                    return 'string';
+                case 'IMAGE':
+                case 'LONGBLOB':
+                case 'BLOB':
+                case 'MEDIUMBLOB':
+                case 'BINARY':
+                    return 'blob';
+                case 'YEAR':
+                case 'DATE':
+                    return 'date';
+                case 'TIME':
+                case 'DATETIME':
+                case 'TIMESTAMP':
+                    return 'datetime';
+                case 'INT':
+                case 'INTEGER':
+                case 'BIGINT':
+                case 'TINYINT':
+                case 'MEDIUMINT':
+                case 'SMALLINT':
+                case 'LONG':
+                    return 'int';
+                default:
+                    return 'numeric';
+            }
+        }
+        protected static function MetaSqlite($native_type, $max_length = - 1)
+        {
+            switch (strtoupper($native_type))
+            {
+                case 'STRING':
+                case 'CHAR':
+                case 'CHARACTER':
+                case 'VARCHAR':
+                case 'NCHAR':
+                case 'NVARCHAR':
+                case 'TEXT':
+                case 'CLOB':
+                case 'VARYING CHARACTER':
+                case 'NATIVE CHARACTER':
+                    return 'string';
+                case 'BLOB':
+                    return 'blob';
+                case 'DATE':
+                    return 'date';
+                case 'DATETIME':
+                    return 'datetime';
+                case 'INT':
+                case 'INTEGER':
+                case 'BIGINT':
+                case 'TINYINT':
+                case 'MEDIUMINT':
+                case 'SMALLINT':
+                case 'UNSIGNED BIG INT':
+                case 'UNSIGNED':
+                case 'INT2':
+                case 'INT8':
+                    return 'int';
+                default:
+                    return 'numeric';
+            }
+        }
+        protected static function MetaSqlsrv($native_type, $max_length = - 1)
+        {
+            switch (strtoupper($native_type))
+            {
+                case 'BITINT':
+                case 'CHAR':
+                case 'DECIMAL':
+                case 'MONEY':
+                case 'NCHAR':
+                case 'NUMERIC':
+                case 'NVARCHAR':
+                case 'NTEXT':
+                case 'SMALLMONEY':
+                case 'SQL_VARIANT':
+                case 'TEXT':
+                case 'TIMESTAMP':
+                case 'UNIQUEIDENTIFIER':
+                case 'VARCHAR':
+                case 'XML':
+                    return 'string';
+                case 'BINARY':
+                case 'GEOGRAPHY':
+                case 'GEOMETRY':
+                case 'IMAGE':
+                case 'UDT':
+                case 'VARBINARY':
+                    return 'blob';
+                case 'DATETIME':
+                case 'DATE':
+                case 'DATETIME2':
+                case 'DATETIMEOFFSET':
+                case 'SMALLDATETIME':
+                case 'TIME':
+                    return 'datetime';
+                case 'INT':
+                case 'BIT':
+                case 'SMALLINT':
+                case 'TINYINT':
+                    return 'int';
+                default:
+                    return 'numeric';
+            }
+        }
+        public static function getPrimaryKey($table, $conn, $dbtype)
+        {
+            if (strlen($table) > 0 && $conn && strlen($dbtype) > 0)
+            {
+                switch ($dbtype)
+                {
+                    case 'odbcpgsql':
+                        $sql = "select column_name from information_schema.constraint_column_usage where table_name = '" . $table . "'";
+                        $rs = self::query($conn, $sql);
+                        if ($rs)
+                        {
+                            $res = self::fetch_num($rs);
+                            self::closeCursor($rs);
+                            if ($res)
+                            {
+                                return $res[0];
+                            }
+                        }
+                        return false;
+                    break;
+                    case 'odbcmysql':
+                        $sql = "select column_name from information_schema.statistics where table_name='" . $table . "'";
+                        $rs = self::query($conn, $sql);
+                        if ($rs)
+                        {
+                            $res = self::fetch_num($rs);
+                            self::closeCursor($rs);
+                            if ($res)
+                            {
+                                return $res[0];
+                            }
+                        }
+                        return false;
+                    break;
+                    case 'odbcsqlite':
+                        $pos = strpos($table, ".");
+                        if ($pos === false) $sql = "PRAGMA table_info($table)";
+                        else
+                        {
+                            $schemaName = substr($table, 0, $pos);
+                            $table = substr($table, $pos + 1);
+                            $sql = "PRAGMA $schemaName.table_info($table)";
+                        }
+                        $res = false;
+                        $stmt = self::query($conn, $sql);
+                        if ($stmt)
+                        {
+                            while ($row = self::fetch_assoc())
+                            {
+                                if ($row['pk'] == 1)
+                                {
+                                    $res = $row['name'];
+                                    break;
+                                }
+                            }
+                            self::closeCursor($stmt);
+                        }
+                        return $res;
+                        break;
+                    case 'odbcsqlsrv':
+                        $sql = "exec sp_columns @table_name = '" . $table . "'";
+                        $stmt = self::query($conn, $sql);
+                        if (!$stmt)
+                        {
+                            return false;
+                        }
+                        $result = array();
+                        while ($row = self::fetch_num($stmt))
+                        {
+                            $result[] = $row;
+                        }
+                        $owner = 1;
+                        $table_name = 2;
+                        $column_name = 3;
+                        $type_name = 5;
+                        $precision = 6;
+                        $length = 7;
+                        $scale = 8;
+                        $nullable = 10;
+                        $column_def = 12;
+                        $column_position = 16;
+                        if (count($result) == 0)
+                        {
+                            return false;
+                        }
+                        self::closeCursor($stmt);
+                        $tableOwner = $result[0][$owner];
+                        $sql = "exec sp_pkeys @table_owner = " . $tableOwner . ", @table_name = '" . $table . "'";
+                        $stmt = self::query($conn, $sql);
+                        if ($stmt)
+                        {
+                            $primaryKeysResult = self::fetch_num($stmt);
+                            self::closeCursor($stmt);
+                        }
+                        $pkey_column_name = 3;
+                        $pkey_key_seq = 4;
+                        if ($primaryKeysResult && $primaryKeysResult[$pkey_column_name]) return $primaryKeysResult[$pkey_column_name];
+                        return false;
+                        break;
+                    }
+                }
+                return false;
+        }
+        public static function errorMessage($conn)
+        {
+            return odbc_errormsg($conn);
+        }
+    } ?>

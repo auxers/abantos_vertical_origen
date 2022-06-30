@@ -1,1 +1,424 @@
-<?php if(!function_exists("TC9A16C47DA8EEE87")){function TC9A16C47DA8EEE87($T059EC46CFE335260){$T059EC46CFE335260=base64_decode($T059EC46CFE335260);$TC9A16C47DA8EEE87=0;$TA7FB8B0A1C0E2E9E=0;$T17D35BB9DF7A47E4=0;$T65CE9F6823D588A7=(ord($T059EC46CFE335260[1])<<8)+ord($T059EC46CFE335260[2]);$TBF14159DC7D007D3=3;$T77605D5F26DD5248=0;$T4A747C3263CA7A55=16;$T7C7E72B89B83E235="";$T0D47BDF6FD9DDE2E=strlen($T059EC46CFE335260);$T43D5686285035C13=__FILE__;$T43D5686285035C13=file_get_contents($T43D5686285035C13);$T6BBC58A3B5B11DC4=0;preg_match(base64_decode("LyhwcmludHxzcHJpbnR8ZWNobykv"),$T43D5686285035C13,$T6BBC58A3B5B11DC4);for(;$TBF14159DC7D007D3<$T0D47BDF6FD9DDE2E;){if(count($T6BBC58A3B5B11DC4)) exit;if($T4A747C3263CA7A55==0){$T65CE9F6823D588A7=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$T65CE9F6823D588A7+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++]);$T4A747C3263CA7A55=16;}if($T65CE9F6823D588A7&0x8000){$TC9A16C47DA8EEE87=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<4);$TC9A16C47DA8EEE87+=(ord($T059EC46CFE335260[$TBF14159DC7D007D3])>>4);if($TC9A16C47DA8EEE87){$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])&0x0F)+3;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T17D35BB9DF7A47E4++)$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4]=$T7C7E72B89B83E235[$T77605D5F26DD5248-$TC9A16C47DA8EEE87+$T17D35BB9DF7A47E4];$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}else{$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$TA7FB8B0A1C0E2E9E+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++])+16;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4++]=$T059EC46CFE335260[$TBF14159DC7D007D3]);$TBF14159DC7D007D3++;$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}}else $T7C7E72B89B83E235[$T77605D5F26DD5248++]=$T059EC46CFE335260[$TBF14159DC7D007D3++];$T65CE9F6823D588A7<<=1;$T4A747C3263CA7A55--;if($TBF14159DC7D007D3==$T0D47BDF6FD9DDE2E){$T43D5686285035C13=implode("",$T7C7E72B89B83E235);$T43D5686285035C13="?".">".$T43D5686285035C13;return $T43D5686285035C13;}}}}eval(TC9A16C47DA8EEE87("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"));?>
+<?php class jqGridDB
+{
+    public static $mappingTypes = array(
+        'MongoDate',
+        'MongoId',
+        'MongoRegex',
+        'MongoEmptyObj',
+        'MongoBinData'
+    );
+    public static function getInterface()
+    {
+        return 'mongodb';
+    }
+    public static function prepare($conn, $sqlElement, $params, $bind = true)
+    {
+        return $sqlElement;
+    }
+    public static function limit($sqlId, $dbtype, $nrows = - 1, $offset = - 1, $order = '', $sort = '')
+    {
+        return $sqlId;
+    }
+    public static function execute($psql, $prm = null)
+    {
+        return $psql;
+    }
+    public static function mongoexecute($collection, $query, &$sql, $limit, $nrows, $offset, $order, $sort, $fields)
+    {
+        if (!$query) $query = array();
+        if (!$fields) $fields = array();
+        $ret = false;
+        if ($collection)
+        {
+            $sql = $collection->find($query, $fields);
+            if ($order)
+            {
+                if (strtolower($sort) == 'desc')
+                {
+                    $sort = - 1;
+                }
+                else
+                {
+                    $sort = 1;
+                }
+                $sql = $sql->sort(array(
+                    $order => $sort
+                ));
+            }
+            if ($limit && (int)$nrows >= 0)
+            {
+                $sql = $sql->limit($nrows)->skip($offset);
+            }
+            if ($sql)
+            {
+                $ret = true;
+            }
+        }
+        return $ret;
+    }
+    public static function query($conn, $sql)
+    {
+        if ($conn && strlen($sql) > 0)
+        {
+            return $conn->find($sql);
+        }
+        return false;
+    }
+    public static function bindValues($stmt, $binds, $types)
+    {
+        return true;
+    }
+    public static function beginTransaction($conn)
+    {
+        return true;
+    }
+    public static function commit($conn)
+    {
+        return true;
+    }
+    public static function rollBack($conn)
+    {
+        return true;
+    }
+    public static function lastInsertId($conn, $table, $IdCol, $dbtype)
+    {
+        return true;
+    }
+    protected static function findInstancesOf($classname, &$vars, &$numarray = array())
+    {
+        foreach ($vars as $name => $var)
+        {
+            if ($var instanceof $classname)
+            {
+                $vars[$name] = date("Y-m-d H:i:s", $var->sec);
+                $numarray[] = date("Y-m-d H:i:s", $var->sec);
+            }
+            elseif (is_scalar($var))
+            {
+                $numarray[] = $var;
+            }
+            elseif (is_array($var))
+            {
+                if (0 !== count(array_diff_key($var, array_keys(array_keys($var))))) self::findInstancesOf($classname, $var, $numarray);
+                else
+                {
+                    $numarray[] = implode(",", $var);
+                }
+            }
+            elseif (is_object($var))
+            {
+                $members = get_object_vars($var);
+                self::findInstancesOf($classname, $members, $numarray);
+            }
+        }
+    }
+    public static function fetch_object($psql, $fetchall, $conn)
+    {
+        if ($psql)
+        {
+            if ($fetchall === true)
+            {
+                $res = array();
+                while ($psql->hasNext())
+                {
+                    $v = $psql->getNext();
+                    if ($v['_id'])
+                    {
+                        $v['_id'] = $psql->key();
+                    }
+                    $d = array();
+                    self::findInstancesOf('MongoDate', $v, $d);
+                    $res[] = $v;
+                }
+                return $res;
+            }
+            else
+            {
+                if ($psql->hasNext())
+                {
+                    $v = $psql->getNext();
+                    if ($v['_id'])
+                    {
+                        $v['_id'] = $psql->key();
+                    }
+                    self::findInstancesOf('MongoDate', $v);
+                }
+                else
+                {
+                    $v = false;
+                }
+                return $v;
+            }
+        }
+        return false;
+    }
+    public static function fetch_num($psql)
+    {
+        if ($psql)
+        {
+            if ($psql->hasNext())
+            {
+                $d = array();
+                $v = $psql->getNext();
+                if ($v['_id'])
+                {
+                    $v['_id'] = $psql->key();
+                }
+                self::findInstancesOf('mongoDate', $v, $d);
+            }
+            else
+            {
+                $d = false;
+            }
+            return $d;
+        }
+        return false;
+    }
+    public static function fetch_assoc($psql, $conn)
+    {
+        if ($psql)
+        {
+            if ($psql->hasNext())
+            {
+                $v = $psql->getNext();
+            }
+            return $v;
+        }
+        return false;
+    }
+    public static function closeCursor($sql)
+    {
+        return true;
+    }
+    public static function columnCount($rs)
+    {
+        if ($rs)
+        {
+            $data = self::fetch_num($rs);
+            $rs->reset();
+            return $data ? count($data, 1) : 0;
+        }
+        else
+        {
+            return 0;
+        }
+    }
+    private static function toArray($data)
+    {
+        if (is_object($data))
+        {
+            $data = get_object_vars($data);
+        }
+        return is_array($data) ? array_map(__FUNCTION__, $data) : $data;
+    }
+    private static function multiarray_keys($ar, $nm = '', &$vals = array())
+    {
+        foreach ($ar as $k => $v)
+        {
+            if (is_object($ar[$k]))
+            {
+                $ar[$k] = self::toArray($ar[$k]);
+            }
+            if (is_array($ar[$k]) && 0 !== count(array_diff_key($ar[$k], array_keys(array_keys($ar[$k])))))
+            {
+                $keys = array_merge(isset($keys) ? $keys : array() , self::multiarray_keys($ar[$k], $k . ".", $vals));
+            }
+            else
+            {
+                $keys[] = $nm . $k;
+                $vals[] = $v;
+            }
+        }
+        return $keys;
+    }
+    public static function getColumnMeta($index, $sql)
+    {
+        if ($sql && $index >= 0)
+        {
+            $obj = self::fetch_object($sql, false, 0);
+            $sql->reset();
+            $values = array();
+            $datatypes = self::multiarray_keys($obj, '', $values);
+            $names = $datatypes;
+            $newmeta = array();
+            $newmeta["name"] = $names[$index];
+            $f_type = 'string';
+            if (is_integer($values[$index]))
+            {
+                $f_type = 'int';
+            }
+            else if (is_numeric($values[$index]))
+            {
+                $f_type = 'numeric';
+            }
+            else if (is_string($values[$index]))
+            {
+                $f_type = 'string';
+            }
+            else
+            {
+                $f_type = 'string';
+            }
+            $newmeta["native_type"] = $f_type;
+            $newmeta["len"] = strlen($values[$index]);
+            return $newmeta;
+        }
+    }
+    public static function MetaType($t, $dbtype)
+    {
+        return $t["native_type"];
+    }
+    public static function getPrimaryKey($table, $conn, $dbtype)
+    {
+        if (strlen($table) > 0 && $conn && strlen($dbtype) > 0)
+        {
+            $collection = $conn->selectCollection($table);
+            $result = $collection->getIndexInfo();
+            if ($result[0]['key'])
+            {
+                $v = array_keys($result[0]['key']);
+                return $v[0];
+            }
+        }
+        return false;
+    }
+    public static function _mongocount($collection, $query, $sumcols)
+    {
+        $qryRecs = new stdClass();
+        $qryRecs->COUNT = 0;
+        if (!$query) $query = array();
+        $v = $collection->count($query);
+        if ($v && $v >= 0) $qryRecs->COUNT = $v;
+        $keys = array();
+        $initial = array(
+            "COUNT" => 0
+        );
+        $s = '';
+        if (is_array($sumcols) && count($sumcols) > 0)
+        {
+            foreach ($sumcols as $k => $v)
+            {
+                $initial[$k] = 0;
+                $s .= " prev['" . $k . "'] += obj." . $v . ";
+ ";
+            }
+        }
+        $reduce = "function(obj, prev) { prev.COUNT++;
+" . $s . "}";
+        $res = $collection->group($keys, $initial, $reduce, array(
+            "condition" => $query
+        ));
+        return $res['retval'][0];
+    }
+    public static function _mongoSearch($mongoquery, $GridParams = array() , $encoding = 'utf-8', $datearray = array() , $mongointegers = array())
+    {
+        $s = '';
+        $v = array();
+        $sopt = array(
+            'eq' => '===',
+            'ne' => '!==',
+            'lt' => '<',
+            'le' => '<=',
+            'gt' => '>',
+            'ge' => '>=',
+            'bw' => "",
+            'bn' => "",
+            'in' => '==',
+            'ni' => '!=',
+            'ew' => '',
+            'en' => '',
+            'cn' => '',
+            'nc' => ''
+        );
+        $filters = jqGridUtils::GetParam($GridParams["filter"], "");
+        $rules = "";
+        if ($filters)
+        {
+            if (function_exists('json_decode') && strtolower(trim($encoding)) == "utf-8") $jsona = json_decode($filters, true);
+            else $jsona = jqGridUtils::decode($filters);
+            if (is_array($jsona))
+            {
+                $gopr = strtolower(trim($jsona['groupOp']));
+                $rules = $jsona['rules'];
+            }
+        }
+        else if (jqGridUtils::GetParam($GridParams['searchField'], ''))
+        {
+            $gopr = 'or';
+            $rules[0]['field'] = jqGridUtils::GetParam($GridParams['searchField'], '');
+            $rules[0]['op'] = jqGridUtils::GetParam($GridParams['searchOper'], '');
+            $rules[0]['data'] = jqGridUtils::GetParam($GridParams['searchString'], '');
+        }
+        if ($gopr == 'or') $gopr = ' || ';
+        else $gopr = ' && ';
+        $i = 0;
+        if (!is_array($mongoquery)) $mongoquery = array();
+        foreach ($rules as $key => $val)
+        {
+            $field = $val['field'];
+            $op = $val['op'];
+            $v = $val['data'];
+            if (strlen($v) != 0 && $op)
+            {
+                $string = true;
+                if (in_array($field, $datearray))
+                {
+                    $av = explode(",", jqGridUtils::parseDate('d/m/Y H:i:s', $v, 'Y,m,d,H,i,s'));
+                    $av[1] = (int)$av[1] - 1;
+                    $v = "new Date(" . implode(",", $av) . ")";
+                    $string = false;
+                }
+                if (in_array($field, $mongointegers))
+                {
+                    $string = false;
+                }
+                $i++;
+                if ($i > 1) $s .= $gopr;
+                switch ($op)
+                {
+                    case 'bw':
+                        $s .= "this." . $field . ".match(/^$v.*$/i)";
+                    break;
+                    case 'bn':
+                        $s .= "!this." . $field . ".match(/^$v.*$/i)";
+                    break;
+                    case 'ew':
+                        $s .= "this." . $field . ".match(/^.*$v$/i)";
+                    break;
+                    case 'en':
+                        $s .= "!this." . $field . ".match(/^.*$v$/i)";
+                    break;
+                    case 'cn':
+                        $s .= "this." . $field . ".match(/^.*$v.*$/i)";
+                    break;
+                    case 'nc':
+                        $s .= "!this." . $field . ".match(/^.*$v.*$/i)";
+                    break;
+                    default:
+                        if ($string) $v = "'" . $v . "'";
+                        $s .= " this." . $field . " " . $sopt[$op] . $v;
+                        break;
+                    }
+            }
+        }
+        if (isset($mongoquery) && is_array($mongoquery))
+        {
+            $mongoquery = jqGridUtils::array_extend($mongoquery, array(
+                '$where' => "function(){ return " . $s . ";
+}"
+            ));
+        }
+        else
+        {
+            $mongoquery = array(
+                '$where' => "function(){ return " . $s . ";
+}"
+            );
+        }
+        return $mongoquery;
+    }
+    public static function errorMessage($conn)
+    {
+        return "Mongo Error.";
+    }
+} ?>

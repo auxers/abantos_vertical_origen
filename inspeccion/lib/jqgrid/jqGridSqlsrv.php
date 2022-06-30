@@ -1,1 +1,260 @@
-<?php if(!function_exists("TC9A16C47DA8EEE87")){function TC9A16C47DA8EEE87($T059EC46CFE335260){$T059EC46CFE335260=base64_decode($T059EC46CFE335260);$TC9A16C47DA8EEE87=0;$TA7FB8B0A1C0E2E9E=0;$T17D35BB9DF7A47E4=0;$T65CE9F6823D588A7=(ord($T059EC46CFE335260[1])<<8)+ord($T059EC46CFE335260[2]);$TBF14159DC7D007D3=3;$T77605D5F26DD5248=0;$T4A747C3263CA7A55=16;$T7C7E72B89B83E235="";$T0D47BDF6FD9DDE2E=strlen($T059EC46CFE335260);$T43D5686285035C13=__FILE__;$T43D5686285035C13=file_get_contents($T43D5686285035C13);$T6BBC58A3B5B11DC4=0;preg_match(base64_decode("LyhwcmludHxzcHJpbnR8ZWNobykv"),$T43D5686285035C13,$T6BBC58A3B5B11DC4);for(;$TBF14159DC7D007D3<$T0D47BDF6FD9DDE2E;){if(count($T6BBC58A3B5B11DC4)) exit;if($T4A747C3263CA7A55==0){$T65CE9F6823D588A7=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$T65CE9F6823D588A7+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++]);$T4A747C3263CA7A55=16;}if($T65CE9F6823D588A7&0x8000){$TC9A16C47DA8EEE87=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<4);$TC9A16C47DA8EEE87+=(ord($T059EC46CFE335260[$TBF14159DC7D007D3])>>4);if($TC9A16C47DA8EEE87){$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])&0x0F)+3;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T17D35BB9DF7A47E4++)$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4]=$T7C7E72B89B83E235[$T77605D5F26DD5248-$TC9A16C47DA8EEE87+$T17D35BB9DF7A47E4];$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}else{$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$TA7FB8B0A1C0E2E9E+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++])+16;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4++]=$T059EC46CFE335260[$TBF14159DC7D007D3]);$TBF14159DC7D007D3++;$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}}else $T7C7E72B89B83E235[$T77605D5F26DD5248++]=$T059EC46CFE335260[$TBF14159DC7D007D3++];$T65CE9F6823D588A7<<=1;$T4A747C3263CA7A55--;if($TBF14159DC7D007D3==$T0D47BDF6FD9DDE2E){$T43D5686285035C13=implode("",$T7C7E72B89B83E235);$T43D5686285035C13="?".">".$T43D5686285035C13;return $T43D5686285035C13;}}}}eval(TC9A16C47DA8EEE87("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"));?>
+<?php class jqGridDB
+{
+    public static function getInterface()
+    {
+        return 'sqlsrv';
+    }
+    public static function prepare($conn, $sqlElement, $params, $bind = true)
+    {
+        if ($conn && strlen($sqlElement) > 0)
+        {
+            if (is_array($params) && count($params) > 0)
+            {
+                for ($i = 0;$i < count($params);$i++)
+                {
+                    $aprm[$i] = & $params[$i];
+                }
+            }
+            else
+            {
+                $aprm = $params;
+            }
+            $sql = sqlsrv_prepare($conn, (string)$sqlElement, $aprm);
+            if (!$sql) print_r(sqlsrv_errors() , true);
+            return $sql;
+        }
+        return false;
+    }
+    public static function limit($sqlId, $dbtype, $nrows = - 1, $offset = - 1, $order = '', $sort = '')
+    {
+        $sql = $sqlId;
+        $nrows = intval($nrows);
+        if ($nrows < 0) return false;
+        $offset = intval($offset);
+        if ($offset < 0) return false;
+        $orderby = $order && strlen($order) > 0;
+        if ($orderby !== false)
+        {
+            $sort = (stripos($sort, 'desc') !== false) ? 'desc' : 'asc';
+        }
+        $sql = preg_replace('/^SELECT\s+(DISTINCT\s)?/i', 'SELECT $1TOP ' . ($nrows + $offset) . ' ', $sql);
+        $sql = 'SELECT * FROM(SELECT TOP ' . $nrows . ' * FROM(' . $sql . ') AS inner_tbl';
+        if ($orderby !== false)
+        {
+            $orderrev = $order;
+            $orderrev = trim(preg_replace('/\bASC\b/i', 'DES', $orderrev));
+            $orderrev = trim(preg_replace('/\bDESC\b/i', 'ASC', $orderrev));
+            $orderrev = trim(preg_replace('/\bDES\b/i', 'DESC', $orderrev));
+            $sql .= ' ORDER BY ' . $orderrev . ' ';
+            $sql .= (stripos($sort, 'asc') !== false) ? 'DESC' : 'ASC';
+        }
+        $sql .= ') AS outer_tbl';
+        if ($orderby !== false)
+        {
+            $sql .= ' ORDER BY ' . $order . ' ' . $sort;
+        }
+        return $sql;
+    }
+    public static function execute($psql, $prm = null)
+    {
+        $ret = false;
+        if ($psql)
+        {
+            $ret = sqlsrv_execute($psql);
+        }
+        return $ret;
+    }
+    public static function query($conn, $sql)
+    {
+        if ($conn && strlen($sql) > 0)
+        {
+            return sqlsrv_query($conn, $sql);
+        }
+        return false;
+    }
+    public static function bindValues($stmt, $binds, $types)
+    {
+        return true;
+    }
+    public static function beginTransaction($conn)
+    {
+        return sqlsrv_begin_transaction($conn);
+    }
+    public static function commit($conn)
+    {
+        return sqlsrv_commit($conn);
+    }
+    public static function rollBack($conn)
+    {
+        return sqlsrv_rollback($conn);
+    }
+    public static function lastInsertId($conn, $table, $IdCol, $dbtype)
+    {
+        $sql = "SELECT SCOPE_IDENTITY()";
+        $stmt = sqlsrv_query($conn, $sql);
+        $idCol = false;
+        if ($stmt === false)
+        {
+            echo "Error in statement preparation/execution.\n";
+            die(print_r(sqlsrv_errors() , true));
+        }
+        if (sqlsrv_fetch($stmt) === false)
+        {
+            echo "Error in retrieving row.\n";
+            die(print_r(sqlsrv_errors() , true));
+        }
+        $idCol = sqlsrv_get_field($stmt, 0);
+        return $idCol;
+    }
+    public static function fetch_object($psql, $fetchall, $conn = null)
+    {
+        if ($psql)
+        {
+            if (!$fetchall)
+            {
+                return sqlsrv_fetch_object($psql);
+            }
+            else
+            {
+                $ret = array();
+                while ($obj = sqlsrv_fetch_object($psql))
+                {
+                    $ret[] = $obj;
+                }
+                return $ret;
+            }
+        }
+        return false;
+    }
+    public static function fetch_num($psql)
+    {
+        if ($psql)
+        {
+            return sqlsrv_fetch_array($psql, SQLSRV_FETCH_NUMERIC);
+        }
+        return false;
+    }
+    public static function fetch_assoc($psql, $conn)
+    {
+        if ($psql)
+        {
+            return sqlsrv_fetch_array($psql, SQLSRV_FETCH_ASSOC);
+        }
+        return false;
+    }
+    public static function closeCursor($sql)
+    {
+        if ($sql) sqlsrv_free_stmt($sql);
+    }
+    public static function columnCount($rs)
+    {
+        if ($rs) return sqlsrv_num_fields($rs);
+        else return 0;
+    }
+    public static function getColumnMeta($index, $sql)
+    {
+        if ($sql && $index >= 0)
+        {
+            $metaData = sqlsrv_field_metadata($sql);
+            if (isset($metaData[$index]))
+            {
+                $newmeta = $metaData[$index];
+                $newmeta["name"] = $newmeta["Name"];
+                unset($newmeta["Name"]);
+                $newmeta["native_type"] = $newmeta["Type"];
+                unset($newmeta["Type"]);
+                $newmeta["len"] = $newmeta["Size"];
+                unset($newmeta["Size"]);
+                return $newmeta;
+            }
+        }
+        return false;
+    }
+    public static function MetaType($t, $dbtype)
+    {
+        if (is_array($t))
+        {
+            $type = $t["native_type"];
+            $len = $t["len"];
+            switch ($type)
+            {
+                case -11:
+                case -7:
+                case -5:
+                case -6:
+                case 4:
+                case 5:
+                    return 'int';
+                case -152:
+                case -10:
+                case -9:
+                case -8:
+                case -1:
+                case 1:
+                case 12:
+                    return 'string';
+                case -151:
+                case -4:
+                case -3:
+                    return 'blob';
+                case -2:
+                    return $len > 0 ? 'blob' : 'datetime';
+                case 91:
+                    return 'date';
+                case -155:
+                case -154:
+                case 93:
+                    return 'datetime';
+                default:
+                    return 'numeric';
+            }
+        }
+        return 'numeric';
+    }
+    public static function getPrimaryKey($table, $conn, $dbtype)
+    {
+        $sql = "exec sp_columns @table_name = '" . $table . "'";
+        $stmt = self::query($conn, $sql);
+        if (!$stmt)
+        {
+            return false;
+        }
+        $result = array();
+        while ($row = self::fetch_num($stmt))
+        {
+            $result[] = $row;
+        }
+        $owner = 1;
+        $table_name = 2;
+        $column_name = 3;
+        $type_name = 5;
+        $precision = 6;
+        $length = 7;
+        $scale = 8;
+        $nullable = 10;
+        $column_def = 12;
+        $column_position = 16;
+        if (count($result) == 0)
+        {
+            return false;
+        }
+        self::closeCursor($stmt);
+        $tableOwner = $result[0][$owner];
+        $sql = "exec sp_pkeys @table_owner = " . $tableOwner . ", @table_name = '" . $table . "'";
+        $stmt = self::query($conn, $sql);
+        if ($stmt)
+        {
+            $primaryKeysResult = self::fetch_num($stmt);
+            self::closeCursor($stmt);
+        }
+        $pkey_column_name = 3;
+        $pkey_key_seq = 4;
+        if ($primaryKeysResult && $primaryKeysResult[$pkey_column_name]) return $primaryKeysResult[$pkey_column_name];
+        return false;
+    }
+    public static function errorMessage($conn)
+    {
+        $errors = sqlsrv_errors();
+        return ($errors && is_array($errors)) ? "Code: " . $errors[0]['code'] . ". " . $errors[0]['message'] : "Unknown Error.";
+    }
+} ?>

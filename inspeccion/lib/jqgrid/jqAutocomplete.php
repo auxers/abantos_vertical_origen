@@ -1,1 +1,393 @@
-<?php if(!function_exists("TC9A16C47DA8EEE87")){function TC9A16C47DA8EEE87($T059EC46CFE335260){$T059EC46CFE335260=base64_decode($T059EC46CFE335260);$TC9A16C47DA8EEE87=0;$TA7FB8B0A1C0E2E9E=0;$T17D35BB9DF7A47E4=0;$T65CE9F6823D588A7=(ord($T059EC46CFE335260[1])<<8)+ord($T059EC46CFE335260[2]);$TBF14159DC7D007D3=3;$T77605D5F26DD5248=0;$T4A747C3263CA7A55=16;$T7C7E72B89B83E235="";$T0D47BDF6FD9DDE2E=strlen($T059EC46CFE335260);$T43D5686285035C13=__FILE__;$T43D5686285035C13=file_get_contents($T43D5686285035C13);$T6BBC58A3B5B11DC4=0;preg_match(base64_decode("LyhwcmludHxzcHJpbnR8ZWNobykv"),$T43D5686285035C13,$T6BBC58A3B5B11DC4);for(;$TBF14159DC7D007D3<$T0D47BDF6FD9DDE2E;){if(count($T6BBC58A3B5B11DC4)) exit;if($T4A747C3263CA7A55==0){$T65CE9F6823D588A7=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$T65CE9F6823D588A7+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++]);$T4A747C3263CA7A55=16;}if($T65CE9F6823D588A7&0x8000){$TC9A16C47DA8EEE87=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<4);$TC9A16C47DA8EEE87+=(ord($T059EC46CFE335260[$TBF14159DC7D007D3])>>4);if($TC9A16C47DA8EEE87){$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])&0x0F)+3;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T17D35BB9DF7A47E4++)$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4]=$T7C7E72B89B83E235[$T77605D5F26DD5248-$TC9A16C47DA8EEE87+$T17D35BB9DF7A47E4];$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}else{$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$TA7FB8B0A1C0E2E9E+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++])+16;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4++]=$T059EC46CFE335260[$TBF14159DC7D007D3]);$TBF14159DC7D007D3++;$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}}else $T7C7E72B89B83E235[$T77605D5F26DD5248++]=$T059EC46CFE335260[$TBF14159DC7D007D3++];$T65CE9F6823D588A7<<=1;$T4A747C3263CA7A55--;if($TBF14159DC7D007D3==$T0D47BDF6FD9DDE2E){$T43D5686285035C13=implode("",$T7C7E72B89B83E235);$T43D5686285035C13="?".">".$T43D5686285035C13;return $T43D5686285035C13;}}}}eval(TC9A16C47DA8EEE87("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"));?>
+<?php class jqAutocomplete
+{
+    public $version = '4.4.4.0';
+    protected $aoptions = array(
+        "appendTo" => "body",
+        "disabled" => false,
+        "delay" => 300,
+        "minLength" => 1,
+        "source" => null
+    );
+    protected $conn = null;
+    protected $dbtype = '';
+    protected $source;
+    protected $element;
+    protected $itemLength = 10;
+    protected $runAll = true;
+    protected $term = '';
+    protected $cachearray = "cache";
+    public $cache = false;
+    public $SelectCommand = '';
+    public $searchType = "startWith";
+    public $loadAll = false;
+    public $ajaxtype = "GET";
+    public $scroll = false;
+    public $height = "110px";
+    public $encoding = "utf-8";
+    public $fontsize = '11px';
+    public $strictcheck = true;
+    public function isNotACQuery()
+    {
+        return $this->runAll;
+    }
+    function __construct($db = null, $odbctype = '')
+    {
+        if (class_exists('jqGridDB')) $interface = jqGridDB::getInterface();
+        else $interface = 'local';
+        $this->conn = $db;
+        if ($interface == 'pdo')
+        {
+            $this
+                ->conn
+                ->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $this->dbtype = $this
+                ->conn
+                ->getAttribute(PDO::ATTR_DRIVER_NAME);
+        }
+        else
+        {
+            $this->dbtype = $interface . $odbctype;;
+        }
+        $this->term = jqGridUtils::GetParam('term', -1);
+        if ($this->term !== - 1) $this->runAll = false;
+        $this->element = jqGridUtils::GetParam('acelem', '');
+    }
+    public function getOption($option)
+    {
+        if (array_key_exists($option, $this->aoptions)) return $this->aoptions[$option];
+        else return false;
+    }
+    public function setOption($option, $value = null)
+    {
+        if (!$this->runAll) return false;
+        if (isset($option))
+        {
+            if (is_array($option))
+            {
+                foreach ($option as $key => $value)
+                {
+                    $this->aoptions[$key] = $value;
+                }
+                return true;
+            }
+            else if ($value != null)
+            {
+                $this->aoptions[$option] = $value;
+            }
+            return true;
+        }
+        return false;
+    }
+    public function setEvent($event, $code)
+    {
+        if ($this->runAll)
+        {
+            $this->aoptions[$event] = "js:" . $code;
+        }
+    }
+    public function setSource($source)
+    {
+        if (!$this->runAll) return false;
+        $this->source = $source;
+    }
+    private function _setSrc($element)
+    {
+        if (is_string($this->source))
+        {
+            if ($this->cache)
+            {
+                $this->cachearray .= rand(0, 10000);
+            }
+            $accache = <<< ACCACHE
+function(request, response)
+{
+	request.acelem = '$element';
+
+	request.oper = 'autocmpl';
+
+	if( request.term in $this->cachearray )
+	{
+		response( $this->cachearray[ request.term ] );
+
+		return;
+
+	}
+	$.ajax({
+		url: "$this->source",
+		dataType: "json",
+		data: request,
+		type: "$this->ajaxtype",
+		error: function(res, status) {
+			alert(res.status+" : "+res.statusText+". Status: "+status);
+
+		},
+		success: function( data ) {
+			if(data) {
+				$this->cachearray[ request.term ] = data;
+
+				response( data );
+
+			}
+		}
+	});
+
+}
+ACCACHE;
+            
+
+            $acnocache = <<< ACNOCACHE
+function(request, response)
+{
+	request.acelem = '$element';
+
+	request.oper = 'autocmpl';
+
+	$.ajax({
+		url: "$this->source",
+		dataType: "json",
+		data: request,
+		type: "$this->ajaxtype",
+		error: function(res, status) {
+			alert(res.status+" : "+res.statusText+". Status: "+status);
+
+		},
+		success: function( data ) {
+			response( data );
+
+		}
+	});
+
+}
+ACNOCACHE;
+            
+
+            if ($this->cache)
+            {
+                $res = "js:" . $accache;
+            }
+            else if ($this->loadAll)
+            {
+                $res = $this->getACData();
+            }
+            else
+            {
+                $res = "js:" . $acnocache;
+            }
+            $this->setOption('source', $res);
+        }
+        else if (is_array($this->source))
+        {
+            $this->setOption('source', $this->source);
+        }
+    }
+    public function setLength($num)
+    {
+        if (is_int($num) && $num > 0)
+        {
+            $this->itemLength = $num;
+        }
+        else if (is_bool($num))
+        {
+            $this->itemLength = - 1;
+            $this->loadAll = true;
+        }
+    }
+    public function queryAutocomplete()
+    {
+        return $this->getACData();
+    }
+    private function getACData()
+    {
+        $result = array();
+        if (strlen($this->SelectCommand) > 0)
+        {
+            $prmlen = substr_count($this->SelectCommand, "?");
+            if ($prmlen > 0)
+            {
+                $params = array();
+                if (strtolower($this->encoding) != 'utf-8')
+                {
+                    $this->term = iconv("utf-8", $this->encoding . "//TRANSLIT", $this->term);
+                }
+                for ($i = 1;$i <= $prmlen;$i++)
+                {
+                    switch ($this->searchType)
+                    {
+                        case 'startWith':
+                            array_push($params, $this->term . "%");
+                        break;
+                        case 'contain':
+                            array_push($params, "%" . $this->term . "%");
+                        break;
+                        case 'endWith':
+                            array_push($params, "%" . $this->term);
+                        break;
+                        default:
+                            array_push($params, $this->term);
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                $params = null;
+            }
+            $adodblimit = false;
+            if ($this->itemLength > 0 && !$this->loadAll)
+            {
+                if ($this->dbtype == "adodb")
+                {
+                    $sql1 = jqGridDB::limit($this->SelectCommand, $this->dbtype, $this->itemLength, 0);
+                    $adodblimit = true;
+                }
+                else
+                {
+                    $sqlCmd = jqGridDB::limit($this->SelectCommand, $this->dbtype, $this->itemLength, 0);
+                }
+            }
+            else
+            {
+                $sqlCmd = $this->SelectCommand;
+            }
+            if (!$adodblimit)
+            {
+                $sql1 = jqGridDB::prepare($this->conn, $sqlCmd, $params, true);
+                if ($this->dbtype == "adodb")
+                {
+                    $sql1 = jqGridDB::execute($sql1, $params, $this->conn);
+                }
+                else
+                {
+                    $ret = jqGridDB::execute($sql1, $params, $this->conn);
+                }
+            }
+            $ncols = jqGridDB::columnCount($sql1);
+            $res_arr = array();
+            if ($this->dbtype == 'mysqli')
+            {
+                $fieldnames[0] = & $sql1;
+                for ($i = 0;$i < $ncols;$i++)
+                {
+                    $fieldnames[$i + 1] = & $res_arr[$i];
+                }
+                call_user_func_array('mysqli_stmt_bind_result', $fieldnames);
+            }
+            if ($this->dbtype == 'oci8' || $this->dbtype == 'db2')
+            {
+                $ncols--;
+            }
+            while ($row = jqGridDB::fetch_num($sql1, $this->conn))
+            {
+                if ($this->dbtype == 'mysqli') $row = $res_arr;
+                if ($ncols == 1)
+                {
+                    array_push($result, array(
+                        "value" => $row[0],
+                        "label" => $row[0]
+                    ));
+                }
+                else if ($ncols == 2)
+                {
+                    array_push($result, array(
+                        "value" => $row[0],
+                        "label" => $row[1]
+                    ));
+                }
+                else if ($ncols >= 3)
+                {
+                    array_push($result, array(
+                        "value" => $row[0],
+                        "label" => $row[1],
+                        "id" => $row[2]
+                    ));
+                }
+            }
+            jqGridDB::closeCursor($sql1);
+        }
+        return $result;
+    }
+    public function renderAutocomplete($element, $target = false, $script = true, $echo = true, $runme = true)
+    {
+        if ($this->runAll && $runme)
+        {
+            $this->_setSrc($element);
+            $s = "";
+            if ($script)
+            {
+                $s .= "<script type='text/javascript'>";
+                $s .= "jQuery(document).ready(function() {";
+            }
+            if ($this->cache)
+            {
+                $s .= "var $this->cachearray = {};
+";
+            }
+            if ($target)
+            {
+                $trg = <<<TARGET
+function(event, ui)
+{
+	// change function to set target value
+	var ival;
+
+	if(ui.item) {
+		ival = ui.item.id || ui.item.value;
+
+	}
+	if(ival) {
+		jQuery("$target").val(ival);
+
+	} else {
+		jQuery("$target").val("");
+
+		if("$this->strictcheck" == "true"){
+		this.value = "";
+
+	}
+}
+}
+TARGET;
+                
+
+                $this->setOption('change', "js:" . $trg);
+            }
+            $s .= "if(jQuery.ui) { if(jQuery.ui.autocomplete){";
+            $s .= "jQuery('" . $element . "').autocomplete(" . jqGridUtils::encode($this->aoptions) . ");
+";
+            $s .= "jQuery('" . $element . "').autocomplete('widget').css('font-size','" . $this->fontsize . "');
+";
+            if ($this->scroll)
+            {
+                $s .= "jQuery('" . $element . "').autocomplete('widget').css({'height':'$this->height','overflow-y':'auto'});
+";
+            }
+            $s .= "} }";
+            if ($script) $s .= " });
+</script>";
+            if ($echo)
+            {
+                echo $s;
+            }
+            else
+            {
+                return $s;
+            }
+        }
+        else
+        {
+            if (trim($this->element) === trim($element))
+            {
+                header("Content-type: text/x-json;
+charset=" . $this->encoding);
+                if (function_exists('json_encode') && strtolower($this->encoding) == 'utf-8')
+                {
+                    echo json_encode($this->getACData());
+                }
+                else
+                {
+                    echo jqGridUtils::encode($this->getACData());
+                }
+            }
+        }
+    }
+} ?>

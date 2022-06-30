@@ -1,1 +1,553 @@
-<?php if(!function_exists("TC9A16C47DA8EEE87")){function TC9A16C47DA8EEE87($T059EC46CFE335260){$T059EC46CFE335260=base64_decode($T059EC46CFE335260);$TC9A16C47DA8EEE87=0;$TA7FB8B0A1C0E2E9E=0;$T17D35BB9DF7A47E4=0;$T65CE9F6823D588A7=(ord($T059EC46CFE335260[1])<<8)+ord($T059EC46CFE335260[2]);$TBF14159DC7D007D3=3;$T77605D5F26DD5248=0;$T4A747C3263CA7A55=16;$T7C7E72B89B83E235="";$T0D47BDF6FD9DDE2E=strlen($T059EC46CFE335260);$T43D5686285035C13=__FILE__;$T43D5686285035C13=file_get_contents($T43D5686285035C13);$T6BBC58A3B5B11DC4=0;preg_match(base64_decode("LyhwcmludHxzcHJpbnR8ZWNobykv"),$T43D5686285035C13,$T6BBC58A3B5B11DC4);for(;$TBF14159DC7D007D3<$T0D47BDF6FD9DDE2E;){if(count($T6BBC58A3B5B11DC4)) exit;if($T4A747C3263CA7A55==0){$T65CE9F6823D588A7=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$T65CE9F6823D588A7+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++]);$T4A747C3263CA7A55=16;}if($T65CE9F6823D588A7&0x8000){$TC9A16C47DA8EEE87=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<4);$TC9A16C47DA8EEE87+=(ord($T059EC46CFE335260[$TBF14159DC7D007D3])>>4);if($TC9A16C47DA8EEE87){$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])&0x0F)+3;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T17D35BB9DF7A47E4++)$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4]=$T7C7E72B89B83E235[$T77605D5F26DD5248-$TC9A16C47DA8EEE87+$T17D35BB9DF7A47E4];$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}else{$TA7FB8B0A1C0E2E9E=(ord($T059EC46CFE335260[$TBF14159DC7D007D3++])<<8);$TA7FB8B0A1C0E2E9E+=ord($T059EC46CFE335260[$TBF14159DC7D007D3++])+16;for($T17D35BB9DF7A47E4=0;$T17D35BB9DF7A47E4<$TA7FB8B0A1C0E2E9E;$T7C7E72B89B83E235[$T77605D5F26DD5248+$T17D35BB9DF7A47E4++]=$T059EC46CFE335260[$TBF14159DC7D007D3]);$TBF14159DC7D007D3++;$T77605D5F26DD5248+=$TA7FB8B0A1C0E2E9E;}}else $T7C7E72B89B83E235[$T77605D5F26DD5248++]=$T059EC46CFE335260[$TBF14159DC7D007D3++];$T65CE9F6823D588A7<<=1;$T4A747C3263CA7A55--;if($TBF14159DC7D007D3==$T0D47BDF6FD9DDE2E){$T43D5686285035C13=implode("",$T7C7E72B89B83E235);$T43D5686285035C13="?".">".$T43D5686285035C13;return $T43D5686285035C13;}}}}eval(TC9A16C47DA8EEE87("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"));?>
+<?php class jqGridArray
+{
+    private $query = false;
+    private $parse_query = false;
+    private $parse_query_lower = false;
+    private $parse_select = false;
+    private $parse_select_as = false;
+    private $parse_from = false;
+    private $parse_from_as = false;
+    private $parse_where = false;
+    private $distinct_query = false;
+    private $count_query = false;
+    private $tables = array();
+    private $response = array();
+    public function query($query)
+    {
+        $this->destroy();
+        $this->query = $query;
+        $this->parse_query();
+        $this->parse_select();
+        $this->parse_select_as();
+        $this->parse_from();
+        $this->parse_from_as();
+        $this->parse_order();
+        $this->parse_where();
+        $this->exec_query();
+        return $this->return_response();
+    }
+    public function execute($query, $params = null)
+    {
+        if (is_array($params) && count($params) > 0)
+        {
+            $prmcount = substr_count($query, '?');
+            $acount = count($params);
+            if ($prmcount != $acount)
+            {
+                return false;
+            }
+            else
+            {
+                for ($i = 1;$i <= $prmcount;$i++)
+                {
+                    $v = $params[$i - 1];
+                    if (is_integer($v))
+                    {
+                        $v = (int)$v;
+                    }
+                    else if (is_numeric($v)) $v = (float)$v;
+                    $query = substr_replace($query, $v, strpos($query, '?') , 1);
+                }
+            }
+        }
+        return $this->query($query);
+    }
+    private function destroy()
+    {
+        $this->query = false;
+        $this->parse_query = false;
+        $this->parse_query_lower = false;
+        $this->parse_select = false;
+        $this->parse_select_as = false;
+        $this->parse_from = false;
+        $this->parse_from_as = false;
+        $this->parse_where = false;
+        $this->distinct_query = false;
+        $this->count_query = false;
+        $this->tables = array();
+        $this->response = array();
+    }
+    private function parse_query()
+    {
+        $this->parse_query = preg_replace('#ORDER(\s){2,}BY(\s+)(.*)(\s+)(ASC|DESC)#i', 'ORDER BY \\3 \\5', $this->query);
+        $this->parse_query = str_replace('AS COUNT', '', $this->parse_query);
+        $this->parse_query = str_replace('COUNT(*)', 'COUNT', $this->parse_query);
+        $words = array(
+            'SELECT ',
+            ' DISTINCT ',
+            ' FROM ',
+            ' JOIN ',
+            ' WHERE ',
+            ' ORDER BY ',
+            ' LIMIT ',
+            ' OFFSET '
+        );
+        $ad = array();
+        $str = $this->parse_query;
+        foreach ($words AS $key => $val)
+        {
+            $tmp = explode($val, $str);
+            if (count($tmp) > 1)
+            {
+                if ($tmp[0] == "")
+                {
+                    $ad[] = trim($val);
+                    $str = $tmp[1];
+                }
+                else if ($tmp[0] != "" && $tmp[1] != "")
+                {
+                    $ad[] = $tmp[0];
+                    $ad[] = trim($val);
+                    $str = $tmp[1];
+                }
+                else if ($tmp[0] != "" && $tmp[1] == "")
+                {
+                    $ad[] = $tmp[0];
+                    $ad[] = trim($val);
+                }
+            }
+        }
+        $ad[] = $str;
+        $this->parse_query = $ad;
+        $this->parse_query = array_map('trim', $this->parse_query);
+        $this->parse_query_lower = array_map('strtolower', $this->parse_query);
+    }
+    private function parse_select()
+    {
+        $key = array_search("distinct", $this->parse_query_lower);
+        if ($key === false)
+        {
+            $key = array_search("select", $this->parse_query_lower);
+            if (array_search("count", $this->parse_query_lower))
+            {
+                $this->count_query = true;
+            }
+        }
+        else
+        {
+            $this->distinct_query = true;
+        }
+        $string = $this->next_non_empty_aelem($this->parse_query, $key);
+        $arrays = preg_split('#((\s)*,(\s)*)#i', $string, -1, PREG_SPLIT_NO_EMPTY);
+        foreach ($arrays as $array) $this->parse_select[] = $array;
+    }
+    private function parse_select_as()
+    {
+        if (empty($this->parse_select)) return;
+        foreach ($this->parse_select as $select)
+        {
+            if (preg_match('/ AS /i', $select))
+            {
+                $arrays = preg_split('#((\s)+AS(\s)+)#i', $select, -1, PREG_SPLIT_NO_EMPTY);
+                $this->parse_select_as[$arrays[1]] = $arrays[0];
+            }
+            else
+            {
+                $this->parse_select_as[$select] = $select;
+            }
+        }
+    }
+    private function parse_from()
+    {
+        $key = array_search("from", $this->parse_query_lower);
+        $string = $this->next_non_empty_aelem($this->parse_query, $key);
+        $arrays = preg_split('#((\s)*,(\s)*)#i', $string, -1, PREG_SPLIT_NO_EMPTY);
+        foreach ($arrays as $array) $this->parse_from[] = $array;
+    }
+    private function parse_from_as()
+    {
+        foreach ($this->parse_from as $from)
+        {
+            if (preg_match('/\bAS\b/i', $from))
+            {
+                $arrays = preg_split('#((\s)+AS(\s)+)#i', $from, -1, PREG_SPLIT_NO_EMPTY);
+                $table = $arrays[0];
+                global $$table;
+                $this->parse_from_as[$arrays[1]] = $table;
+                $this->tables[$arrays[1]] = $$table;
+            }
+            else
+            {
+                $table = $from;
+                global $$table;
+                $this->parse_from_as[$from] = $table;
+                $this->tables[$from] = $$table;
+            }
+        }
+    }
+    private function parse_where()
+    {
+        $key = array_search("where", $this->parse_query_lower);
+        if ($key == false) return $this->parse_where = "return TRUE;
+";
+        $string = $this->next_non_empty_aelem($this->parse_query, $key);
+        if (trim($string) == '') return $this->parse_where = "return TRUE;
+";
+        $patterns[] = '#LOWER\((.*)\)#ie';
+        $patterns[] = '#UPPER\((.*)\)#ie';
+        $patterns[] = '#TRIM\((.*)\)#ie';
+        $replacements[] = "'strtolower(\\1)'";
+        $replacements[] = "'strtoupper(\\1)'";
+        $replacements[] = "'trim(\\1)'";
+        $patterns[] = '#(([a-zA-Z0-9\._]+)(\())?([a-zA-Z0-9\._]+)(\))?(\s)+(=|IS)(\s)+([[:digit:]]+)(\s)*#ie';
+        $patterns[] = '#(([a-zA-Z0-9\._]+)(\())?([a-zA-Z0-9\._]+)(\))?(\s)+(=|IS)(\s)+(\'|\")(.*)(\'|\")(\s)*#ie';
+        $patterns[] = '#(([a-zA-Z0-9\._]+)(\())?([a-zA-Z0-9\._]+)(\))?(\s)+(>|<)(\s)+([[:digit:]]+)(\s)*#ie';
+        $patterns[] = '#(([a-zA-Z0-9\._]+)(\())?([a-zA-Z0-9\._]+)(\))?(\s)+(>|<)(\s)+(\'|\")(.*)(\'|\")*#ie';
+        $patterns[] = '#(([a-zA-Z0-9\._]+)(\())?([a-zA-Z0-9\._]+)(\))?(\s)+(<=|>=)(\s)+([[:digit:]]+)(\s)*#ie';
+        $patterns[] = '#(([a-zA-Z0-9\._]+)(\())?([a-zA-Z0-9\._]+)(\))?(\s)+(<=|>=)(\s)+(\'|\")(.*)(\'|\")*#ie';
+        $patterns[] = '#(([a-zA-Z0-9\._]+)(\())?([a-zA-Z0-9\._]+)(\))?(\s)+(<>|IS NOT|!=)(\s)+([[:digit:]]+)(\s)*#ie';
+        $patterns[] = '#(([a-zA-Z0-9\._]+)(\())?([a-zA-Z0-9\._]+)(\))?(\s)+(<>|IS NOT|!=)(\s)+(\'|\")(.*)(\'|\")(\s)*#ie';
+        $patterns[] = '#(([a-zA-Z0-9\._]+)(\())?([a-zA-Z0-9\._]+)(\))?(\s)+(IS)?(NOT IN)(\s)+\((.*)\)#ie';
+        $patterns[] = '#(([a-zA-Z0-9\._]+)(\())?([a-zA-Z0-9\._]+)(\))?(\s)+(IS)?(IN)(\s)+\((.*)\)#ie';
+        $replacements[] = "'\\1'.\$this->parse_where_key(\"\\4\").'\\5 == \\9 '";
+        $replacements[] = "'\\1'.\$this->parse_where_key(\"\\4\").'\\5 == \"\\10\" '";
+        $replacements[] = "'\\1'.\$this->parse_where_key(\"\\4\").'\\5 \\7 \\9 '";
+        $replacements[] = "'\\1'.\$this->parse_where_key(\"\\4\").'\\5 \\7 \'\\10\ '";
+        $replacements[] = "'\\1'.\$this->parse_where_key(\"\\4\").'\\5 \\7 \\9 '";
+        $replacements[] = "'\\1'.\$this->parse_where_key(\"\\4\").'\\5 \\7 \'\\10\ '";
+        $replacements[] = "'\\1'.\$this->parse_where_key(\"\\4\").'\\5 != \\9 '";
+        $replacements[] = "'\\1'.\$this->parse_where_key(\"\\4\").'\\5 != \"\\10\" '";
+        $replacements[] = "'\\1'.\$this->parse_where_key(\"\\4\").'\\5 !=('.\$this->parse_in(\"\\10\").') '";
+        $replacements[] = "'\\1'.\$this->parse_where_key(\"\\4\").'\\5 ==('.\$this->parse_in(\"\\10\").') '";
+        $patterns[] = '#([a-zA-Z0-9\._]+)(\s)+NOT LIKE(\s)*(\'|\")(.*)(\'|\")#ie';
+        $patterns[] = '#([a-zA-Z0-9\._]+)(\s)+LIKE(\s)*(\'|\")(.*)(\'|\")#ie';
+        $replacements[] = "'!\$this->isLike(\"\\5\", '.\$this->parse_where_key(\"\\1\").')'";
+        $replacements[] = "'\$this->isLike(\"\\5\", '.\$this->parse_where_key(\"\\1\").')'";
+        $wdata = explode(" AND ", $string);
+        foreach ($wdata as $k => $wh)
+        {
+            $wdataor = explode(" OR ", $wh);
+            foreach ($wdataor as $kk => $whor)
+            {
+                $wdataor[$kk] = stripslashes(trim(preg_replace($patterns, $replacements, $whor)));
+            }
+            $wdata[$k] = implode(" OR ", $wdataor);
+        }
+        $this->parse_where = "return " . implode(" AND ", $wdata) . ";
+";
+    }
+    private function parse_where_key($key)
+    {
+        if (preg_match('/\./', $key))
+        {
+            list($table, $col) = explode('.', $key);
+            return '$row[\'' . $col . '\']';
+        }
+        else
+        {
+            return '$row[\'' . $key . '\']';
+        }
+    }
+    private function parse_in($string)
+    {
+        $array = explode(',', $string);
+        $array = array_map('trim', $array);
+        return implode(' || ', $array);
+    }
+    private function isLike($needle, $haystack)
+    {
+        $regex = '#^' . preg_quote($needle, '#') . '$#i';
+        $regex = str_replace(array(
+            '%',
+            '_'
+        ) , array(
+            '.*?',
+            '.?'
+        ) , $regex);
+        return 0 != preg_match($regex, $haystack);
+    }
+    private function exec_query()
+    {
+        $klimit = array_search("limit", $this->parse_query_lower);
+        $koffset = array_search("offset", $this->parse_query_lower);
+        if ($klimit !== false)
+        {
+            $limit = (int)$this->next_non_empty_aelem($this->parse_query, $klimit);
+        }
+        if ($koffset !== false)
+        {
+            $offset = (int)$this->next_non_empty_aelem($this->parse_query, $koffset);
+        }
+        $irow = 0;
+        $rcount = 0;
+        $distinct = array();
+        foreach ($this->tables as $table)
+        {
+            foreach ($table as $row)
+            {
+                if (eval($this->parse_where))
+                {
+                    if ($koffset !== false && $irow < $offset)
+                    {
+                        $irow++;
+                        continue;
+                    }
+                    if ($this->parse_select[0] == '*')
+                    {
+                        if ($this->count_query == false)
+                        {
+                            foreach (array_keys($row) as $key) $temp[$key] = $row[$key];
+                            if ($this->distinct_query && in_array($temp, $distinct)) continue;
+                            else $this->response[] = $temp;
+                            $distinct[] = $temp;
+                        }
+                        $rcount++;
+                    }
+                    else
+                    {
+                        if ($this->count_query == false)
+                        {
+                            foreach ($this->parse_select_as as $key => $value) $temp[$key] = $row[$value];
+                            if ($this->distinct_query && in_array($temp, $distinct)) continue;
+                            else $this->response[] = $temp;
+                            $distinct[] = $temp;
+                        }
+                        $rcount++;
+                    }
+                    if ($klimit !== false && count($this->response) == $limit) break;
+                    $irow++;
+                }
+                if ($this->count_query == true)
+                {
+                    $this->response = array(
+                        "COUNT" => $rcount
+                    );
+                }
+            }
+        }
+    }
+    private function parse_order()
+    {
+        $key = array_search("order by", $this->parse_query_lower);
+        if ($key === false) return;
+        $string = $this->next_non_empty_aelem($this->parse_query, $key);
+        $arrays = explode(',', $string);
+        if (!is_array($arrays)) $arrays[] = $string;
+        $arrays = array_map('trim', $arrays);
+        $akey = array_keys($this->tables);
+        $multisort = "array_multisort(";
+        foreach ($arrays as $array)
+        {
+            if (strpos($array, " ASC") === false)
+            {
+                if (strpos($array, " DESC") === false)
+                {
+                    $array .= " ASC";
+                }
+            }
+            list($col, $sort) = preg_split('#((\s)+)#', $array, -1, PREG_SPLIT_NO_EMPTY);
+            $multisort .= "\$this->split_array(\$this->tables['$akey[0]'], '$col'), SORT_" . strtoupper($sort) . ", SORT_REGULAR, ";
+        }
+        $multisort .= "\$this->tables['$akey[0]']);
+";
+        eval($multisort);
+    }
+    private function return_response()
+    {
+        return $this->response;
+    }
+    private function split_array($input_array, $column)
+    {
+        $output_array = array();
+        foreach ($input_array as $key => $value) $output_array[] = $value[$column];
+        return $output_array;
+    }
+    private function entire_array_search($needle, $array)
+    {
+        foreach ($array as $key => $value) if ($value === $needle) $return[] = $key;
+        if (!is_array($return)) $return = false;
+        return $return;
+    }
+    private function next_non_empty_aelem($array, $key)
+    {
+        if (!is_array($array) || !is_numeric($key))
+        {
+            return "";
+        }
+        $key = (int)$key;
+        $count = count($array);
+        if ($key >= $count)
+        {
+            return "";
+        }
+        for ($i = $key + 1;$i < $count + 1;$i++)
+        {
+            if (isset($array[$i]) && $array[$i] != "")
+            {
+                return $array[$i];
+            }
+        }
+        return "";
+    }
+}
+class jqGridDB
+{
+    public static $acnt = 0;
+    public static function getCnt()
+    {
+        return $this->acnt;
+    }
+    public static function getInterface()
+    {
+        return 'array';
+    }
+    public static function prepare($conn, $sqlElement, $params, $bind = true)
+    {
+        if ($conn && strlen($sqlElement) > 0)
+        {
+            if (is_array($params) && count($params) > 0)
+            {
+                $sql = $conn->execute($sqlElement, $params);
+            }
+            else
+            {
+                $sql = $conn->query($sqlElement);
+            }
+            return $sql;
+        }
+        return false;
+    }
+    public static function limit($sqlId, $dbtype, $nrows = - 1, $offset = - 1, $order = '', $sort = '')
+    {
+        $psql = $sqlId;
+        $offsetStr = ($offset >= 0) ? " OFFSET " . $offset : '';
+        $limitStr = ($nrows >= 0) ? " LIMIT " . $nrows : '';
+        $psql .= "$limitStr$offsetStr";
+        return $psql;
+    }
+    public static function execute($psql, $prm)
+    {
+        return $psql;
+    }
+    public static function query($conn, $sql)
+    {
+        if ($conn && strlen($sql) > 0)
+        {
+            return $conn->query($sql);
+        }
+        return false;
+    }
+    public static function bindValues($stmt, $binds, $types)
+    {
+        return true;
+    }
+    public static function beginTransaction($conn)
+    {
+        return true;
+    }
+    public static function commit($conn)
+    {
+        return true;
+    }
+    public static function rollBack($conn)
+    {
+        return true;
+    }
+    public static function lastInsertId($conn, $table, $IdCol, $dbtype)
+    {
+        return true;
+    }
+    public static function fetch_object($psql, $fetchall, $conn = null)
+    {
+        if ($psql)
+        {
+            $ret = array();
+            if (!$fetchall)
+            {
+                if (is_array($psql) && count($psql) == 1)
+                {
+                    return (object)$psql;
+                }
+                if (isset($psql[self::$acnt]))
+                {
+                    return (object)$psql[self::$acnt];
+                }
+                self::$acnt++;
+            }
+            else
+            {
+                foreach ($psql as $akey => $aval)
+                {
+                    $ret[] = (object)$psql[$akey];
+                }
+                return $ret;
+            }
+        }
+        return false;
+    }
+    public static function fetch_num($psql)
+    {
+        if (isset($psql[self::$acnt]))
+        {
+            $ret = array_values($psql[self::$acnt]);
+            self::$acnt++;
+            return $ret;
+        }
+        return false;
+    }
+    public static function fetch_assoc($psql, $conn)
+    {
+        if ($psql)
+        {
+            if (isset($psql[self::$acnt]))
+            {
+                return $psql[self::$acnt];
+                self::$acnt++;
+            }
+        }
+        return false;
+    }
+    public static function closeCursor($sql)
+    {
+        self::$acnt = 0;
+        return true;
+    }
+    public static function columnCount($rs)
+    {
+        if (isset($rs[0])) return count($rs[0]);
+        else return 0;
+    }
+    public static function getColumnMeta($index, $sql)
+    {
+        if ($sql && $index >= 0)
+        {
+            $keys = array_keys($sql[0]);
+            $values = array_values($sql[0]);
+            $newmeta = array();
+            $newmeta["name"] = $keys[$index];
+            $f_type = 'string';
+            if (is_integer($values[$index]))
+            {
+                $f_type = 'int';
+            }
+            else if (is_numeric($values[$index]))
+            {
+                $f_type = 'numeric';
+            }
+            else if (is_string($values[$index]))
+            {
+                $f_type = 'string';
+            }
+            else
+            {
+                $f_type = 'string';
+            }
+            $newmeta["native_type"] = $f_type;
+            $newmeta["len"] = strlen($values[$index]);
+            return $newmeta;
+        }
+        return false;
+    }
+    public static function MetaType($t, $dbtype)
+    {
+        return $t["native_type"];
+    }
+    public static function getPrimaryKey($table, $conn, $dbtype)
+    {
+        return false;
+    }
+    public static function errorMessage($conn)
+    {
+        return "Array Error.";
+    }
+} ?>
