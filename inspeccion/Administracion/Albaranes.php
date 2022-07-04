@@ -162,12 +162,17 @@ $Mes = (isset($_REQUEST['Mes'])) ? $_REQUEST['Mes'] : "";
 									<SELECT NAME="Parque" ID="Parque" SIZE=1>
                                     	<OPTION VALUE=''>Seleccione un parque...</OPTION>
 										<?php
-										if (($result = mysql_query("SELECT * FROM Parques ORDER BY Nombre ASC;", $conn)))
-										{   // Selecciono la Lista de Parques
-											while($row = mysql_fetch_row($result))
-												echo "<OPTION VALUE='".$row[0]."'>".$row[1]."</OPTION>";
-											unset($result, $row);
-										}
+//										if (($result = mysql_query("SELECT * FROM Parques ORDER BY Nombre ASC;", $conn)))
+//										{   // Selecciono la Lista de Parques
+//											while($row = mysql_fetch_row($result))
+//												echo "<OPTION VALUE='".$row[0]."'>".$row[1]."</OPTION>";
+//											unset($result, $row);
+//										}
+
+$res = $mysqli->query("SELECT * FROM Parques ORDER BY Nombre ASC;");
+while ($row=$res->fetch_assoc()){
+	echo "<OPTION VALUE='".$row["Id"]."'>".$row["Nombre"]."</OPTION>";
+}
 										?>
 									</SELECT>
 								</td>
