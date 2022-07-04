@@ -4,56 +4,43 @@ require_once("../inc/function/fCtrlAcceso.php");
 require_once("../db-config.php");
 $_SESSION["mi_url"] = "Maestros/".fPageName();
 
-$SoporteSuperior = $Absorbedor = $Engaste = $Cable = $Guardacabo = $Aprietacable = $Tensor = "0.00";
-$PiezaInferior = $Cartel = $VarillaRoscada = $Tuercas = $Arandelas = $Pasador = $Bulon = $PrecioHora = "0.00";
-$MonSustituirCable = $MonRigidizadores = "0.00";
-$RevSustituirCable = $RevSustituirCableT2 = $RevSustituirSoporteSup = $RevSustituirSoporteSupT2 = "0.00";
-$RevEvacuadorNacelle = $RevEvacuadorNacelleT1 = $RevEvacuadorNacelleT2 = $RevEvacuadorGround = "0.00";
-$RevEvacuadorGroundT2 = $RevRailesSeguridad = $RevRailesSeguridadT1 = "0.00";
-$RevRailesSeguridadT2 = $RevInsExtintor = "0.00";
-if (($result = mysql_query("SELECT * FROM PvpMaterial", $conn)))
-{
-	if (($row = mysql_fetch_array($result)))
-	{   // Materiales
-		$SoporteSuperior = number_format($row['SoporteSuperior'],2,'.','');
-		$Absorbedor      = number_format($row['Absorbedor'],2,'.','');
-		$Engaste         = number_format($row['Engaste'],2,'.','');
-		$Cable           = number_format($row['Cable'],2,'.','');
-		$Guardacabo      = number_format($row['Guardacabo'],2,'.','');
-		$Aprietacable    = number_format($row['Aprietacable'],2,'.','');
-		$Tensor          = number_format($row['Tensor'],2,'.','');
-		$PiezaInferior   = number_format($row['PiezaInferior'],2,'.','');
-		$Cartel          = number_format($row['Cartel'],2,'.','');
-		$VarillaRoscada  = number_format($row['VarillaRoscada'],2,'.','');
-		$Tuercas         = number_format($row['Tuercas'],2,'.','');
-		$Arandelas       = number_format($row['Arandelas'],2,'.','');
-		$Bulon           = number_format($row['Bulon'],2,'.','');
-		$Pasador         = number_format($row['Pasador'],2,'.','');
-		$PrecioHora      = number_format($row['PrecioHora'],2,'.','');
-		// Pvp. Montajes
-		$MonSustituirCable = number_format($row['MonSustituirCable'],2,'.','');
-		$MonRigidizadores  = number_format($row['MonRigidizadores'],2,'.','');
-		// Pvp. Revision
-		$RevSustituirCable = number_format($row['RevSustituirCable'],2,'.','');
-		$RevSustituirCableT2 = number_format($row['RevSustituirCableT2'],2,'.','');
-		$RevSustituirSoporteSup = number_format($row['RevSustituirSoporteSup'],2,'.','');
-		$RevSustituirSoporteSupT2 = number_format($row['RevSustituirSoporteSupT2'],2,'.','');
-		$RevEvacuadorNacelle = number_format($row['RevEvacuadorNacelle'],2,'.','');
-		$RevEvacuadorNacelleT1 = number_format($row['RevEvacuadorNacelleT1'],2,'.','');
-		$RevEvacuadorNacelleT2 = number_format($row['RevEvacuadorNacelleT2'],2,'.','');
-		$RevEvacuadorGround = number_format($row['RevEvacuadorGround'],2,'.','');
-		$RevEvacuadorGroundT2 = number_format($row['RevEvacuadorGroundT2'],2,'.','');
-		$RevRailesSeguridad = number_format($row['RevRailesSeguridad'],2,'.','');
-		$RevRailesSeguridadT1 = number_format($row['RevRailesSeguridadT1'],2,'.','');
-		$RevRailesSeguridadT2 = number_format($row['RevRailesSeguridadT2'],2,'.','');
-		$RevInsExtintor = number_format($row['RevInsExtintor'],2,'.','');
-	}
-	
-	unset ($result, $row);
-}
+$res = $mysqli->query("SELECT * FROM PvpMaterial;");
+$row = $res->fetch_assoc();
 
-if ($conn)
-	mysql_close($conn);
+
+$SoporteSuperior = number_format($row['SoporteSuperior'],2,'.','');
+$Absorbedor      = number_format($row['Absorbedor'],2,'.','');
+$Engaste         = number_format($row['Engaste'],2,'.','');
+$Cable           = number_format($row['Cable'],2,'.','');
+$Guardacabo      = number_format($row['Guardacabo'],2,'.','');
+$Aprietacable    = number_format($row['Aprietacable'],2,'.','');
+$Tensor          = number_format($row['Tensor'],2,'.','');
+$PiezaInferior   = number_format($row['PiezaInferior'],2,'.','');
+$Cartel          = number_format($row['Cartel'],2,'.','');
+$VarillaRoscada  = number_format($row['VarillaRoscada'],2,'.','');
+$Tuercas         = number_format($row['Tuercas'],2,'.','');
+$Arandelas       = number_format($row['Arandelas'],2,'.','');
+$Bulon           = number_format($row['Bulon'],2,'.','');
+$Pasador         = number_format($row['Pasador'],2,'.','');
+$PrecioHora      = number_format($row['PrecioHora'],2,'.','');
+// Pvp. Montajes
+$MonSustituirCable = number_format($row['MonSustituirCable'],2,'.','');
+$MonRigidizadores  = number_format($row['MonRigidizadores'],2,'.','');
+// Pvp. Revision
+$RevSustituirCable = number_format($row['RevSustituirCable'],2,'.','');
+$RevSustituirCableT2 = number_format($row['RevSustituirCableT2'],2,'.','');
+$RevSustituirSoporteSup = number_format($row['RevSustituirSoporteSup'],2,'.','');
+$RevSustituirSoporteSupT2 = number_format($row['RevSustituirSoporteSupT2'],2,'.','');
+$RevEvacuadorNacelle = number_format($row['RevEvacuadorNacelle'],2,'.','');
+$RevEvacuadorNacelleT1 = number_format($row['RevEvacuadorNacelleT1'],2,'.','');
+$RevEvacuadorNacelleT2 = number_format($row['RevEvacuadorNacelleT2'],2,'.','');
+$RevEvacuadorGround = number_format($row['RevEvacuadorGround'],2,'.','');
+$RevEvacuadorGroundT2 = number_format($row['RevEvacuadorGroundT2'],2,'.','');
+$RevRailesSeguridad = number_format($row['RevRailesSeguridad'],2,'.','');
+$RevRailesSeguridadT1 = number_format($row['RevRailesSeguridadT1'],2,'.','');
+$RevRailesSeguridadT2 = number_format($row['RevRailesSeguridadT2'],2,'.','');
+$RevInsExtintor = number_format($row['RevInsExtintor'],2,'.','');
+
 ?>
 <!DOCTYPE html>
 <html>
